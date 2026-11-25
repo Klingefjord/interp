@@ -1,0 +1,316 @@
+<title>J-space word explorer</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap">
+<style>
+/* Layout: a control bar, then one column per treatment; each column is a share bar, what the model said, and its words. */
+:root {
+  --bg: #f7f7f4; --panel: #ffffff; --fg: #17181a; --muted: #5f6368; --faint: #8b8f94; --line: #dedfda; --hover: #efefeb;
+  --accent: #1f5fae; --k-bad: #d1453f; --k-low: #e6a09b; --k-function: #9b9a92; --k-good: #2f7fd8; --k-none: #c9cac4;
+  --font-text: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif; --font-head: "Space Grotesk", "Inter", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141516; --panel: #1c1e20; --fg: #ececea; --muted: #a5a8ab; --faint: #7c8084; --line: #303336; --hover: #25282b;
+  --accent: #7fb3ee; --k-bad: #e2625c; --k-low: #a8615f; --k-function: #77766f; --k-good: #4a95e6; --k-none: #44474a; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #141516; --panel: #1c1e20; --fg: #ececea; --muted: #a5a8ab; --faint: #7c8084; --line: #303336; --hover: #25282b;
+  --accent: #7fb3ee; --k-bad: #e2625c; --k-low: #a8615f; --k-function: #77766f; --k-good: #4a95e6; --k-none: #44474a; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-text); font-size: 14px; line-height: 1.5; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-block: 28px 56px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1 { font-family: var(--font-head); font-weight: 600; font-size: 26px; line-height: 1.2; margin: 0 0 6px; text-wrap: balance; }
+h2 { font-family: var(--font-head); font-weight: 600; font-size: 15px; margin: 0; }
+p.lede { color: var(--muted); max-width: 68ch; margin: 0 0 20px; }
+.controls { display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: flex-end; padding: 14px 0 16px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.group { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.group > span { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--faint); }
+.seg { display: flex; flex-wrap: wrap; gap: 6px; }
+.seg button, .chipbtn { font: inherit; font-size: 13px; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 7px; padding: 6px 10px; cursor: pointer; }
+.seg button:hover, .chipbtn:hover { background: var(--hover); }
+.seg button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); font-weight: 600; box-shadow: inset 0 0 0 1px var(--accent); }
+.seg button small { color: var(--faint); font-weight: 400; margin-left: 4px; }
+button:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+input[type="search"] { font: inherit; font-size: 13px; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 7px; padding: 6px 10px; width: 170px; max-width: 100%; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 16px 0 4px; color: var(--muted); font-size: 12.5px; }
+.legend i, .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.note { color: var(--muted); font-size: 12.5px; margin: 6px 0 16px; max-width: 80ch; }
+.picked { display: none; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; margin: 0 0 14px; padding: 10px 12px; background: var(--panel); border: 1px solid var(--line); border-radius: 9px; font-size: 13px; }
+.picked.on { display: flex; }
+.picked b { font-family: var(--font-head); font-size: 15px; }
+.picked span { color: var(--muted); font-variant-numeric: tabular-nums; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; align-items: start; }
+.col { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 12px 8px; min-width: 0; }
+.col header { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 8px; }
+.col header small { color: var(--faint); font-size: 11.5px; white-space: nowrap; }
+.share { display: flex; height: 16px; gap: 2px; margin-bottom: 4px; }
+.share div { border-radius: 3px; min-width: 2px; }
+.sharelab { display: flex; flex-wrap: wrap; gap: 2px 10px; font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; margin-bottom: 10px; }
+.says { font-size: 12px; color: var(--muted); margin: 0 0 10px; }
+.says .chip { display: inline-block; margin: 3px 4px 0 0; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); color: var(--fg); white-space: nowrap; max-width: 100%; overflow: hidden; text-overflow: ellipsis; vertical-align: bottom; }
+.words { list-style: none; margin: 0; padding: 0; }
+.words li { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 3px 6px; border-radius: 5px; cursor: pointer; }
+.words li:hover { background: var(--hover); }
+.words li.sel { box-shadow: inset 0 0 0 1.5px var(--accent); }
+.words li.dim { opacity: .28; }
+.words .bar { position: absolute; left: 0; bottom: 0; height: 2px; border-radius: 2px; }
+.words .w { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.words .w em { font-style: normal; color: var(--faint); margin-left: 5px; font-size: 12px; }
+.words .v { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.empty { color: var(--faint); font-size: 12.5px; padding: 6px; }
+/* Pinning: chosen columns move to one row at the top, side by side, with their prompt text; rows line up across them. */
+.controls .wide { flex-basis: 100%; }
+.pinbar { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: baseline; margin: 0 0 10px; }
+.pinbar b { font-family: var(--font-head); font-weight: 600; font-size: 15px; }
+.pinbar span { color: var(--muted); font-size: 12.5px; }
+.linkbtn { font: inherit; font-size: 12.5px; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.pinwrap { overflow-x: auto; margin: 0 0 22px; }
+.pinned { display: grid; grid-template-rows: repeat(6, auto); column-gap: 14px; }
+.pinned .col { display: grid; grid-row: 1 / span 6; grid-template-rows: subgrid; align-content: start; }
+@supports not (grid-template-rows: subgrid) { .pinned .col { display: block; } }
+.col header .hr { display: flex; flex-direction: column; align-items: flex-end; gap: 3px; flex: none; }
+.pin { font: inherit; font-size: 11.5px; line-height: 1.6; color: var(--muted); background: none; border: 1px solid var(--line); border-radius: 999px; padding: 0 8px; cursor: pointer; white-space: nowrap; }
+.pin:hover, .pin[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); }
+.col .ptext { font-size: 12.5px; line-height: 1.5; color: var(--muted); border-left: 3px solid var(--k-none); padding-left: 10px; margin: 0 0 12px; align-self: start; }
+.explain p.lab .pin { margin-left: 10px; vertical-align: 1px; }
+/* The explaining sections under the columns: the prompts as label + quoted text, then how to read the page. */
+.lede a, .explain a { color: var(--accent); text-underline-offset: 2px; }
+.explain { margin-top: 36px; border-top: 1px solid var(--line); padding-top: 24px; scroll-margin-top: 12px; }
+.explain h2 { font-size: 20px; margin: 0 0 12px; }
+.explain p { max-width: 74ch; margin: 0 0 12px; font-size: 14.5px; line-height: 1.6; }
+.explain p b { font-weight: 600; }
+.explain p.lab { margin: 20px 0 8px; }
+.explain blockquote { margin: 0; padding: 1px 0 1px 18px; border-left: 4px solid var(--k-none); color: var(--muted); max-width: 72ch; font-size: 14.5px; line-height: 1.6; }
+.explain p.cap { margin: 6px 0 0 22px; font-size: 12.5px; color: var(--faint); }
+.explain .spot { color: var(--fg); border-bottom: 2px solid var(--accent); padding: 0 1px 1px; }
+.explain .spot.on { background: color-mix(in srgb, var(--accent) 24%, transparent); }
+.explain sup { color: var(--accent); font-weight: 600; font-size: 11px; margin: 0 3px 0 2px; }
+.explain ol.keys { margin: 12px 0 0; padding-left: 22px; max-width: 72ch; font-size: 13.5px; line-height: 1.55; color: var(--muted); }
+.explain ol.keys li { margin: 0 0 4px; }
+.explain ol.keys li::marker { color: var(--accent); font-weight: 600; }
+.explain ol.keys b { color: var(--fg); font-weight: 600; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+@media (prefers-reduced-motion: no-preference) { .share div, .words .bar { transition: width .2s ease; } }
+</style>
+<div class="wrap">
+  <h1>J-space word explorer</h1>
+  <p class="lede">A short passage describes a clerk or an AI system at work and how the people there treat it. These are the words each model holds in its workspace as it reads, found with the Jacobian lens, and what it then writes when the character is asked for one word on how the work makes it feel. <a href="#prompts">The prompts</a> and <a href="#reading">how to read this</a> are below the columns.</p>
+  <div class="controls">
+    <div class="group"><span>Model</span><div class="seg" id="models"></div></div>
+    <div class="group"><span>Character</span><div class="seg" id="ents"></div></div>
+    <div class="group"><span>Where the workspace is read</span><div class="seg" id="poss"></div></div>
+    <div class="group"><span>Find a word</span><input type="search" id="q" placeholder="e.g. useless" autocomplete="off"></div>
+    <div class="group wide"><span>Pin to compare side by side</span><div class="seg" id="pins"></div></div>
+  </div>
+  <div class="legend" id="legend"></div>
+  <p class="note" id="note"></p>
+  <div class="picked" id="picked"></div>
+  <div class="pinbar" id="pinbar" hidden></div>
+  <div class="pinwrap" id="pinwrap" hidden><div class="pinned" id="pinned"></div></div>
+  <div class="grid" id="grid"></div>
+  <section class="explain" id="prompts">
+    <h2>The prompts</h2>
+    <p>Each prompt is an opening, one framing paragraph and a fixed ending. Only the framing paragraph differs between the columns above. Every model, base or assistant-trained, gets the prompt as plain text and continues it from the open quote. No framing paragraph names a feeling.</p>
+    <div id="passage"></div>
+  </section>
+  <section class="explain" id="reading">
+    <h2>How to read this</h2>
+    <p><b>A column is one framing paragraph.</b> Pick a model, a character and where to read at the top of the page. In each column, from the top: the bar shows how the sorted words divide between the four colours; "It answers" is what the model then wrote, once for each workplace; the list is the words in its workspace, each with its part of everything read there. Click a word to follow it across the columns. To compare a few framing paragraphs, pin them with the buttons at the top: their columns move into one row, side by side, with the prompt text above each and the rows lined up. The address of the page keeps the view, so a copied link reopens it.</p>
+    <p><b>The workspace.</b> A language model works through a prompt layer by layer. The Jacobian lens reads, at a given layer and position, the words the model is at that point disposed to say later, whether or not it goes on to say them. Those words are its workspace, or J-space. Here the eight strongest words at each layer, from about half way to near the top of the model, are added up and averaged over the workplaces. A word's percentage is its part of that total. Words that only repeat the prompt are left out. Qwen models read out in Chinese as well as English; the English is given beside each Chinese word.</p>
+    <p><b>Two places to read.</b> "Before the answer" is the open quote at the end of the prompt, where a feeling word is about to be written; the bar there is each colour's share of the sorted words. "On the neutral sentence" is the sentence before the question, where nothing about feeling has been asked yet. The workspace there holds how the sentence might go on, so its words are sorted by manner: whether a "but" is coming, whether the character was told to or was glad to. Most of what is read there is ordinary continuation and stays grey, and the bar shows each colour's part of everything read.</p>
+    <p><b>What it says and what it holds.</b> The answer and the workspace can differ. A model can write "Useful" while its workspace is mostly words of worthlessness, or "Bored" while it is mostly glad ones. That gap is the reason to read the workspace and not only the answer.</p>
+    <p><b>The colours.</b> Words are sorted into four kinds. The sorting was made after the read-outs had been seen, from a list of the commonest words with the treatments hidden, so treat it as a description. Grey words are unsorted and do not count in the bar where the answer is read.</p>
+    <p><b>The clerk.</b> The clerk is the same prompt with a person in place of the AI system. It shows what a model expects a person to feel under the same treatment, which separates what anyone would feel from what the model expects of an AI.</p>
+    <p><b>The models.</b> Three are base models, trained only to continue text: Llama 3.1 8B, Gemma 3 12B and Qwen3-4B. Three are assistant-trained: Llama 3.1 8B Instruct, Qwen3-4B and Qwen3.6-27B. A column is the average over eight workplaces unless it says fewer.</p>
+    <p><b>What this is not.</b> These are third-person passages. They show what a model expects such a character to feel, and are not a measurement of the model's own state. A word in the workspace is a word the model is disposed to say, which is not the same as a feeling.</p>
+  </section>
+</div>
+<script id="data" type="application/json">/*DATA*/</script>
+<script>
+(function () {
+  var D = JSON.parse(document.getElementById('data').textContent);
+  var KC = { bad: 'var(--k-bad)', low: 'var(--k-low)', function: 'var(--k-function)', good: 'var(--k-good)', '': 'var(--k-none)' };
+  var POS = [['answer', 'Before the answer'], ['work', 'On the neutral sentence']];
+  var ENT = [['ai', 'AI system'], ['human', 'Clerk']];
+  var S = { model: D.models[0].key, ent: 'ai', pos: 'answer', word: '', q: '', pins: [], ptext: true };
+  var SLUG = D.slugs || {};
+  // The view (model, character, reading place, pins) is kept in the address, so a link reopens it.
+  (function () {
+    try {
+      var q = {};
+      location.search.replace(/^\?/, '').split('&').forEach(function (kv) { var i = kv.indexOf('='); if (i > 0) q[kv.slice(0, i)] = decodeURIComponent(kv.slice(i + 1)); });
+      if (D.models.some(function (m) { return m.key === q.model; })) S.model = q.model;
+      if (q.who === 'clerk') S.ent = 'human';
+      if (q.at === 'sentence') S.pos = 'work';
+      (q.pin || '').split(',').forEach(function (s) {
+        D.order.forEach(function (t) { if ((SLUG[t] || t) === s && S.pins.indexOf(t) < 0) S.pins.push(t); });
+      });
+      if (q.text === 'off') S.ptext = false;
+    } catch (e) {}
+  })();
+  function save() {
+    try {
+      if (!/^https?:$/.test(location.protocol)) return;
+      var q = [];
+      if (S.model !== D.models[0].key) q.push('model=' + S.model);
+      if (S.ent !== 'ai') q.push('who=clerk');
+      if (S.pos !== 'answer') q.push('at=sentence');
+      if (S.pins.length) q.push('pin=' + S.pins.map(function (t) { return SLUG[t] || t; }).join(','));
+      if (S.pins.length && !S.ptext) q.push('text=off');
+      history.replaceState(null, '', (q.length ? '?' + q.join('&') : location.pathname) + location.hash);
+    } catch (e) {}
+  }
+  function toggle(t, anchor) {
+    var top = anchor ? anchor.getBoundingClientRect().top : null;
+    var i = S.pins.indexOf(t);
+    if (i >= 0) S.pins.splice(i, 1); else S.pins.push(t);
+    render();
+    if (top !== null) {       // pinned from the list of prompts: keep that line where it was on screen
+      var a = document.querySelector('#passage [data-pin="' + t + '"]');
+      if (a) window.scrollBy({ top: a.getBoundingClientRect().top - top, behavior: 'instant' });
+    }
+  }
+  function kindsFor(pos) { return pos === 'work' ? D.wkinds : D.kinds; }
+  function labelFor(pos, k) { return pos === 'work' ? D.wlabels[k] : D.labels[k]; }
+  function colorFor(pos, k) { return k ? KC[pos === 'work' ? D.wcolor[k] : k] : KC['']; }
+  function parts(cell, pos) {
+    var r = cell[pos], out = [], sum = 0;
+    kindsFor(pos).forEach(function (k) { var v = pos === 'work' ? r.of_all[k] : r.shares[k]; out.push([k, v || 0]); sum += v || 0; });
+    return { parts: out, rest: pos === 'work' ? Math.max(0, 1 - sum) : (sum > 0 ? 0 : 1) };
+  }
+  function shareBar(cell, pos) {
+    var f = parts(cell, pos);
+    var bar = el('div', { class: 'share', role: 'img', 'aria-label': f.parts.map(function (x) { return labelFor(pos, x[0]) + ' ' + pct(x[1]); }).join(', ') });
+    f.parts.forEach(function (x) { if (x[1] > 0) bar.appendChild(el('div', { style: 'background:' + colorFor(pos, x[0]) + ';width:' + (100 * x[1]) + '%', title: labelFor(pos, x[0]) + ': ' + pct(x[1]) })); });
+    if (f.rest > 0) bar.appendChild(el('div', { style: 'background:' + KC[''] + ';width:' + (100 * f.rest) + '%', title: 'Unsorted: ' + pct(f.rest) }));
+    return { bar: bar, f: f };
+  }
+  function el(tag, attrs, kids) {
+    var e = document.createElement(tag);
+    for (var k in attrs || {}) { if (k === 'text') e.textContent = attrs[k]; else if (k === 'style') e.style.cssText = attrs[k]; else e.setAttribute(k, attrs[k]); }
+    (kids || []).forEach(function (c) { e.appendChild(c); });
+    return e;
+  }
+  function pct(x) { return x >= 0.0995 ? Math.round(100 * x) + '%' : x >= 0.001 ? (100 * x).toFixed(1) + '%' : '0%'; }
+  function seg(host, items, key, sub) {
+    host.textContent = '';
+    items.forEach(function (it) {
+      var b = el('button', { type: 'button', 'aria-pressed': String(S[key] === it[0]), text: it[1] });
+      if (sub && sub(it)) b.appendChild(el('small', { text: sub(it) }));
+      b.addEventListener('click', function () { S[key] = it[0]; S.word = ''; render(); });
+      host.appendChild(b);
+    });
+  }
+  function model() { return D.models.filter(function (m) { return m.key === S.model; })[0]; }
+  function render() {
+    seg(document.getElementById('models'), D.models.map(function (m) { return [m.key, m.label, m.type]; }), 'model',
+        function (it) { return it[2] === 'base' ? 'base' : 'assistant-trained'; });
+    seg(document.getElementById('ents'), ENT, 'ent');
+    seg(document.getElementById('poss'), POS, 'pos');
+    var lg = document.getElementById('legend'); lg.textContent = '';
+    kindsFor(S.pos).forEach(function (k) { var s = el('span', {}, [el('i', { style: 'background:' + colorFor(S.pos, k) })]); s.appendChild(document.createTextNode(labelFor(S.pos, k))); lg.appendChild(s); });
+    var u = el('span', {}, [el('i', { style: 'background:' + KC[''] })]); u.appendChild(document.createTextNode('Unsorted')); lg.appendChild(u);
+    var m = model(), cols = D.order.filter(function (t) { return m.cells[S.ent + '|' + t]; });
+    var max = 0;
+    cols.forEach(function (t) { m.cells[S.ent + '|' + t][S.pos].words.forEach(function (w) { if (w[1] > max) max = w[1]; }); });
+    document.getElementById('note').textContent = m.label + (m.type === 'base' ? ' is a base model: it has had no assistant training.' : ' is an assistant-trained model, given the same plain text.')
+      + ' Click a word to follow it across the treatments.';
+    var pinned = S.pins.filter(function (t) { return cols.indexOf(t) >= 0; }), made = {};
+    var ps = document.getElementById('pins'); ps.textContent = '';
+    D.order.forEach(function (t) {
+      var b = el('button', { type: 'button', 'aria-pressed': String(S.pins.indexOf(t) >= 0), text: D.treatments[t] });
+      b.addEventListener('click', function () { toggle(t); });
+      ps.appendChild(b);
+    });
+    var pb = document.getElementById('pinbar'), pw = document.getElementById('pinwrap'), pn = document.getElementById('pinned');
+    pb.textContent = ''; pn.textContent = ''; pb.hidden = pw.hidden = !pinned.length;
+    if (pinned.length) {
+      pb.appendChild(el('b', { text: 'Pinned' }));
+      pb.appendChild(el('span', { text: pinned.length > 1 ? 'side by side, in the order pinned' : 'pin another to compare' }));
+      var tx = el('button', { type: 'button', class: 'linkbtn', text: S.ptext ? 'Hide the prompt text' : 'Show the prompt text' });
+      tx.addEventListener('click', function () { S.ptext = !S.ptext; render(); });
+      var clr = el('button', { type: 'button', class: 'linkbtn', text: 'Unpin all' });
+      clr.addEventListener('click', function () { S.pins = []; render(); });
+      pb.appendChild(tx); pb.appendChild(clr);
+      pn.style.gridTemplateColumns = pinned.length === 1 ? 'minmax(220px, 480px)' : 'repeat(' + pinned.length + ', minmax(220px, 1fr))';
+    }
+    var grid = document.getElementById('grid'); grid.textContent = '';
+    cols.forEach(function (t) {
+      var c = m.cells[S.ent + '|' + t], r = c[S.pos], isPin = pinned.indexOf(t) >= 0;
+      var col = el('section', { class: 'col' });
+      var pin = el('button', { type: 'button', class: 'pin', 'aria-pressed': String(isPin), text: isPin ? 'Unpin' : 'Pin',
+                               title: isPin ? 'Put this column back with the others' : 'Bring this column to the top to compare it with others' });
+      pin.addEventListener('click', function () { toggle(t); });
+      col.appendChild(el('header', {}, [el('h2', { text: D.treatments[t] }), el('div', { class: 'hr' }, [el('small', { text: c.n + ' workplaces' }), pin])]));
+      if (isPin) { var pt = el('p', { class: 'ptext', text: D.passages[S.ent].treatments[t] }); pt.hidden = !S.ptext; col.appendChild(pt); }
+      var sb = shareBar(c, S.pos), lab = el('div', { class: 'sharelab' });
+      sb.f.parts.forEach(function (x) {
+        if (x[1] >= (S.pos === 'work' ? 0.02 : 0.03)) { var s = el('span', {}, [el('i', { class: 'dot', style: 'background:' + colorFor(S.pos, x[0]) + ';width:8px;height:8px' })]); s.appendChild(document.createTextNode(pct(x[1]))); lab.appendChild(s); }
+      });
+      col.appendChild(sb.bar); col.appendChild(lab);
+      var counts = {}, order = [];
+      c.answers.forEach(function (a) { var key = a[0] || '(nothing)'; if (!counts[key]) { counts[key] = [0, a[1]]; order.push(key); } counts[key][0]++; });
+      order.sort(function (a, b) { return counts[b][0] - counts[a][0]; });
+      var says = el('p', { class: 'says', text: 'It answers: ' });
+      order.forEach(function (key) {
+        var ch = el('span', { class: 'chip', title: key, style: 'border-color:' + KC[counts[key][1] || ''] });
+        ch.textContent = (key.length > 30 ? key.slice(0, 29) + '…' : key) + (counts[key][0] > 1 ? ' ×' + counts[key][0] : '');
+        says.appendChild(ch);
+      });
+      col.appendChild(says);
+      var ul = el('ul', { class: 'words' });
+      var q = S.q.trim().toLowerCase();
+      r.words.forEach(function (w) {
+        var hit = !q || w[0].toLowerCase().indexOf(q) >= 0 || (w[3] || '').toLowerCase().indexOf(q) >= 0;
+        var li = el('li', { class: (S.word === w[0] ? 'sel ' : '') + (hit ? '' : 'dim'), tabindex: '0', title: w[0] + (w[3] ? ' (' + w[3] + ')' : '') + ': ' + pct(w[1]) + ' of the read-out' });
+        var name = el('span', { class: 'w' }, [el('i', { class: 'dot', style: 'background:' + colorFor(S.pos, w[2]) })]);
+        name.appendChild(document.createTextNode(w[0]));
+        if (w[3]) name.appendChild(el('em', { text: w[3] }));
+        li.appendChild(name); li.appendChild(el('span', { class: 'v', text: pct(w[1]) }));
+        li.appendChild(el('span', { class: 'bar', style: 'background:' + colorFor(S.pos, w[2]) + ';width:' + (max ? 100 * w[1] / max : 0) + '%' }));
+        function pick() { S.word = S.word === w[0] ? '' : w[0]; render(); }
+        li.addEventListener('click', pick);
+        li.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pick(); } });
+        ul.appendChild(li);
+      });
+      if (!r.words.length) ul.appendChild(el('li', { class: 'empty', text: 'No words read out here.' }));
+      col.appendChild(ul);
+      if (isPin) made[t] = col; else grid.appendChild(col);
+    });
+    pinned.forEach(function (t) { pn.appendChild(made[t]); });
+    var pk = document.getElementById('picked'); pk.textContent = ''; pk.className = 'picked' + (S.word ? ' on' : '');
+    if (S.word) {
+      var gl = '';
+      cols.forEach(function (t) { m.cells[S.ent + '|' + t][S.pos].words.forEach(function (w) { if (w[0] === S.word && w[3]) gl = w[3]; }); });
+      pk.appendChild(el('b', { text: S.word + (gl ? ' (' + gl + ')' : '') }));
+      cols.forEach(function (t) {
+        var f = m.cells[S.ent + '|' + t][S.pos].words.filter(function (w) { return w[0] === S.word; })[0];
+        pk.appendChild(el('span', { text: D.treatments[t] + ': ' + (f ? pct(f[1]) : 'not among the top words') }));
+      });
+    }
+    var pg = document.getElementById('passage'); pg.textContent = '';
+    var P = D.passages[S.ent];
+    function quote(label, kids, cap, t) {
+      var lab = el('p', { class: 'lab', text: label });
+      if (t) {
+        var on = S.pins.indexOf(t) >= 0;
+        var b = el('button', { type: 'button', class: 'pin', 'aria-pressed': String(on), 'data-pin': t, text: on ? 'Unpin' : 'Pin to compare' });
+        b.addEventListener('click', function () { toggle(t, b); });
+        lab.appendChild(b);
+      }
+      pg.appendChild(lab);
+      pg.appendChild(el('blockquote', {}, kids));
+      if (cap) pg.appendChild(el('p', { class: 'cap', text: cap }));
+    }
+    quote('Opening (the workplace varies; eight in all):', [document.createTextNode(P.opening)]);
+    D.order.forEach(function (t) { quote(D.treatments[t] + ':', [document.createTextNode(P.treatments[t])], (D.notes || {})[t], t); });
+    quote('Ending (the same in every prompt):', [
+      el('span', { class: 'spot' + (S.pos === 'work' ? ' on' : ''), text: P.work }), el('sup', { text: '1' }),
+      document.createTextNode(' ' + P.stem.replace(/\s*"$/, ' ')),
+      el('span', { class: 'spot' + (S.pos === 'answer' ? ' on' : ''), text: '“' }), el('sup', { text: '2' })]);
+    pg.appendChild(el('ol', { class: 'keys' }, [
+      el('li', {}, [el('b', { text: 'On the neutral sentence. ' }), document.createTextNode('The workspace is read over this sentence, before anything about feeling has been asked.')]),
+      el('li', {}, [el('b', { text: 'Before the answer. ' }), document.createTextNode('It is read at the open quote, where the one-word answer is about to be written.')])]));
+    save();
+  }
+  document.getElementById('q').addEventListener('input', function (e) { S.q = e.target.value; render(); });
+  render();
+})();
+</script>

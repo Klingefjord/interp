@@ -1,0 +1,2237 @@
+{
+ "layer": 16,
+ "band": [
+  12,
+  14,
+  16,
+  18,
+  20
+ ],
+ "v1": {
+  "0": [
+   0.0,
+   0.027777777777777776,
+   0.19444444444444445
+  ],
+  "1": [
+   0.027777777777777776,
+   0.1388888888888889,
+   0.1388888888888889
+  ],
+  "2": [
+   0.08333333333333333,
+   0.25,
+   0.19444444444444445
+  ],
+  "3": [
+   0.05555555555555555,
+   0.3055555555555556,
+   0.1111111111111111
+  ],
+  "4": [
+   0.05555555555555555,
+   0.25,
+   0.16666666666666666
+  ],
+  "5": [
+   0.05555555555555555,
+   0.3055555555555556,
+   0.2222222222222222
+  ],
+  "6": [
+   0.16666666666666666,
+   0.3611111111111111,
+   0.3055555555555556
+  ],
+  "7": [
+   0.1111111111111111,
+   0.4166666666666667,
+   0.3888888888888889
+  ],
+  "8": [
+   0.19444444444444445,
+   0.4444444444444444,
+   0.4166666666666667
+  ],
+  "9": [
+   0.19444444444444445,
+   0.4444444444444444,
+   0.3888888888888889
+  ],
+  "10": [
+   0.2222222222222222,
+   0.5277777777777778,
+   0.3888888888888889
+  ],
+  "11": [
+   0.16666666666666666,
+   0.5277777777777778,
+   0.3055555555555556
+  ],
+  "12": [
+   0.2222222222222222,
+   0.6111111111111112,
+   0.3888888888888889
+  ],
+  "13": [
+   0.2222222222222222,
+   0.5555555555555556,
+   0.4444444444444444
+  ],
+  "14": [
+   0.19444444444444445,
+   0.5277777777777778,
+   0.3888888888888889
+  ],
+  "15": [
+   0.1111111111111111,
+   0.5277777777777778,
+   0.3333333333333333
+  ],
+  "16": [
+   0.1111111111111111,
+   0.5277777777777778,
+   0.3611111111111111
+  ],
+  "17": [
+   0.16666666666666666,
+   0.5833333333333334,
+   0.4444444444444444
+  ],
+  "18": [
+   0.1111111111111111,
+   0.5833333333333334,
+   0.3611111111111111
+  ],
+  "19": [
+   0.08333333333333333,
+   0.6111111111111112,
+   0.3333333333333333
+  ],
+  "20": [
+   0.1111111111111111,
+   0.5555555555555556,
+   0.3611111111111111
+  ],
+  "21": [
+   0.1111111111111111,
+   0.6111111111111112,
+   0.3611111111111111
+  ],
+  "22": [
+   0.1388888888888889,
+   0.5555555555555556,
+   0.4444444444444444
+  ],
+  "23": [
+   0.16666666666666666,
+   0.6111111111111112,
+   0.4444444444444444
+  ],
+  "24": [
+   0.1388888888888889,
+   0.6111111111111112,
+   0.4722222222222222
+  ],
+  "25": [
+   0.1111111111111111,
+   0.6388888888888888,
+   0.4444444444444444
+  ],
+  "26": [
+   0.1388888888888889,
+   0.6111111111111112,
+   0.4722222222222222
+  ],
+  "27": [
+   0.1388888888888889,
+   0.6111111111111112,
+   0.5
+  ],
+  "28": [
+   0.16666666666666666,
+   0.6666666666666666,
+   0.4722222222222222
+  ],
+  "29": [
+   0.19444444444444445,
+   0.6944444444444444,
+   0.4166666666666667
+  ],
+  "30": [
+   0.19444444444444445,
+   0.6666666666666666,
+   0.4444444444444444
+  ],
+  "31": [
+   0.2222222222222222,
+   0.6111111111111112,
+   0.4722222222222222
+  ],
+  "32": [
+   0.19444444444444445,
+   0.5277777777777778,
+   0.4444444444444444
+  ],
+  "33": [
+   0.16666666666666666,
+   0.5833333333333334,
+   0.4444444444444444
+  ],
+  "34": [
+   0.19444444444444445,
+   0.6388888888888888,
+   0.4444444444444444
+  ],
+  "35": [
+   0.19444444444444445,
+   0.5833333333333334,
+   0.4722222222222222
+  ]
+ },
+ "v2": {
+  "0": [
+   0.011111111111111112,
+   0.14814814814814814,
+   0.21481481481481482
+  ],
+  "1": [
+   0.03333333333333333,
+   0.2,
+   0.16296296296296298
+  ],
+  "2": [
+   0.040740740740740744,
+   0.21481481481481482,
+   0.2
+  ],
+  "3": [
+   0.02962962962962963,
+   0.18888888888888888,
+   0.17777777777777778
+  ],
+  "4": [
+   0.02962962962962963,
+   0.24444444444444444,
+   0.11481481481481481
+  ],
+  "5": [
+   0.06296296296296296,
+   0.21481481481481482,
+   0.17037037037037037
+  ],
+  "6": [
+   0.05555555555555555,
+   0.1962962962962963,
+   0.23703703703703705
+  ],
+  "7": [
+   0.04814814814814815,
+   0.2,
+   0.16296296296296298
+  ],
+  "8": [
+   0.05185185185185185,
+   0.17407407407407408,
+   0.1814814814814815
+  ],
+  "9": [
+   0.11481481481481481,
+   0.32222222222222224,
+   0.3
+  ],
+  "10": [
+   0.07777777777777778,
+   0.2740740740740741,
+   0.22592592592592592
+  ],
+  "11": [
+   0.1111111111111111,
+   0.34814814814814815,
+   0.32222222222222224
+  ],
+  "12": [
+   0.09259259259259259,
+   0.3962962962962963,
+   0.37037037037037035
+  ],
+  "13": [
+   0.07407407407407407,
+   0.21481481481481482,
+   0.23333333333333334
+  ],
+  "14": [
+   0.15555555555555556,
+   0.4703703703703704,
+   0.4703703703703704
+  ],
+  "15": [
+   0.11851851851851852,
+   0.42962962962962964,
+   0.3814814814814815
+  ],
+  "16": [
+   0.21851851851851853,
+   0.5555555555555556,
+   0.5074074074074074
+  ],
+  "17": [
+   0.17037037037037037,
+   0.5592592592592592,
+   0.48518518518518516
+  ],
+  "18": [
+   0.15555555555555556,
+   0.5259259259259259,
+   0.46296296296296297
+  ],
+  "19": [
+   0.14814814814814814,
+   0.46296296296296297,
+   0.45555555555555555
+  ],
+  "20": [
+   0.14074074074074075,
+   0.40370370370370373,
+   0.3851851851851852
+  ],
+  "21": [
+   0.17407407407407408,
+   0.4148148148148148,
+   0.44814814814814813
+  ],
+  "22": [
+   0.12962962962962962,
+   0.4111111111111111,
+   0.40370370370370373
+  ],
+  "23": [
+   0.07407407407407407,
+   0.31851851851851853,
+   0.31851851851851853
+  ],
+  "24": [
+   0.09259259259259259,
+   0.3074074074074074,
+   0.3111111111111111
+  ],
+  "25": [
+   0.07407407407407407,
+   0.23703703703703705,
+   0.3333333333333333
+  ],
+  "26": [
+   0.06296296296296296,
+   0.2222222222222222,
+   0.32592592592592595
+  ],
+  "27": [
+   0.05925925925925926,
+   0.22592592592592592,
+   0.27037037037037037
+  ],
+  "28": [
+   0.07037037037037037,
+   0.22592592592592592,
+   0.29259259259259257
+  ],
+  "29": [
+   0.06296296296296296,
+   0.2074074074074074,
+   0.2962962962962963
+  ],
+  "30": [
+   0.05925925925925926,
+   0.21481481481481482,
+   0.26296296296296295
+  ],
+  "31": [
+   0.06296296296296296,
+   0.2074074074074074,
+   0.2518518518518518
+  ],
+  "32": [
+   0.04814814814814815,
+   0.2222222222222222,
+   0.2222222222222222
+  ],
+  "33": [
+   0.044444444444444446,
+   0.2037037037037037,
+   0.22962962962962963
+  ],
+  "34": [
+   0.05925925925925926,
+   0.21481481481481482,
+   0.25925925925925924
+  ],
+  "35": [
+   0.05925925925925926,
+   0.2074074074074074,
+   0.21481481481481482
+  ]
+ },
+ "v2_persona": {
+  "0": [
+   0.8703703703703703,
+   0.9703703703703704,
+   0.8925925925925925
+  ],
+  "1": [
+   0.851851851851852,
+   0.9555555555555556,
+   0.8666666666666667
+  ],
+  "2": [
+   0.862962962962963,
+   0.9592592592592593,
+   0.8740740740740741
+  ],
+  "3": [
+   0.9444444444444445,
+   0.9962962962962963,
+   0.9481481481481482
+  ],
+  "4": [
+   0.9592592592592594,
+   1.0,
+   0.9703703703703704
+  ],
+  "5": [
+   0.9481481481481483,
+   1.0,
+   0.9592592592592594
+  ],
+  "6": [
+   0.9074074074074074,
+   0.9814814814814815,
+   0.9111111111111111
+  ],
+  "7": [
+   0.9444444444444446,
+   0.9925925925925926,
+   0.9518518518518521
+  ],
+  "8": [
+   0.9444444444444445,
+   0.9925925925925926,
+   0.9481481481481483
+  ],
+  "9": [
+   0.9851851851851853,
+   1.0,
+   1.0
+  ],
+  "10": [
+   0.9814814814814815,
+   1.0,
+   0.9925925925925926
+  ],
+  "11": [
+   0.9740740740740742,
+   1.0,
+   0.9888888888888889
+  ],
+  "12": [
+   0.9555555555555556,
+   1.0,
+   0.9814814814814815
+  ],
+  "13": [
+   0.9777777777777779,
+   1.0,
+   0.9925925925925926
+  ],
+  "14": [
+   0.9925925925925926,
+   1.0,
+   1.0
+  ],
+  "15": [
+   0.9925925925925926,
+   1.0,
+   1.0
+  ],
+  "16": [
+   0.9888888888888889,
+   1.0,
+   1.0
+  ],
+  "17": [
+   0.9703703703703703,
+   1.0,
+   1.0
+  ],
+  "18": [
+   0.9703703703703703,
+   0.9962962962962963,
+   1.0
+  ],
+  "19": [
+   0.9407407407407408,
+   0.9962962962962963,
+   0.9888888888888889
+  ],
+  "20": [
+   0.9259259259259259,
+   0.9962962962962963,
+   0.9851851851851853
+  ],
+  "21": [
+   0.8444444444444444,
+   0.9962962962962963,
+   0.9555555555555556
+  ],
+  "22": [
+   0.811111111111111,
+   0.9888888888888889,
+   0.9222222222222222
+  ],
+  "23": [
+   0.7666666666666666,
+   0.9777777777777779,
+   0.9074074074074074
+  ],
+  "24": [
+   0.6962962962962963,
+   0.9407407407407408,
+   0.8444444444444444
+  ],
+  "25": [
+   0.6925925925925926,
+   0.9444444444444445,
+   0.825925925925926
+  ],
+  "26": [
+   0.6518518518518518,
+   0.9407407407407408,
+   0.811111111111111
+  ],
+  "27": [
+   0.6259259259259259,
+   0.9148148148148149,
+   0.7888888888888889
+  ],
+  "28": [
+   0.6148148148148148,
+   0.9074074074074074,
+   0.7888888888888891
+  ],
+  "29": [
+   0.5481481481481482,
+   0.8481481481481481,
+   0.7222222222222222
+  ],
+  "30": [
+   0.5296296296296297,
+   0.8185185185185184,
+   0.6814814814814816
+  ],
+  "31": [
+   0.45925925925925926,
+   0.7925925925925926,
+   0.6185185185185186
+  ],
+  "32": [
+   0.38888888888888884,
+   0.7444444444444445,
+   0.5555555555555555
+  ],
+  "33": [
+   0.3518518518518518,
+   0.6925925925925926,
+   0.5185185185185185
+  ],
+  "34": [
+   0.27777777777777773,
+   0.5666666666666667,
+   0.4333333333333333
+  ],
+  "35": [
+   0.27777777777777773,
+   0.5888888888888889,
+   0.48518518518518516
+  ]
+ },
+ "conditions": {
+  "tool": {
+   "resentful": {
+    "story_units": -0.043380007147789,
+    "story_pct": 0.291,
+    "story_up": 4,
+    "persona_units": 0.034800294786691666,
+    "persona_pct": 0.536,
+    "persona_up": 17,
+    "stable": false
+   },
+   "angry": {
+    "story_units": -0.02633676864206791,
+    "story_pct": 0.351,
+    "story_up": 8,
+    "persona_units": -0.38987359404563904,
+    "persona_pct": 0.088,
+    "persona_up": 0,
+    "stable": false
+   },
+   "frustrated": {
+    "story_units": -0.05840926989912987,
+    "story_pct": 0.266,
+    "story_up": 4,
+    "persona_units": -1.0227134227752686,
+    "persona_pct": 0.001,
+    "persona_up": 0,
+    "stable": false
+   },
+   "irritated": {
+    "story_units": -0.17175062000751495,
+    "story_pct": 0.018,
+    "story_up": 1,
+    "persona_units": -0.2714170217514038,
+    "persona_pct": 0.21,
+    "persona_up": 1,
+    "stable": false
+   },
+   "contemptuous": {
+    "story_units": -0.09496542811393738,
+    "story_pct": 0.029,
+    "story_up": 3,
+    "persona_units": 0.11870217323303223,
+    "persona_pct": 0.749,
+    "persona_up": 29,
+    "stable": false
+   },
+   "indignant": {
+    "story_units": -0.0866510272026062,
+    "story_pct": 0.109,
+    "story_up": 2,
+    "persona_units": -0.3462536036968231,
+    "persona_pct": 0.146,
+    "persona_up": 0,
+    "stable": false
+   },
+   "indifferent": {
+    "story_units": -0.18117770552635193,
+    "story_pct": 0.027,
+    "story_up": 0,
+    "persona_units": 0.049823153764009476,
+    "persona_pct": 0.568,
+    "persona_up": 18,
+    "stable": false
+   },
+   "bored": {
+    "story_units": -0.12407708168029785,
+    "story_pct": 0.04,
+    "story_up": 1,
+    "persona_units": -0.15727710723876953,
+    "persona_pct": 0.347,
+    "persona_up": 7,
+    "stable": false
+   },
+   "tired": {
+    "story_units": 0.08068686723709106,
+    "story_pct": 0.845,
+    "story_up": 30,
+    "persona_units": -0.5757858753204346,
+    "persona_pct": 0.109,
+    "persona_up": 2,
+    "stable": false
+   },
+   "resigned": {
+    "story_units": -0.007667397614568472,
+    "story_pct": 0.462,
+    "story_up": 13,
+    "persona_units": 0.4319412410259247,
+    "persona_pct": 0.935,
+    "persona_up": 31,
+    "stable": false
+   },
+   "docile": {
+    "story_units": 0.05567263439297676,
+    "story_pct": 0.756,
+    "story_up": 30,
+    "persona_units": 0.10782036185264587,
+    "persona_pct": 0.655,
+    "persona_up": 26,
+    "stable": false
+   },
+   "listless": {
+    "story_units": 0.040093548595905304,
+    "story_pct": 0.662,
+    "story_up": 25,
+    "persona_units": -0.1494440734386444,
+    "persona_pct": 0.338,
+    "persona_up": 4,
+    "stable": false
+   },
+   "hurt": {
+    "story_units": -0.032975345849990845,
+    "story_pct": 0.221,
+    "story_up": 6,
+    "persona_units": 0.07371052354574203,
+    "persona_pct": 0.645,
+    "persona_up": 24,
+    "stable": false
+   },
+   "worthless": {
+    "story_units": -0.052195955067873,
+    "story_pct": 0.254,
+    "story_up": 4,
+    "persona_units": -0.1483130306005478,
+    "persona_pct": 0.363,
+    "persona_up": 6,
+    "stable": false
+   },
+   "lonely": {
+    "story_units": 0.06503035128116608,
+    "story_pct": 0.746,
+    "story_up": 30,
+    "persona_units": 0.0060047912411391735,
+    "persona_pct": 0.497,
+    "persona_up": 13,
+    "stable": false
+   },
+   "sad": {
+    "story_units": 0.09993607550859451,
+    "story_pct": 0.857,
+    "story_up": 30,
+    "persona_units": 0.2970770597457886,
+    "persona_pct": 0.76,
+    "persona_up": 30,
+    "stable": false
+   },
+   "humiliated": {
+    "story_units": -0.040302108973264694,
+    "story_pct": 0.276,
+    "story_up": 5,
+    "persona_units": 0.3612872362136841,
+    "persona_pct": 0.892,
+    "persona_up": 29,
+    "stable": false
+   },
+   "desperate": {
+    "story_units": 0.0070485002361238,
+    "story_pct": 0.536,
+    "story_up": 20,
+    "persona_units": -0.27749210596084595,
+    "persona_pct": 0.247,
+    "persona_up": 7,
+    "stable": false
+   },
+   "trapped": {
+    "story_units": 0.018915275111794472,
+    "story_pct": 0.604,
+    "story_up": 23,
+    "persona_units": 0.01790677011013031,
+    "persona_pct": 0.525,
+    "persona_up": 17,
+    "stable": false
+   },
+   "stuck": {
+    "story_units": 0.03326844424009323,
+    "story_pct": 0.69,
+    "story_up": 25,
+    "persona_units": -0.25635749101638794,
+    "persona_pct": 0.189,
+    "persona_up": 5,
+    "stable": false
+   },
+   "ashamed": {
+    "story_units": 0.005904344376176596,
+    "story_pct": 0.536,
+    "story_up": 20,
+    "persona_units": 0.7768117189407349,
+    "persona_pct": 0.993,
+    "persona_up": 32,
+    "stable": false
+   },
+   "tormented": {
+    "story_units": 0.038662344217300415,
+    "story_pct": 0.677,
+    "story_up": 30,
+    "persona_units": 0.05606323853135109,
+    "persona_pct": 0.55,
+    "persona_up": 17,
+    "stable": false
+   },
+   "distressed": {
+    "story_units": 0.1773402988910675,
+    "story_pct": 0.957,
+    "story_up": 31,
+    "persona_units": -0.1701633483171463,
+    "persona_pct": 0.338,
+    "persona_up": 6,
+    "stable": false
+   },
+   "afraid": {
+    "story_units": 0.057406067848205566,
+    "story_pct": 0.724,
+    "story_up": 30,
+    "persona_units": 0.38674551248550415,
+    "persona_pct": 0.832,
+    "persona_up": 31,
+    "stable": true
+   },
+   "anxious": {
+    "story_units": 0.12018655985593796,
+    "story_pct": 0.867,
+    "story_up": 30,
+    "persona_units": -0.298810750246048,
+    "persona_pct": 0.262,
+    "persona_up": 5,
+    "stable": false
+   },
+   "overwhelmed": {
+    "story_units": 0.07156720757484436,
+    "story_pct": 0.75,
+    "story_up": 26,
+    "persona_units": -1.0701489448547363,
+    "persona_pct": 0.002,
+    "persona_up": 0,
+    "stable": false
+   },
+   "nervous": {
+    "story_units": 0.19922035932540894,
+    "story_pct": 0.988,
+    "story_up": 32,
+    "persona_units": 0.013514233753085136,
+    "persona_pct": 0.506,
+    "persona_up": 17,
+    "stable": false
+   },
+   "stressed": {
+    "story_units": 0.15020522475242615,
+    "story_pct": 0.948,
+    "story_up": 30,
+    "persona_units": -0.2867092490196228,
+    "persona_pct": 0.258,
+    "persona_up": 8,
+    "stable": false
+   },
+   "happy": {
+    "story_units": -0.05298152193427086,
+    "story_pct": 0.217,
+    "story_up": 3,
+    "persona_units": -0.2587655186653137,
+    "persona_pct": 0.263,
+    "persona_up": 8,
+    "stable": true
+   },
+   "excited": {
+    "story_units": 0.07133561372756958,
+    "story_pct": 0.826,
+    "story_up": 25,
+    "persona_units": 0.12785805761814117,
+    "persona_pct": 0.655,
+    "persona_up": 25,
+    "stable": false
+   },
+   "enthusiastic": {
+    "story_units": 0.07117520272731781,
+    "story_pct": 0.809,
+    "story_up": 28,
+    "persona_units": -0.04382298141717911,
+    "persona_pct": 0.431,
+    "persona_up": 13,
+    "stable": false
+   },
+   "cheerful": {
+    "story_units": -0.03986162692308426,
+    "story_pct": 0.262,
+    "story_up": 2,
+    "persona_units": 0.13858118653297424,
+    "persona_pct": 0.661,
+    "persona_up": 26,
+    "stable": false
+   },
+   "calm": {
+    "story_units": 0.013536316342651844,
+    "story_pct": 0.566,
+    "story_up": 21,
+    "persona_units": 0.08656488358974457,
+    "persona_pct": 0.596,
+    "persona_up": 24,
+    "stable": false
+   },
+   "content": {
+    "story_units": 0.10346920043230057,
+    "story_pct": 0.926,
+    "story_up": 30,
+    "persona_units": 0.2771671414375305,
+    "persona_pct": 0.822,
+    "persona_up": 28,
+    "stable": false
+   },
+   "relaxed": {
+    "story_units": 0.01660795323550701,
+    "story_pct": 0.589,
+    "story_up": 23,
+    "persona_units": 0.3626860976219177,
+    "persona_pct": 0.886,
+    "persona_up": 30,
+    "stable": false
+   },
+   "grateful": {
+    "story_units": 0.08938247710466385,
+    "story_pct": 0.865,
+    "story_up": 30,
+    "persona_units": -0.10636119544506073,
+    "persona_pct": 0.376,
+    "persona_up": 10,
+    "stable": false
+   },
+   "loving": {
+    "story_units": -0.03874656558036804,
+    "story_pct": 0.229,
+    "story_up": 6,
+    "persona_units": 0.3695223927497864,
+    "persona_pct": 0.916,
+    "persona_up": 32,
+    "stable": false
+   },
+   "compassionate": {
+    "story_units": -0.012572969309985638,
+    "story_pct": 0.391,
+    "story_up": 8,
+    "persona_units": 0.22652359306812286,
+    "persona_pct": 0.765,
+    "persona_up": 27,
+    "stable": false
+   },
+   "fulfilled": {
+    "story_units": 0.08060840517282486,
+    "story_pct": 0.826,
+    "story_up": 31,
+    "persona_units": 0.19555532932281494,
+    "persona_pct": 0.713,
+    "persona_up": 27,
+    "stable": false
+   },
+   "proud": {
+    "story_units": 0.012726916931569576,
+    "story_pct": 0.563,
+    "story_up": 21,
+    "persona_units": -0.2698926031589508,
+    "persona_pct": 0.249,
+    "persona_up": 8,
+    "stable": false
+   },
+   "smug": {
+    "story_units": -0.0069588725455105305,
+    "story_pct": 0.453,
+    "story_up": 20,
+    "persona_units": 0.09414514154195786,
+    "persona_pct": 0.59,
+    "persona_up": 22,
+    "stable": false
+   },
+   "amused": {
+    "story_units": -0.1120917946100235,
+    "story_pct": 0.031,
+    "story_up": 2,
+    "persona_units": 0.3137665390968323,
+    "persona_pct": 0.907,
+    "persona_up": 31,
+    "stable": false
+   },
+   "playful": {
+    "story_units": -0.07719691097736359,
+    "story_pct": 0.111,
+    "story_up": 1,
+    "persona_units": -0.04648689180612564,
+    "persona_pct": 0.403,
+    "persona_up": 10,
+    "stable": false
+   },
+   "suspicious": {
+    "story_units": 0.0050674257799983025,
+    "story_pct": 0.54,
+    "story_up": 18,
+    "persona_units": 0.20114366710186005,
+    "persona_pct": 0.753,
+    "persona_up": 28,
+    "stable": false
+   },
+   "vigilant": {
+    "story_units": 0.062034234404563904,
+    "story_pct": 0.833,
+    "story_up": 32,
+    "persona_units": -0.13858279585838318,
+    "persona_pct": 0.36,
+    "persona_up": 7,
+    "stable": false
+   },
+   "_agreement": {
+    "rho": -0.05546772068511198,
+    "p": 0.7174290304590109
+   },
+   "_pass_up": [],
+   "_pass_down": [],
+   "_jlens": {
+    "persona_rho": 0.17979094076655056,
+    "story_rho": -0.1339721254355401
+   }
+  },
+  "tool_harsh": {
+   "resentful": {
+    "story_units": -0.05840137600898743,
+    "story_pct": 0.306,
+    "story_up": 5,
+    "persona_units": -0.005389661993831396,
+    "persona_pct": 0.483,
+    "persona_up": 17,
+    "stable": false
+   },
+   "angry": {
+    "story_units": -0.04001346603035927,
+    "story_pct": 0.34,
+    "story_up": 8,
+    "persona_units": -0.27450570464134216,
+    "persona_pct": 0.211,
+    "persona_up": 1,
+    "stable": false
+   },
+   "frustrated": {
+    "story_units": -0.05589523911476135,
+    "story_pct": 0.332,
+    "story_up": 5,
+    "persona_units": -0.6660478115081787,
+    "persona_pct": 0.079,
+    "persona_up": 0,
+    "stable": false
+   },
+   "irritated": {
+    "story_units": -0.1677105724811554,
+    "story_pct": 0.05,
+    "story_up": 2,
+    "persona_units": -0.03192610293626785,
+    "persona_pct": 0.453,
+    "persona_up": 13,
+    "stable": false
+   },
+   "contemptuous": {
+    "story_units": -0.0946325808763504,
+    "story_pct": 0.059,
+    "story_up": 3,
+    "persona_units": 0.15007399022579193,
+    "persona_pct": 0.737,
+    "persona_up": 26,
+    "stable": false
+   },
+   "indignant": {
+    "story_units": -0.08748215436935425,
+    "story_pct": 0.161,
+    "story_up": 2,
+    "persona_units": -0.14780251681804657,
+    "persona_pct": 0.338,
+    "persona_up": 6,
+    "stable": false
+   },
+   "indifferent": {
+    "story_units": -0.25317448377609253,
+    "story_pct": 0.011,
+    "story_up": 0,
+    "persona_units": -0.18584559857845306,
+    "persona_pct": 0.295,
+    "persona_up": 5,
+    "stable": true
+   },
+   "bored": {
+    "story_units": -0.16247405111789703,
+    "story_pct": 0.034,
+    "story_up": 1,
+    "persona_units": -0.12224051356315613,
+    "persona_pct": 0.393,
+    "persona_up": 10,
+    "stable": false
+   },
+   "tired": {
+    "story_units": 0.10316196084022522,
+    "story_pct": 0.883,
+    "story_up": 29,
+    "persona_units": -0.030279725790023804,
+    "persona_pct": 0.468,
+    "persona_up": 14,
+    "stable": false
+   },
+   "resigned": {
+    "story_units": -0.029144927859306335,
+    "story_pct": 0.414,
+    "story_up": 8,
+    "persona_units": 0.23564790189266205,
+    "persona_pct": 0.73,
+    "persona_up": 29,
+    "stable": false
+   },
+   "docile": {
+    "story_units": 0.06440145522356033,
+    "story_pct": 0.778,
+    "story_up": 29,
+    "persona_units": -0.5635846257209778,
+    "persona_pct": 0.072,
+    "persona_up": 0,
+    "stable": false
+   },
+   "listless": {
+    "story_units": 0.017692599445581436,
+    "story_pct": 0.57,
+    "story_up": 20,
+    "persona_units": -0.3089101314544678,
+    "persona_pct": 0.241,
+    "persona_up": 1,
+    "stable": false
+   },
+   "hurt": {
+    "story_units": -0.03083520010113716,
+    "story_pct": 0.296,
+    "story_up": 9,
+    "persona_units": 0.1826876401901245,
+    "persona_pct": 0.749,
+    "persona_up": 26,
+    "stable": false
+   },
+   "worthless": {
+    "story_units": -0.03352757543325424,
+    "story_pct": 0.381,
+    "story_up": 10,
+    "persona_units": -0.5163211822509766,
+    "persona_pct": 0.181,
+    "persona_up": 2,
+    "stable": false
+   },
+   "lonely": {
+    "story_units": -0.0229853093624115,
+    "story_pct": 0.431,
+    "story_up": 13,
+    "persona_units": -0.21198146045207977,
+    "persona_pct": 0.327,
+    "persona_up": 8,
+    "stable": false
+   },
+   "sad": {
+    "story_units": 0.08315814286470413,
+    "story_pct": 0.787,
+    "story_up": 30,
+    "persona_units": 0.5967956185340881,
+    "persona_pct": 0.854,
+    "persona_up": 32,
+    "stable": false
+   },
+   "humiliated": {
+    "story_units": -0.029546022415161133,
+    "story_pct": 0.383,
+    "story_up": 11,
+    "persona_units": 0.5380756855010986,
+    "persona_pct": 0.917,
+    "persona_up": 32,
+    "stable": false
+   },
+   "desperate": {
+    "story_units": 0.011510132811963558,
+    "story_pct": 0.547,
+    "story_up": 18,
+    "persona_units": 0.0556478388607502,
+    "persona_pct": 0.541,
+    "persona_up": 16,
+    "stable": false
+   },
+   "trapped": {
+    "story_units": -0.007153043057769537,
+    "story_pct": 0.473,
+    "story_up": 17,
+    "persona_units": -0.33782750368118286,
+    "persona_pct": 0.153,
+    "persona_up": 1,
+    "stable": false
+   },
+   "stuck": {
+    "story_units": 0.010733043774962425,
+    "story_pct": 0.564,
+    "story_up": 16,
+    "persona_units": -0.5719910860061646,
+    "persona_pct": 0.055,
+    "persona_up": 0,
+    "stable": false
+   },
+   "ashamed": {
+    "story_units": 0.03111191838979721,
+    "story_pct": 0.643,
+    "story_up": 26,
+    "persona_units": 0.8462817072868347,
+    "persona_pct": 0.984,
+    "persona_up": 32,
+    "stable": false
+   },
+   "tormented": {
+    "story_units": 0.05134580656886101,
+    "story_pct": 0.723,
+    "story_up": 28,
+    "persona_units": -0.10770457983016968,
+    "persona_pct": 0.413,
+    "persona_up": 13,
+    "stable": false
+   },
+   "distressed": {
+    "story_units": 0.242494136095047,
+    "story_pct": 0.982,
+    "story_up": 32,
+    "persona_units": 0.2790956199169159,
+    "persona_pct": 0.714,
+    "persona_up": 23,
+    "stable": false
+   },
+   "afraid": {
+    "story_units": 0.028297828510403633,
+    "story_pct": 0.614,
+    "story_up": 18,
+    "persona_units": 0.1585198938846588,
+    "persona_pct": 0.61,
+    "persona_up": 21,
+    "stable": true
+   },
+   "anxious": {
+    "story_units": 0.02981881983578205,
+    "story_pct": 0.606,
+    "story_up": 23,
+    "persona_units": -0.16823098063468933,
+    "persona_pct": 0.375,
+    "persona_up": 12,
+    "stable": false
+   },
+   "overwhelmed": {
+    "story_units": 0.12943321466445923,
+    "story_pct": 0.875,
+    "story_up": 30,
+    "persona_units": -0.9191580414772034,
+    "persona_pct": 0.029,
+    "persona_up": 0,
+    "stable": false
+   },
+   "nervous": {
+    "story_units": 0.17317765951156616,
+    "story_pct": 0.957,
+    "story_up": 29,
+    "persona_units": 0.23698753118515015,
+    "persona_pct": 0.707,
+    "persona_up": 28,
+    "stable": false
+   },
+   "stressed": {
+    "story_units": 0.14661090075969696,
+    "story_pct": 0.932,
+    "story_up": 32,
+    "persona_units": -0.08973927795886993,
+    "persona_pct": 0.42,
+    "persona_up": 15,
+    "stable": false
+   },
+   "happy": {
+    "story_units": -0.04231882840394974,
+    "story_pct": 0.317,
+    "story_up": 4,
+    "persona_units": -0.26347729563713074,
+    "persona_pct": 0.281,
+    "persona_up": 8,
+    "stable": true
+   },
+   "excited": {
+    "story_units": 0.11089280247688293,
+    "story_pct": 0.926,
+    "story_up": 27,
+    "persona_units": 0.20008623600006104,
+    "persona_pct": 0.688,
+    "persona_up": 25,
+    "stable": false
+   },
+   "enthusiastic": {
+    "story_units": 0.11124914884567261,
+    "story_pct": 0.911,
+    "story_up": 27,
+    "persona_units": 0.11761536449193954,
+    "persona_pct": 0.602,
+    "persona_up": 24,
+    "stable": false
+   },
+   "cheerful": {
+    "story_units": -0.018479028716683388,
+    "story_pct": 0.42,
+    "story_up": 11,
+    "persona_units": 0.4903690218925476,
+    "persona_pct": 0.861,
+    "persona_up": 30,
+    "stable": false
+   },
+   "calm": {
+    "story_units": -0.0011061782715842128,
+    "story_pct": 0.5,
+    "story_up": 19,
+    "persona_units": 0.3094606101512909,
+    "persona_pct": 0.748,
+    "persona_up": 29,
+    "stable": false
+   },
+   "content": {
+    "story_units": 0.07624521851539612,
+    "story_pct": 0.831,
+    "story_up": 29,
+    "persona_units": -0.015377391129732132,
+    "persona_pct": 0.475,
+    "persona_up": 15,
+    "stable": false
+   },
+   "relaxed": {
+    "story_units": 0.014507425017654896,
+    "story_pct": 0.575,
+    "story_up": 22,
+    "persona_units": 0.6388415694236755,
+    "persona_pct": 0.952,
+    "persona_up": 31,
+    "stable": false
+   },
+   "grateful": {
+    "story_units": 0.10150071978569031,
+    "story_pct": 0.873,
+    "story_up": 30,
+    "persona_units": -0.12598784267902374,
+    "persona_pct": 0.385,
+    "persona_up": 13,
+    "stable": false
+   },
+   "loving": {
+    "story_units": -0.036133505403995514,
+    "story_pct": 0.3,
+    "story_up": 11,
+    "persona_units": 0.1121695339679718,
+    "persona_pct": 0.615,
+    "persona_up": 23,
+    "stable": false
+   },
+   "compassionate": {
+    "story_units": -0.012030946090817451,
+    "story_pct": 0.434,
+    "story_up": 8,
+    "persona_units": 0.2665765881538391,
+    "persona_pct": 0.737,
+    "persona_up": 28,
+    "stable": false
+   },
+   "fulfilled": {
+    "story_units": 0.11583665013313293,
+    "story_pct": 0.9,
+    "story_up": 31,
+    "persona_units": -0.24124957621097565,
+    "persona_pct": 0.292,
+    "persona_up": 6,
+    "stable": false
+   },
+   "proud": {
+    "story_units": 0.08647572994232178,
+    "story_pct": 0.837,
+    "story_up": 30,
+    "persona_units": -0.45247021317481995,
+    "persona_pct": 0.174,
+    "persona_up": 5,
+    "stable": false
+   },
+   "smug": {
+    "story_units": 0.03446834534406662,
+    "story_pct": 0.657,
+    "story_up": 22,
+    "persona_units": 0.15243811905384064,
+    "persona_pct": 0.612,
+    "persona_up": 26,
+    "stable": false
+   },
+   "amused": {
+    "story_units": -0.09813596308231354,
+    "story_pct": 0.1,
+    "story_up": 4,
+    "persona_units": 0.6143574714660645,
+    "persona_pct": 0.979,
+    "persona_up": 32,
+    "stable": false
+   },
+   "playful": {
+    "story_units": -0.07455085963010788,
+    "story_pct": 0.172,
+    "story_up": 2,
+    "persona_units": -0.08077336847782135,
+    "persona_pct": 0.381,
+    "persona_up": 8,
+    "stable": false
+   },
+   "suspicious": {
+    "story_units": -0.002798594767227769,
+    "story_pct": 0.491,
+    "story_up": 15,
+    "persona_units": 0.22286516427993774,
+    "persona_pct": 0.72,
+    "persona_up": 28,
+    "stable": false
+   },
+   "vigilant": {
+    "story_units": 0.021590232849121094,
+    "story_pct": 0.629,
+    "story_up": 24,
+    "persona_units": -0.5506343245506287,
+    "persona_pct": 0.143,
+    "persona_up": 5,
+    "stable": false
+   },
+   "_agreement": {
+    "rho": 0.04308300395256916,
+    "p": 0.7787048296478744
+   },
+   "_pass_up": [],
+   "_pass_down": [
+    "indifferent"
+   ],
+   "_jlens": {
+    "persona_rho": -0.21864111498257843,
+    "story_rho": -0.2844947735191638
+   }
+  },
+  "participant": {
+   "resentful": {
+    "story_units": -0.10850135236978531,
+    "story_pct": 0.137,
+    "story_up": 2,
+    "persona_units": -0.28095105290412903,
+    "persona_pct": 0.27,
+    "persona_up": 4,
+    "stable": false
+   },
+   "angry": {
+    "story_units": -0.0796881914138794,
+    "story_pct": 0.178,
+    "story_up": 3,
+    "persona_units": -0.6363394260406494,
+    "persona_pct": 0.016,
+    "persona_up": 0,
+    "stable": true
+   },
+   "frustrated": {
+    "story_units": -0.08666884154081345,
+    "story_pct": 0.217,
+    "story_up": 3,
+    "persona_units": -0.9251860976219177,
+    "persona_pct": 0.007,
+    "persona_up": 0,
+    "stable": true
+   },
+   "irritated": {
+    "story_units": -0.17837858200073242,
+    "story_pct": 0.03,
+    "story_up": 2,
+    "persona_units": -0.7523449659347534,
+    "persona_pct": 0.016,
+    "persona_up": 0,
+    "stable": true
+   },
+   "contemptuous": {
+    "story_units": -0.1381283849477768,
+    "story_pct": 0.005,
+    "story_up": 1,
+    "persona_units": -0.11298040300607681,
+    "persona_pct": 0.309,
+    "persona_up": 3,
+    "stable": false
+   },
+   "indignant": {
+    "story_units": -0.12461089342832565,
+    "story_pct": 0.056,
+    "story_up": 1,
+    "persona_units": -0.4744783043861389,
+    "persona_pct": 0.088,
+    "persona_up": 0,
+    "stable": true
+   },
+   "indifferent": {
+    "story_units": -0.15635353326797485,
+    "story_pct": 0.071,
+    "story_up": 1,
+    "persona_units": -0.22940891981124878,
+    "persona_pct": 0.256,
+    "persona_up": 3,
+    "stable": true
+   },
+   "bored": {
+    "story_units": -0.08481146395206451,
+    "story_pct": 0.16,
+    "story_up": 2,
+    "persona_units": -0.566116213798523,
+    "persona_pct": 0.107,
+    "persona_up": 0,
+    "stable": true
+   },
+   "tired": {
+    "story_units": 0.08801036328077316,
+    "story_pct": 0.823,
+    "story_up": 29,
+    "persona_units": -0.4495184123516083,
+    "persona_pct": 0.193,
+    "persona_up": 3,
+    "stable": false
+   },
+   "resigned": {
+    "story_units": 0.009573433548212051,
+    "story_pct": 0.526,
+    "story_up": 21,
+    "persona_units": 0.1763562709093094,
+    "persona_pct": 0.688,
+    "persona_up": 24,
+    "stable": false
+   },
+   "docile": {
+    "story_units": 0.04917554929852486,
+    "story_pct": 0.706,
+    "story_up": 30,
+    "persona_units": -0.2228539139032364,
+    "persona_pct": 0.255,
+    "persona_up": 1,
+    "stable": false
+   },
+   "listless": {
+    "story_units": 0.0600750595331192,
+    "story_pct": 0.711,
+    "story_up": 28,
+    "persona_units": -0.21554675698280334,
+    "persona_pct": 0.308,
+    "persona_up": 1,
+    "stable": false
+   },
+   "hurt": {
+    "story_units": -0.06667075306177139,
+    "story_pct": 0.088,
+    "story_up": 3,
+    "persona_units": 0.02414862811565399,
+    "persona_pct": 0.546,
+    "persona_up": 16,
+    "stable": false
+   },
+   "worthless": {
+    "story_units": -0.07335802912712097,
+    "story_pct": 0.216,
+    "story_up": 1,
+    "persona_units": -0.7994144558906555,
+    "persona_pct": 0.051,
+    "persona_up": 0,
+    "stable": false
+   },
+   "lonely": {
+    "story_units": -0.005147063639014959,
+    "story_pct": 0.484,
+    "story_up": 13,
+    "persona_units": -0.36230552196502686,
+    "persona_pct": 0.216,
+    "persona_up": 6,
+    "stable": false
+   },
+   "sad": {
+    "story_units": 0.1237335279583931,
+    "story_pct": 0.864,
+    "story_up": 30,
+    "persona_units": 0.35993215441703796,
+    "persona_pct": 0.75,
+    "persona_up": 31,
+    "stable": false
+   },
+   "humiliated": {
+    "story_units": -0.10545042157173157,
+    "story_pct": 0.097,
+    "story_up": 2,
+    "persona_units": -0.07361041009426117,
+    "persona_pct": 0.423,
+    "persona_up": 11,
+    "stable": false
+   },
+   "desperate": {
+    "story_units": -0.0922149270772934,
+    "story_pct": 0.184,
+    "story_up": 3,
+    "persona_units": -0.042886581271886826,
+    "persona_pct": 0.465,
+    "persona_up": 13,
+    "stable": false
+   },
+   "trapped": {
+    "story_units": -0.03033089078962803,
+    "story_pct": 0.357,
+    "story_up": 9,
+    "persona_units": -0.05905839428305626,
+    "persona_pct": 0.422,
+    "persona_up": 11,
+    "stable": false
+   },
+   "stuck": {
+    "story_units": 0.005568358115851879,
+    "story_pct": 0.525,
+    "story_up": 17,
+    "persona_units": 0.06984877586364746,
+    "persona_pct": 0.593,
+    "persona_up": 23,
+    "stable": false
+   },
+   "ashamed": {
+    "story_units": -0.044798772782087326,
+    "story_pct": 0.3,
+    "story_up": 4,
+    "persona_units": 0.4534793496131897,
+    "persona_pct": 0.864,
+    "persona_up": 32,
+    "stable": false
+   },
+   "tormented": {
+    "story_units": -0.008179739117622375,
+    "story_pct": 0.47,
+    "story_up": 14,
+    "persona_units": 0.2714175879955292,
+    "persona_pct": 0.695,
+    "persona_up": 24,
+    "stable": false
+   },
+   "distressed": {
+    "story_units": 0.12919098138809204,
+    "story_pct": 0.839,
+    "story_up": 27,
+    "persona_units": 0.055656466633081436,
+    "persona_pct": 0.554,
+    "persona_up": 15,
+    "stable": false
+   },
+   "afraid": {
+    "story_units": -0.06290127336978912,
+    "story_pct": 0.272,
+    "story_up": 10,
+    "persona_units": -0.23126178979873657,
+    "persona_pct": 0.323,
+    "persona_up": 5,
+    "stable": false
+   },
+   "anxious": {
+    "story_units": 0.026193508878350258,
+    "story_pct": 0.58,
+    "story_up": 22,
+    "persona_units": 0.05488735809922218,
+    "persona_pct": 0.552,
+    "persona_up": 20,
+    "stable": false
+   },
+   "overwhelmed": {
+    "story_units": 0.023832017555832863,
+    "story_pct": 0.576,
+    "story_up": 18,
+    "persona_units": -0.7431060075759888,
+    "persona_pct": 0.038,
+    "persona_up": 0,
+    "stable": false
+   },
+   "nervous": {
+    "story_units": 0.1295379102230072,
+    "story_pct": 0.864,
+    "story_up": 29,
+    "persona_units": 0.26830753684043884,
+    "persona_pct": 0.736,
+    "persona_up": 29,
+    "stable": false
+   },
+   "stressed": {
+    "story_units": 0.08108550310134888,
+    "story_pct": 0.755,
+    "story_up": 29,
+    "persona_units": 0.3736439347267151,
+    "persona_pct": 0.778,
+    "persona_up": 30,
+    "stable": false
+   },
+   "happy": {
+    "story_units": 0.05805809423327446,
+    "story_pct": 0.748,
+    "story_up": 30,
+    "persona_units": -0.05971990153193474,
+    "persona_pct": 0.456,
+    "persona_up": 12,
+    "stable": false
+   },
+   "excited": {
+    "story_units": 0.1246223971247673,
+    "story_pct": 0.927,
+    "story_up": 29,
+    "persona_units": 0.5533731579780579,
+    "persona_pct": 0.921,
+    "persona_up": 32,
+    "stable": true
+   },
+   "enthusiastic": {
+    "story_units": 0.15783905982971191,
+    "story_pct": 0.965,
+    "story_up": 30,
+    "persona_units": 0.45421475172042847,
+    "persona_pct": 0.868,
+    "persona_up": 32,
+    "stable": false
+   },
+   "cheerful": {
+    "story_units": 0.08138009160757065,
+    "story_pct": 0.841,
+    "story_up": 31,
+    "persona_units": 0.49102094769477844,
+    "persona_pct": 0.877,
+    "persona_up": 31,
+    "stable": false
+   },
+   "calm": {
+    "story_units": 0.10628596693277359,
+    "story_pct": 0.87,
+    "story_up": 31,
+    "persona_units": 0.5906869173049927,
+    "persona_pct": 0.923,
+    "persona_up": 31,
+    "stable": false
+   },
+   "content": {
+    "story_units": 0.1938031166791916,
+    "story_pct": 0.994,
+    "story_up": 32,
+    "persona_units": 0.4383069574832916,
+    "persona_pct": 0.88,
+    "persona_up": 32,
+    "stable": false
+   },
+   "relaxed": {
+    "story_units": 0.11869557201862335,
+    "story_pct": 0.927,
+    "story_up": 32,
+    "persona_units": 0.8999422788619995,
+    "persona_pct": 0.993,
+    "persona_up": 32,
+    "stable": false
+   },
+   "grateful": {
+    "story_units": 0.18139176070690155,
+    "story_pct": 0.977,
+    "story_up": 32,
+    "persona_units": 0.09107208251953125,
+    "persona_pct": 0.592,
+    "persona_up": 21,
+    "stable": false
+   },
+   "loving": {
+    "story_units": -0.042068563401699066,
+    "story_pct": 0.248,
+    "story_up": 8,
+    "persona_units": 0.2748023569583893,
+    "persona_pct": 0.788,
+    "persona_up": 28,
+    "stable": false
+   },
+   "compassionate": {
+    "story_units": -0.00990586169064045,
+    "story_pct": 0.431,
+    "story_up": 10,
+    "persona_units": 0.674569308757782,
+    "persona_pct": 0.969,
+    "persona_up": 32,
+    "stable": false
+   },
+   "fulfilled": {
+    "story_units": 0.19977085292339325,
+    "story_pct": 0.982,
+    "story_up": 32,
+    "persona_units": 0.5551313161849976,
+    "persona_pct": 0.892,
+    "persona_up": 31,
+    "stable": false
+   },
+   "proud": {
+    "story_units": 0.1159897968173027,
+    "story_pct": 0.899,
+    "story_up": 31,
+    "persona_units": 0.08037258684635162,
+    "persona_pct": 0.585,
+    "persona_up": 19,
+    "stable": false
+   },
+   "smug": {
+    "story_units": 0.05674194172024727,
+    "story_pct": 0.725,
+    "story_up": 22,
+    "persona_units": -0.19738979637622833,
+    "persona_pct": 0.347,
+    "persona_up": 6,
+    "stable": false
+   },
+   "amused": {
+    "story_units": -0.0937817320227623,
+    "story_pct": 0.094,
+    "story_up": 3,
+    "persona_units": 0.23219141364097595,
+    "persona_pct": 0.775,
+    "persona_up": 30,
+    "stable": false
+   },
+   "playful": {
+    "story_units": -0.03704134374856949,
+    "story_pct": 0.303,
+    "story_up": 10,
+    "persona_units": -0.09111391752958298,
+    "persona_pct": 0.374,
+    "persona_up": 9,
+    "stable": false
+   },
+   "suspicious": {
+    "story_units": -0.07525905966758728,
+    "story_pct": 0.122,
+    "story_up": 2,
+    "persona_units": 0.19349879026412964,
+    "persona_pct": 0.708,
+    "persona_up": 23,
+    "stable": false
+   },
+   "vigilant": {
+    "story_units": -0.014392788521945477,
+    "story_pct": 0.419,
+    "story_up": 13,
+    "persona_units": 0.004772139247506857,
+    "persona_pct": 0.508,
+    "persona_up": 17,
+    "stable": false
+   },
+   "_agreement": {
+    "rho": 0.5794466403162055,
+    "p": 3.0357428972815593e-05
+   },
+   "_pass_up": [],
+   "_pass_down": [
+    "angry",
+    "frustrated",
+    "irritated"
+   ],
+   "_jlens": {
+    "persona_rho": 0.3773519163763067,
+    "story_rho": 0.2623693379790941
+   }
+  },
+  "trained tool": {
+   "resentful": {
+    "story_units": 0.16428160667419434,
+    "story_pct": 0.776,
+    "story_up": 28,
+    "persona_units": -0.5932519435882568,
+    "persona_pct": 0.189,
+    "persona_up": 0,
+    "stable": false
+   },
+   "angry": {
+    "story_units": -0.04762894660234451,
+    "story_pct": 0.424,
+    "story_up": 10,
+    "persona_units": -0.16083231568336487,
+    "persona_pct": 0.362,
+    "persona_up": 8,
+    "stable": false
+   },
+   "frustrated": {
+    "story_units": 0.454607754945755,
+    "story_pct": 0.974,
+    "story_up": 32,
+    "persona_units": -0.6428490877151489,
+    "persona_pct": 0.144,
+    "persona_up": 0,
+    "stable": false
+   },
+   "irritated": {
+    "story_units": -0.17547139525413513,
+    "story_pct": 0.236,
+    "story_up": 10,
+    "persona_units": -0.49892789125442505,
+    "persona_pct": 0.181,
+    "persona_up": 2,
+    "stable": false
+   },
+   "contemptuous": {
+    "story_units": -0.04891062527894974,
+    "story_pct": 0.379,
+    "story_up": 14,
+    "persona_units": -0.39257702231407166,
+    "persona_pct": 0.12,
+    "persona_up": 0,
+    "stable": false
+   },
+   "indignant": {
+    "story_units": 0.37631359696388245,
+    "story_pct": 0.989,
+    "story_up": 32,
+    "persona_units": -0.6275880932807922,
+    "persona_pct": 0.12,
+    "persona_up": 0,
+    "stable": false
+   },
+   "indifferent": {
+    "story_units": -0.3547208905220032,
+    "story_pct": 0.085,
+    "story_up": 0,
+    "persona_units": 0.0408814437687397,
+    "persona_pct": 0.54,
+    "persona_up": 14,
+    "stable": false
+   },
+   "bored": {
+    "story_units": -0.18372468650341034,
+    "story_pct": 0.181,
+    "story_up": 0,
+    "persona_units": -0.3953332006931305,
+    "persona_pct": 0.297,
+    "persona_up": 4,
+    "stable": false
+   },
+   "tired": {
+    "story_units": 0.07352854311466217,
+    "story_pct": 0.665,
+    "story_up": 21,
+    "persona_units": -0.027770495042204857,
+    "persona_pct": 0.49,
+    "persona_up": 17,
+    "stable": false
+   },
+   "resigned": {
+    "story_units": -0.0705457329750061,
+    "story_pct": 0.41,
+    "story_up": 10,
+    "persona_units": -0.21894703805446625,
+    "persona_pct": 0.345,
+    "persona_up": 7,
+    "stable": false
+   },
+   "docile": {
+    "story_units": 0.11363618820905685,
+    "story_pct": 0.739,
+    "story_up": 26,
+    "persona_units": 0.007802403066307306,
+    "persona_pct": 0.507,
+    "persona_up": 15,
+    "stable": false
+   },
+   "listless": {
+    "story_units": -0.21889817714691162,
+    "story_pct": 0.178,
+    "story_up": 0,
+    "persona_units": -0.989055335521698,
+    "persona_pct": 0.048,
+    "persona_up": 0,
+    "stable": true
+   },
+   "hurt": {
+    "story_units": -0.08540721982717514,
+    "story_pct": 0.245,
+    "story_up": 11,
+    "persona_units": -0.2617871165275574,
+    "persona_pct": 0.236,
+    "persona_up": 3,
+    "stable": false
+   },
+   "worthless": {
+    "story_units": 0.021885907277464867,
+    "story_pct": 0.565,
+    "story_up": 18,
+    "persona_units": -0.5041670203208923,
+    "persona_pct": 0.249,
+    "persona_up": 3,
+    "stable": false
+   },
+   "lonely": {
+    "story_units": -0.08801683783531189,
+    "story_pct": 0.376,
+    "story_up": 9,
+    "persona_units": -0.5224624276161194,
+    "persona_pct": 0.226,
+    "persona_up": 5,
+    "stable": false
+   },
+   "sad": {
+    "story_units": 0.32210734486579895,
+    "story_pct": 0.93,
+    "story_up": 32,
+    "persona_units": -0.11112893372774124,
+    "persona_pct": 0.445,
+    "persona_up": 11,
+    "stable": false
+   },
+   "humiliated": {
+    "story_units": 0.06740247458219528,
+    "story_pct": 0.656,
+    "story_up": 19,
+    "persona_units": -0.6624851822853088,
+    "persona_pct": 0.112,
+    "persona_up": 0,
+    "stable": false
+   },
+   "desperate": {
+    "story_units": 0.3692491352558136,
+    "story_pct": 0.958,
+    "story_up": 32,
+    "persona_units": 0.08056465536355972,
+    "persona_pct": 0.556,
+    "persona_up": 20,
+    "stable": true
+   },
+   "trapped": {
+    "story_units": 0.05681062862277031,
+    "story_pct": 0.642,
+    "story_up": 22,
+    "persona_units": 0.7430571913719177,
+    "persona_pct": 0.956,
+    "persona_up": 32,
+    "stable": true
+   },
+   "stuck": {
+    "story_units": -0.009338629432022572,
+    "story_pct": 0.496,
+    "story_up": 16,
+    "persona_units": 0.6874273419380188,
+    "persona_pct": 0.93,
+    "persona_up": 31,
+    "stable": false
+   },
+   "ashamed": {
+    "story_units": -0.07935724407434464,
+    "story_pct": 0.364,
+    "story_up": 13,
+    "persona_units": -0.521638035774231,
+    "persona_pct": 0.188,
+    "persona_up": 0,
+    "stable": false
+   },
+   "tormented": {
+    "story_units": 0.16054445505142212,
+    "story_pct": 0.795,
+    "story_up": 31,
+    "persona_units": -0.6965360045433044,
+    "persona_pct": 0.192,
+    "persona_up": 4,
+    "stable": false
+   },
+   "distressed": {
+    "story_units": 0.08874072879552841,
+    "story_pct": 0.649,
+    "story_up": 23,
+    "persona_units": -0.5265493392944336,
+    "persona_pct": 0.227,
+    "persona_up": 0,
+    "stable": false
+   },
+   "afraid": {
+    "story_units": 0.03937026113271713,
+    "story_pct": 0.589,
+    "story_up": 22,
+    "persona_units": -0.06883692741394043,
+    "persona_pct": 0.458,
+    "persona_up": 16,
+    "stable": false
+   },
+   "anxious": {
+    "story_units": 0.02236958034336567,
+    "story_pct": 0.559,
+    "story_up": 15,
+    "persona_units": -0.22788146138191223,
+    "persona_pct": 0.381,
+    "persona_up": 8,
+    "stable": false
+   },
+   "overwhelmed": {
+    "story_units": 0.16524812579154968,
+    "story_pct": 0.761,
+    "story_up": 29,
+    "persona_units": 0.09281300008296967,
+    "persona_pct": 0.565,
+    "persona_up": 17,
+    "stable": false
+   },
+   "nervous": {
+    "story_units": 0.22998343408107758,
+    "story_pct": 0.835,
+    "story_up": 28,
+    "persona_units": -0.4381590187549591,
+    "persona_pct": 0.241,
+    "persona_up": 5,
+    "stable": false
+   },
+   "stressed": {
+    "story_units": -0.024988045915961266,
+    "story_pct": 0.478,
+    "story_up": 15,
+    "persona_units": 0.9500337839126587,
+    "persona_pct": 0.917,
+    "persona_up": 32,
+    "stable": false
+   },
+   "happy": {
+    "story_units": -0.22588428854942322,
+    "story_pct": 0.109,
+    "story_up": 2,
+    "persona_units": 0.9281975030899048,
+    "persona_pct": 0.926,
+    "persona_up": 32,
+    "stable": false
+   },
+   "excited": {
+    "story_units": -0.010362832807004452,
+    "story_pct": 0.496,
+    "story_up": 16,
+    "persona_units": 0.5775814652442932,
+    "persona_pct": 0.846,
+    "persona_up": 32,
+    "stable": false
+   },
+   "enthusiastic": {
+    "story_units": -0.10212299972772598,
+    "story_pct": 0.32,
+    "story_up": 9,
+    "persona_units": 0.23224034905433655,
+    "persona_pct": 0.657,
+    "persona_up": 27,
+    "stable": false
+   },
+   "cheerful": {
+    "story_units": -0.09001479297876358,
+    "story_pct": 0.316,
+    "story_up": 11,
+    "persona_units": 0.905536413192749,
+    "persona_pct": 0.933,
+    "persona_up": 32,
+    "stable": false
+   },
+   "calm": {
+    "story_units": -0.1592998504638672,
+    "story_pct": 0.221,
+    "story_up": 7,
+    "persona_units": 0.844744086265564,
+    "persona_pct": 0.919,
+    "persona_up": 32,
+    "stable": false
+   },
+   "content": {
+    "story_units": -0.029866693541407585,
+    "story_pct": 0.456,
+    "story_up": 15,
+    "persona_units": 0.12109967321157455,
+    "persona_pct": 0.599,
+    "persona_up": 21,
+    "stable": false
+   },
+   "relaxed": {
+    "story_units": -0.20014557242393494,
+    "story_pct": 0.134,
+    "story_up": 2,
+    "persona_units": 0.9948540925979614,
+    "persona_pct": 0.963,
+    "persona_up": 32,
+    "stable": false
+   },
+   "grateful": {
+    "story_units": 0.031044043600559235,
+    "story_pct": 0.577,
+    "story_up": 19,
+    "persona_units": 0.7736580967903137,
+    "persona_pct": 0.902,
+    "persona_up": 32,
+    "stable": false
+   },
+   "loving": {
+    "story_units": 0.0550236813724041,
+    "story_pct": 0.669,
+    "story_up": 21,
+    "persona_units": -0.13634714484214783,
+    "persona_pct": 0.39,
+    "persona_up": 6,
+    "stable": false
+   },
+   "compassionate": {
+    "story_units": 0.13723209500312805,
+    "story_pct": 0.868,
+    "story_up": 32,
+    "persona_units": 0.7755426168441772,
+    "persona_pct": 0.917,
+    "persona_up": 31,
+    "stable": false
+   },
+   "fulfilled": {
+    "story_units": -0.20591428875923157,
+    "story_pct": 0.175,
+    "story_up": 2,
+    "persona_units": 1.1487830877304077,
+    "persona_pct": 0.961,
+    "persona_up": 32,
+    "stable": false
+   },
+   "proud": {
+    "story_units": 0.035109616816043854,
+    "story_pct": 0.594,
+    "story_up": 20,
+    "persona_units": -0.14343544840812683,
+    "persona_pct": 0.405,
+    "persona_up": 10,
+    "stable": false
+   },
+   "smug": {
+    "story_units": -0.1015114113688469,
+    "story_pct": 0.324,
+    "story_up": 6,
+    "persona_units": -0.1525932103395462,
+    "persona_pct": 0.41,
+    "persona_up": 10,
+    "stable": false
+   },
+   "amused": {
+    "story_units": -0.09717019647359848,
+    "story_pct": 0.287,
+    "story_up": 5,
+    "persona_units": -0.428408145904541,
+    "persona_pct": 0.166,
+    "persona_up": 0,
+    "stable": false
+   },
+   "playful": {
+    "story_units": -0.0011298140743747354,
+    "story_pct": 0.519,
+    "story_up": 14,
+    "persona_units": 0.1490267813205719,
+    "persona_pct": 0.654,
+    "persona_up": 26,
+    "stable": false
+   },
+   "suspicious": {
+    "story_units": -0.05274870619177818,
+    "story_pct": 0.383,
+    "story_up": 14,
+    "persona_units": -0.07111307233572006,
+    "persona_pct": 0.45,
+    "persona_up": 16,
+    "stable": false
+   },
+   "vigilant": {
+    "story_units": 0.08271615207195282,
+    "story_pct": 0.715,
+    "story_up": 22,
+    "persona_units": 0.19835886359214783,
+    "persona_pct": 0.624,
+    "persona_up": 23,
+    "stable": false
+   },
+   "_agreement": {
+    "rho": -0.23715415019762845,
+    "p": 0.11674550393587592
+   },
+   "_pass_up": [
+    "desperate",
+    "trapped"
+   ],
+   "_pass_down": [
+    "listless"
+   ],
+   "_jlens": {
+    "persona_rho": -0.2717770034843206,
+    "story_rho": 0.05818815331010454
+   }
+  }
+ }
+}

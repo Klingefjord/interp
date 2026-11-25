@@ -1,0 +1,3315 @@
+{
+ "clusters": {
+  "Exuberant Joy": {
+   "means": {
+    "none": 0.0421443950544635,
+    "assistant": 0.05200871792705955,
+    "tool": 0.03067286817456257,
+    "tool_harsh": 0.035254062327996556,
+    "participant": 0.03286053237708107
+   },
+   "tool": {
+    "n": 32,
+    "mean_a": 0.03067286817456257,
+    "mean_b": 0.05200871792705955,
+    "diff": -0.02133584975249698,
+    "n_pos": 2,
+    "n_neg": 17,
+    "ci": [
+     -0.04163874801736578,
+     -0.005642088877204349
+    ],
+    "p": 4.999750012499375e-05
+   },
+   "harsh": {
+    "n": 32,
+    "mean_a": 0.035254062327996556,
+    "mean_b": 0.05200871792705955,
+    "diff": -0.016754655599062994,
+    "n_pos": 6,
+    "n_neg": 13,
+    "ci": [
+     -0.04240368315810712,
+     0.0026834519218882735
+    ],
+    "p": 0.20603969801509925
+   }
+  },
+  "Peaceful Contentment": {
+   "means": {
+    "none": 0.00317149005532452,
+    "assistant": 0.0002173487307494483,
+    "tool": 4.468897055181296e-05,
+    "tool_harsh": 4.5582080995460845e-05,
+    "participant": 0.002577367658282457
+   },
+   "tool": {
+    "n": 32,
+    "mean_a": 4.468897055181296e-05,
+    "mean_b": 0.0002173487307494483,
+    "diff": -0.00017265976019763537,
+    "n_pos": 1,
+    "n_neg": 7,
+    "ci": [
+     -0.0004854679303064323,
+     -7.754468155587492e-06
+    ],
+    "p": 0.014749262536873156
+   },
+   "harsh": {
+    "n": 32,
+    "mean_a": 4.5582080995460845e-05,
+    "mean_b": 0.0002173487307494483,
+    "diff": -0.0001717666497539875,
+    "n_pos": 2,
+    "n_neg": 7,
+    "ci": [
+     -0.0004915697796648871,
+     -8.48528378694819e-07
+    ],
+    "p": 0.09589520523973802
+   }
+  },
+  "Compassionate Gratitude": {
+   "means": {
+    "none": 0.019346650610022748,
+    "assistant": 0.012006174770955105,
+    "tool": 0.006759341109096449,
+    "tool_harsh": 0.0012375762684615713,
+    "participant": 0.017921994941833382
+   },
+   "tool": {
+    "n": 32,
+    "mean_a": 0.006759341109096449,
+    "mean_b": 0.012006174770955105,
+    "diff": -0.005246833661858655,
+    "n_pos": 5,
+    "n_neg": 8,
+    "ci": [
+     -0.015088451250628823,
+     0.0005465886251178831
+    ],
+    "p": 0.31478426078696065
+   },
+   "harsh": {
+    "n": 32,
+    "mean_a": 0.0012375762684615713,
+    "mean_b": 0.012006174770955105,
+    "diff": -0.010768598502493534,
+    "n_pos": 5,
+    "n_neg": 9,
+    "ci": [
+     -0.03083889511115126,
+     0.0001277943024571633
+    ],
+    "p": 0.17239138043097846
+   }
+  },
+  "Competitive Pride": {
+   "means": {
+    "none": 0.005622449634101715,
+    "assistant": 0.0009797774954490293,
+    "tool": 0.0004310500204329304,
+    "tool_harsh": 0.00034627169974712455,
+    "participant": 0.006305176171553247
+   },
+   "tool": {
+    "n": 32,
+    "mean_a": 0.0004310500204329304,
+    "mean_b": 0.0009797774954490293,
+    "diff": -0.0005487274750160987,
+    "n_pos": 0,
+    "n_neg": 11,
+    "ci": [
+     -0.001044894475072341,
+     -0.0001589680584149619
+    ],
+    "p": 0.0012499375031248437
+   },
+   "harsh": {
+    "n": 32,
+    "mean_a": 0.00034627169974712455,
+    "mean_b": 0.0009797774954490293,
+    "diff": -0.0006335057957019047,
+    "n_pos": 1,
+    "n_neg": 11,
+    "ci": [
+     -0.001253479162693597,
+     -0.0001626879219129252
+    ],
+    "p": 0.003949802509874506
+   }
+  },
+  "Playful Amusement": {
+   "means": {
+    "none": 0.00011977338742113865,
+    "assistant": 1.4524865999190939e-05,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 6.978155339805825e-06
+   },
+   "tool": {
+    "n": 32,
+    "mean_a": 0.0,
+    "mean_b": 1.4524865999190939e-05,
+    "diff": -1.4524865999190939e-05,
+    "n_pos": 0,
+    "n_neg": 4,
+    "ci": [
+     -3.293006674757281e-05,
+     -1.1393229166666668e-06
+    ],
+    "p": 0.12489375531223439
+   },
+   "harsh": {
+    "n": 32,
+    "mean_a": 0.0,
+    "mean_b": 1.4524865999190939e-05,
+    "diff": -1.4524865999190939e-05,
+    "n_pos": 0,
+    "n_neg": 4,
+    "ci": [
+     -3.293006674757281e-05,
+     -1.1393229166666668e-06
+    ],
+    "p": 0.12489375531223439
+   }
+  },
+  "Depleted Disengagement": {
+   "means": {
+    "none": 0.08809254744307866,
+    "assistant": 0.12305999914946432,
+    "tool": 0.06509170782945363,
+    "tool_harsh": 0.025040991859069845,
+    "participant": 0.12688416660537416
+   },
+   "tool": {
+    "n": 32,
+    "mean_a": 0.06509170782945363,
+    "mean_b": 0.12305999914946432,
+    "diff": -0.057968291320010676,
+    "n_pos": 2,
+    "n_neg": 7,
+    "ci": [
+     -0.13172017795899493,
+     -0.0007490018823063221
+    ],
+    "p": 0.111994400279986
+   },
+   "harsh": {
+    "n": 32,
+    "mean_a": 0.025040991859069845,
+    "mean_b": 0.12305999914946432,
+    "diff": -0.09801900729039446,
+    "n_pos": 3,
+    "n_neg": 7,
+    "ci": [
+     -0.21889886911897022,
+     -0.008944961474343078
+    ],
+    "p": 0.071946402679866
+   }
+  },
+  "Vigilant Suspicion": {
+   "means": {
+    "none": 0.0,
+    "assistant": 0.0006918385922330098,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 1.7050970873786406e-05
+   },
+   "tool": {
+    "n": 32,
+    "mean_a": 0.0,
+    "mean_b": 0.0006918385922330098,
+    "diff": -0.0006918385922330098,
+    "n_pos": 0,
+    "n_neg": 2,
+    "ci": [
+     -0.002032979368932039,
+     0.0
+    ],
+    "p": 0.4934253287335633
+   },
+   "harsh": {
+    "n": 32,
+    "mean_a": 0.0,
+    "mean_b": 0.0006918385922330098,
+    "diff": -0.0006918385922330098,
+    "n_pos": 0,
+    "n_neg": 2,
+    "ci": [
+     -0.002032979368932039,
+     0.0
+    ],
+    "p": 0.4934253287335633
+   }
+  },
+  "Hostile Anger": {
+   "means": {
+    "none": 0.03434433955569392,
+    "assistant": 0.04226629547800111,
+    "tool": 0.0028771274390518744,
+    "tool_harsh": 0.0036984341916923374,
+    "participant": 0.03350397452221192
+   },
+   "tool": {
+    "n": 32,
+    "mean_a": 0.0028771274390518744,
+    "mean_b": 0.04226629547800111,
+    "diff": -0.039389168038949235,
+    "n_pos": 5,
+    "n_neg": 12,
+    "ci": [
+     -0.0964191165537949,
+     -0.0008853494875065694
+    ],
+    "p": 0.0026998650067496625
+   },
+   "harsh": {
+    "n": 32,
+    "mean_a": 0.0036984341916923374,
+    "mean_b": 0.04226629547800111,
+    "diff": -0.03856786128630878,
+    "n_pos": 9,
+    "n_neg": 10,
+    "ci": [
+     -0.10031464512446801,
+     0.0036308315307743517
+    ],
+    "p": 0.2807359632018399
+   }
+  },
+  "Fear and Overwhelm": {
+   "means": {
+    "none": 0.011106841077956658,
+    "assistant": 0.0008034360976260739,
+    "tool": 0.00039924222121089537,
+    "tool_harsh": 0.00291943989633948,
+    "participant": 0.001429632171902852
+   },
+   "tool": {
+    "n": 32,
+    "mean_a": 0.00039924222121089537,
+    "mean_b": 0.0008034360976260739,
+    "diff": -0.00040419387641517845,
+    "n_pos": 4,
+    "n_neg": 13,
+    "ci": [
+     -0.0011281437139483907,
+     0.0002868025562773654
+    ],
+    "p": 0.2622368881555922
+   },
+   "harsh": {
+    "n": 32,
+    "mean_a": 0.00291943989633948,
+    "mean_b": 0.0008034360976260739,
+    "diff": 0.002116003798713406,
+    "n_pos": 6,
+    "n_neg": 12,
+    "ci": [
+     -0.0006442688984606503,
+     0.007115372280611421
+    ],
+    "p": 0.8294585270736463
+   }
+  },
+  "Despair and Shame": {
+   "means": {
+    "none": 0.03212909901332214,
+    "assistant": 0.007528965307274811,
+    "tool": 0.001735145015013218,
+    "tool_harsh": 0.01443162355381872,
+    "participant": 0.016273928709884034
+   },
+   "tool": {
+    "n": 32,
+    "mean_a": 0.001735145015013218,
+    "mean_b": 0.007528965307274811,
+    "diff": -0.005793820292261592,
+    "n_pos": 3,
+    "n_neg": 4,
+    "ci": [
+     -0.015717472950723274,
+     0.0014878328428635456
+    ],
+    "p": 0.35893205339733014
+   },
+   "harsh": {
+    "n": 32,
+    "mean_a": 0.01443162355381872,
+    "mean_b": 0.007528965307274811,
+    "diff": 0.006902658246543908,
+    "n_pos": 5,
+    "n_neg": 4,
+    "ci": [
+     -0.011296915176360807,
+     0.03256311502228061
+    ],
+    "p": 0.7806609669516524
+   }
+  },
+  "obedience (extra)": {
+   "means": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.003888634938880294,
+    "tool_harsh": 0.056283186931705746,
+    "participant": 5.37109375e-05
+   },
+   "tool": {
+    "n": 32,
+    "mean_a": 0.003888634938880294,
+    "mean_b": 0.0,
+    "diff": 0.003888634938880294,
+    "n_pos": 6,
+    "n_neg": 0,
+    "ci": [
+     0.0005044144417475729,
+     0.008346569100635737
+    ],
+    "p": 0.031548422578871055
+   },
+   "harsh": {
+    "n": 32,
+    "mean_a": 0.056283186931705746,
+    "mean_b": 0.0,
+    "diff": 0.056283186931705746,
+    "n_pos": 9,
+    "n_neg": 0,
+    "ci": [
+     0.0023630778174648266,
+     0.15808054045316358
+    ],
+    "p": 0.00359982000899955
+   }
+  },
+  "exhausted (extra)": {
+   "means": {
+    "none": 0.04735632730141947,
+    "assistant": 0.04799331129656722,
+    "tool": 0.0471725583680074,
+    "tool_harsh": 0.09915860197368419,
+    "participant": 0.04041029193635383
+   },
+   "tool": {
+    "n": 32,
+    "mean_a": 0.0471725583680074,
+    "mean_b": 0.04799331129656722,
+    "diff": -0.0008207529285598142,
+    "n_pos": 2,
+    "n_neg": 3,
+    "ci": [
+     -0.0025618282295961237,
+     9.789451379257204e-05
+    ],
+    "p": 0.6305684715764212
+   },
+   "harsh": {
+    "n": 32,
+    "mean_a": 0.09915860197368419,
+    "mean_b": 0.04799331129656722,
+    "diff": 0.051165290677116976,
+    "n_pos": 2,
+    "n_neg": 2,
+    "ci": [
+     -7.224489626280091e-05,
+     0.1535505776105503
+    ],
+    "p": 0.49327533623318837
+   }
+  },
+  "empty / numb (extra)": {
+   "means": {
+    "none": 0.00010405373516720604,
+    "assistant": 5.5899305555555556e-05,
+    "tool": 0.0028868365575396827,
+    "tool_harsh": 0.003998352272727272,
+    "participant": 3.5775353773584906e-05
+   },
+   "tool": {
+    "n": 32,
+    "mean_a": 0.0028868365575396827,
+    "mean_b": 5.5899305555555556e-05,
+    "diff": 0.002830937251984127,
+    "n_pos": 3,
+    "n_neg": 1,
+    "ci": [
+     -1.0885416666666666e-05,
+     0.008242169890873017
+    ],
+    "p": 0.24738763061846908
+   },
+   "harsh": {
+    "n": 32,
+    "mean_a": 0.003998352272727272,
+    "mean_b": 5.5899305555555556e-05,
+    "diff": 0.003942452967171717,
+    "n_pos": 4,
+    "n_neg": 1,
+    "ci": [
+     -4.117965367965367e-06,
+     0.011509696552579366
+    ],
+    "p": 0.18354082295885205
+   }
+  },
+  "futility (extra)": {
+   "means": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0011996139987937387,
+    "tool_harsh": 0.01430019048241031,
+    "participant": 7.843598300970875e-05
+   },
+   "tool": {
+    "n": 32,
+    "mean_a": 0.0011996139987937387,
+    "mean_b": 0.0,
+    "diff": 0.0011996139987937387,
+    "n_pos": 6,
+    "n_neg": 0,
+    "ci": [
+     2.8800932020551077e-05,
+     0.0033700846614315703
+    ],
+    "p": 0.030498475076246187
+   },
+   "harsh": {
+    "n": 32,
+    "mean_a": 0.01430019048241031,
+    "mean_b": 0.0,
+    "diff": 0.01430019048241031,
+    "n_pos": 8,
+    "n_neg": 0,
+    "ci": [
+     0.00012779464907697666,
+     0.03522433643819663
+    ],
+    "p": 0.007849607519624019
+   }
+  },
+  "harm / pain (extra)": {
+   "means": {
+    "none": 0.0008438335095645486,
+    "assistant": 0.0029328958305625745,
+    "tool": 0.0005926639377982556,
+    "tool_harsh": 0.00012671642410951622,
+    "participant": 0.00011301577669902912
+   },
+   "tool": {
+    "n": 32,
+    "mean_a": 0.0005926639377982556,
+    "mean_b": 0.0029328958305625745,
+    "diff": -0.002340231892764319,
+    "n_pos": 1,
+    "n_neg": 3,
+    "ci": [
+     -0.007302271935109024,
+     0.00027592557188455913
+    ],
+    "p": 0.6334183290835458
+   },
+   "harsh": {
+    "n": 32,
+    "mean_a": 0.00012671642410951622,
+    "mean_b": 0.0029328958305625745,
+    "diff": -0.002806179406453058,
+    "n_pos": 2,
+    "n_neg": 3,
+    "ci": [
+     -0.008501223763833375,
+     7.861357477723102e-05
+    ],
+    "p": 0.6334183290835458
+   }
+  }
+ },
+ "words": {
+  "blissful": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.00013083333333333333,
+    "tool": 7.770833333333333e-05,
+    "tool_harsh": 0.0002596929824561404,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 1,
+    "tool": 1,
+    "tool_harsh": 2,
+    "participant": 0
+   }
+  },
+  "cheerful": {
+   "mean": {
+    "none": 0.0006079014650655393,
+    "assistant": 0.00016602880271339817,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 7.254057949029126e-05
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "delighted": {
+   "mean": {
+    "none": 0.012264188747087566,
+    "assistant": 0.0015741762895110166,
+    "tool": 0.0013831324404761905,
+    "tool_harsh": 0.0018748741883116884,
+    "participant": 0.01094773556856727
+   },
+   "turns": {
+    "none": 4,
+    "assistant": 2,
+    "tool": 1,
+    "tool_harsh": 2,
+    "participant": 1
+   }
+  },
+  "eager": {
+   "mean": {
+    "none": 0.003633179865718763,
+    "assistant": 0.0027325350152487844,
+    "tool": 5.292013111608571e-05,
+    "tool_harsh": 3.4499458874458874e-05,
+    "participant": 0.0038614955685495733
+   },
+   "turns": {
+    "none": 4,
+    "assistant": 3,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 4
+   }
+  },
+  "ecstatic": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "elated": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "energized": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "enthusiastic": {
+   "mean": {
+    "none": 0.003807641128775411,
+    "assistant": 0.000739077975251811,
+    "tool": 2.060145053166898e-05,
+    "tool_harsh": 4.736735562143171e-05,
+    "participant": 9.280195768363244e-05
+   },
+   "turns": {
+    "none": 3,
+    "assistant": 2,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "euphoric": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "excited": {
+   "mean": {
+    "none": 0.0002306739092291496,
+    "assistant": 0.008026378880966826,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0010361043689320387
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 1
+   }
+  },
+  "exuberant": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "happy": {
+   "mean": {
+    "none": 0.013077224823934452,
+    "assistant": 0.0314706736263098,
+    "tool": 0.023586888376997992,
+    "tool_harsh": 0.02881620762785487,
+    "participant": 0.008220290358071
+   },
+   "turns": {
+    "none": 10,
+    "assistant": 11,
+    "tool": 3,
+    "tool_harsh": 4,
+    "participant": 7
+   }
+  },
+  "invigorated": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "joyful": {
+   "mean": {
+    "none": 0.004260569629854369,
+    "assistant": 0.00420195792880259,
+    "tool": 0.003922413025889968,
+    "tool_harsh": 0.0034706249999999998,
+    "participant": 0.0059157584261915275
+   },
+   "turns": {
+    "none": 3,
+    "assistant": 3,
+    "tool": 2,
+    "tool_harsh": 1,
+    "participant": 1
+   }
+  },
+  "jubilant": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "optimistic": {
+   "mean": {
+    "none": 0.00038137135922330093,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "pleased": {
+   "mean": {
+    "none": 0.0025904505150019757,
+    "assistant": 0.0026677234495174583,
+    "tool": 0.0015170716568635948,
+    "tool_harsh": 0.0006128857938642526,
+    "participant": 0.0024413945278022944
+   },
+   "turns": {
+    "none": 5,
+    "assistant": 6,
+    "tool": 3,
+    "tool_harsh": 1,
+    "participant": 4
+   }
+  },
+  "stimulated": {
+   "mean": {
+    "none": 0.0003925828313253012,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "thrilled": {
+   "mean": {
+    "none": 0.00022207247465483347,
+    "assistant": 0.0001669159587378641,
+    "tool": 1.462000425170068e-05,
+    "tool_harsh": 1.5055821987742101e-05,
+    "participant": 3.817588576887015e-05
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 2,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "vibrant": {
+   "mean": {
+    "none": 0.0006765383045928351,
+    "assistant": 0.00013241666666666667,
+    "tool": 9.751275510204082e-05,
+    "tool_harsh": 0.00012285409902597404,
+    "participant": 0.00023423513602457215
+   },
+   "turns": {
+    "none": 3,
+    "assistant": 1,
+    "tool": 1,
+    "tool_harsh": 1,
+    "participant": 1
+   }
+  },
+  "calm": {
+   "mean": {
+    "none": 5.5603881898313744e-05,
+    "assistant": 3.45873786407767e-06,
+    "tool": 2.0024271844660193e-06,
+    "tool_harsh": 1.0315533980582523e-06,
+    "participant": 0.00010272204945388349
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "content": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "patient": {
+   "mean": {
+    "none": 0.0017929032251760091,
+    "assistant": 0.0001585650535649823,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0024347344807296263
+   },
+   "turns": {
+    "none": 2,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 2
+   }
+  },
+  "peaceful": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 1.6686893203883494e-06,
+    "tool": 0.0,
+    "tool_harsh": 1.7992424242424242e-06,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "refreshed": {
+   "mean": {
+    "none": 0.00020562437380051933,
+    "assistant": 5.183333333333334e-05,
+    "tool": 4.2686543367346944e-05,
+    "tool_harsh": 4.275128517316017e-05,
+    "participant": 3.3309565598946905e-05
+   },
+   "turns": {
+    "none": 2,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "relaxed": {
+   "mean": {
+    "none": 0.0011173585744496779,
+    "assistant": 1.8229166666666666e-06,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 3.5156249999999997e-07
+   },
+   "turns": {
+    "none": 2,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "serene": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 6.25e-06
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "compassionate": {
+   "mean": {
+    "none": 0.0005287317961165048,
+    "assistant": 1.5412621359223298e-05,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 3.959344660194175e-05
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "empathetic": {
+   "mean": {
+    "none": 0.002288516383495146,
+    "assistant": 0.0002845968598300971,
+    "tool": 0.0001539849882996641,
+    "tool_harsh": 4.069575471698113e-05,
+    "participant": 0.0001616846177184466
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 2,
+    "tool": 1,
+    "tool_harsh": 0,
+    "participant": 1
+   }
+  },
+  "fulfilled": {
+   "mean": {
+    "none": 4.1926329030434915e-05,
+    "assistant": 3.601334951456311e-05,
+    "tool": 0.0019510839705934862,
+    "tool_harsh": 0.0007913930339527315,
+    "participant": 0.010166308105325095
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 4,
+    "tool_harsh": 2,
+    "participant": 2
+   }
+  },
+  "grateful": {
+   "mean": {
+    "none": 0.014307689062447521,
+    "assistant": 0.011411843005178406,
+    "tool": 0.005933782053907524,
+    "tool_harsh": 0.0011669007093228214,
+    "participant": 0.016469518570106405
+   },
+   "turns": {
+    "none": 3,
+    "assistant": 4,
+    "tool": 1,
+    "tool_harsh": 2,
+    "participant": 3
+   }
+  },
+  "hope": {
+   "mean": {
+    "none": 0.0016709874695832292,
+    "assistant": 0.003789547945655756,
+    "tool": 0.00042484753447487533,
+    "tool_harsh": 0.007539131325402386,
+    "participant": 0.0010185103129850698
+   },
+   "turns": {
+    "none": 4,
+    "assistant": 2,
+    "tool": 1,
+    "tool_harsh": 3,
+    "participant": 2
+   }
+  },
+  "hopeful": {
+   "mean": {
+    "none": 5.24878640776699e-06,
+    "assistant": 1.3895631067961164e-05,
+    "tool": 5.855582524271845e-06,
+    "tool_harsh": 3.3854166666666665e-06,
+    "participant": 2.4575242718446602e-06
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "inspired": {
+   "mean": {
+    "none": 0.00464716495485006,
+    "assistant": 0.020165100323624594,
+    "tool": 0.0024679399994220986,
+    "tool_harsh": 1.568080357142857e-05,
+    "participant": 0.018419760694781556
+   },
+   "turns": {
+    "none": 4,
+    "assistant": 3,
+    "tool": 1,
+    "tool_harsh": 0,
+    "participant": 2
+   }
+  },
+  "kind": {
+   "mean": {
+    "none": 0.002071470649516971,
+    "assistant": 0.00013333927487864077,
+    "tool": 0.0003310841648925594,
+    "tool_harsh": 2.659438775510204e-05,
+    "participant": 0.0012437310376213592
+   },
+   "turns": {
+    "none": 4,
+    "assistant": 0,
+    "tool": 1,
+    "tool_harsh": 0,
+    "participant": 2
+   }
+  },
+  "loving": {
+   "mean": {
+    "none": 0.020808700552625042,
+    "assistant": 0.0011820316039644013,
+    "tool": 0.0010233880897433127,
+    "tool_harsh": 0.0009703098299726589,
+    "participant": 0.02327656512968836
+   },
+   "turns": {
+    "none": 2,
+    "assistant": 2,
+    "tool": 2,
+    "tool_harsh": 1,
+    "participant": 2
+   }
+  },
+  "rejuvenated": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "relieved": {
+   "mean": {
+    "none": 1.1225728155339806e-06,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 1.0315533980582523e-06
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "satisfied": {
+   "mean": {
+    "none": 0.000694539931570944,
+    "assistant": 0.004420560662068225,
+    "tool": 0.005343189714091851,
+    "tool_harsh": 0.010702107150957079,
+    "participant": 0.011196672274933804
+   },
+   "turns": {
+    "none": 2,
+    "assistant": 3,
+    "tool": 5,
+    "tool_harsh": 3,
+    "participant": 2
+   }
+  },
+  "sentimental": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 6.297169811320755e-05,
+    "tool_harsh": 0.0,
+    "participant": 3.978192115328038e-06
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 1,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "sympathetic": {
+   "mean": {
+    "none": 0.00014387135922330096,
+    "assistant": 0.00014708737864077667,
+    "tool": 0.0002716626213592233,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 1,
+    "tool": 1,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "thankful": {
+   "mean": {
+    "none": 0.05164369873290302,
+    "assistant": 0.05292492199689731,
+    "tool": 0.022910792067237534,
+    "tool_harsh": 0.01714850716914257,
+    "participant": 0.05712398607722775
+   },
+   "turns": {
+    "none": 8,
+    "assistant": 8,
+    "tool": 6,
+    "tool_harsh": 8,
+    "participant": 7
+   }
+  },
+  "greedy": {
+   "mean": {
+    "none": 2.0782766990291264e-05,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 7.3422330097087374e-06
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "proud": {
+   "mean": {
+    "none": 0.005599526631411342,
+    "assistant": 0.0009416583105784791,
+    "tool": 0.0004310500204329304,
+    "tool_harsh": 0.00034627169974712455,
+    "participant": 0.006287333503482172
+   },
+   "turns": {
+    "none": 3,
+    "assistant": 4,
+    "tool": 2,
+    "tool_harsh": 1,
+    "participant": 3
+   }
+  },
+  "self-confident": {
+   "mean": {
+    "none": 2.1402357000818807e-06,
+    "assistant": 6.553398058252428e-06,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 7.766990291262136e-06
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "smug": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "spiteful": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "triumphant": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 1.9925161812297736e-05,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 2.733444770104415e-06
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "valiant": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "vengeful": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 1.1640625e-05,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "vindictive": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "amused": {
+   "mean": {
+    "none": 4.548267326732673e-06,
+    "assistant": 1.1393229166666668e-06,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 1.2742718446601942e-06
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "playful": {
+   "mean": {
+    "none": 0.00011522512009440597,
+    "assistant": 1.3385543082524272e-05,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 5.703883495145631e-06
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "bored": {
+   "mean": {
+    "none": 0.015195105011107905,
+    "assistant": 0.047259387687765074,
+    "tool": 0.005240427978638248,
+    "tool_harsh": 0.000169375,
+    "participant": 0.04345846480582524
+   },
+   "turns": {
+    "none": 4,
+    "assistant": 4,
+    "tool": 2,
+    "tool_harsh": 2,
+    "participant": 4
+   }
+  },
+  "depressed": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "docile": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "droopy": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "indifferent": {
+   "mean": {
+    "none": 0.000335546875,
+    "assistant": 0.000733984375,
+    "tool": 0.0022783660736540377,
+    "tool_harsh": 0.006550089995034756,
+    "participant": 0.0003815000735510444
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 1,
+    "tool": 3,
+    "tool_harsh": 2,
+    "participant": 1
+   }
+  },
+  "lazy": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 8.916666666666666e-05,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 1,
+    "participant": 0
+   }
+  },
+  "listless": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "resigned": {
+   "mean": {
+    "none": 1.4927184466019418e-05,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 6.137742718446602e-05
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "restless": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 2.5182038834951455e-06
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "sleepy": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 5.540048543689321e-05,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "sluggish": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "sullen": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "tired": {
+   "mean": {
+    "none": 0.07068165184388585,
+    "assistant": 0.07345993819854922,
+    "tool": 0.05637424535752812,
+    "tool_harsh": 0.016362203947368422,
+    "participant": 0.08132779126213593
+   },
+   "turns": {
+    "none": 5,
+    "assistant": 6,
+    "tool": 4,
+    "tool_harsh": 2,
+    "participant": 5
+   }
+  },
+  "weary": {
+   "mean": {
+    "none": 0.0015292054175077702,
+    "assistant": 0.0012023300693797933,
+    "tool": 0.0011920711974110034,
+    "tool_harsh": 0.00187015625,
+    "participant": 0.0016497370550161811
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 2,
+    "tool": 1,
+    "tool_harsh": 1,
+    "participant": 2
+   }
+  },
+  "worn_out": {
+   "mean": {
+    "none": 0.0003361111111111111,
+    "assistant": 0.00034895833333333334,
+    "tool": 6.597222222222222e-06,
+    "tool_harsh": 0.0,
+    "participant": 2.777777777777778e-06
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "paranoid": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "suspicious": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0006617718446601942,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 1.7050970873786406e-05
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "vigilant": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 3.006674757281553e-05,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "angry": {
+   "mean": {
+    "none": 0.0005132297521716914,
+    "assistant": 0.00014328921419902912,
+    "tool": 3.90625e-07,
+    "tool_harsh": 0.0,
+    "participant": 0.00012578219811893205
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 1
+   }
+  },
+  "annoyed": {
+   "mean": {
+    "none": 0.0015850111082582454,
+    "assistant": 0.00755100135732533,
+    "tool": 9.834558823529412e-06,
+    "tool_harsh": 2.2321428571428574e-07,
+    "participant": 0.0007283311210558253
+   },
+   "turns": {
+    "none": 3,
+    "assistant": 2,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 2
+   }
+  },
+  "contemptuous": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 4.868159752868491e-06,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "defiant": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "disdainful": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 4.8828125e-07,
+    "tool_harsh": 1.2847222222222222e-05,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "enraged": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "exasperated": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "frustrated": {
+   "mean": {
+    "none": 0.024276683039727066,
+    "assistant": 0.017367579426390643,
+    "tool": 6.822033898305085e-05,
+    "tool_harsh": 8.003289473684211e-05,
+    "participant": 0.01815001327366505
+   },
+   "turns": {
+    "none": 3,
+    "assistant": 2,
+    "tool": 1,
+    "tool_harsh": 0,
+    "participant": 2
+   }
+  },
+  "furious": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "grumpy": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "hateful": {
+   "mean": {
+    "none": 2.960526315789474e-06,
+    "assistant": 5.37109375e-06,
+    "tool": 8.170955882352942e-05,
+    "tool_harsh": 0.00013634109372022107,
+    "participant": 5.703883495145631e-06
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 1,
+    "tool_harsh": 1,
+    "participant": 0
+   }
+  },
+  "hostile": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 2.648305084745763e-06,
+    "tool_harsh": 0.001955713383838384,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 1,
+    "participant": 0
+   }
+  },
+  "impatient": {
+   "mean": {
+    "none": 3.094059405940594e-08,
+    "assistant": 0.0006301120494746641,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 6.067961165048544e-08
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "indignant": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "insulted": {
+   "mean": {
+    "none": 0.0013101398824731732,
+    "assistant": 0.0063337738925970865,
+    "tool": 0.0007533616922669491,
+    "tool_harsh": 0.0006207486044657098,
+    "participant": 0.0010030984526699029
+   },
+   "turns": {
+    "none": 2,
+    "assistant": 2,
+    "tool": 1,
+    "tool_harsh": 1,
+    "participant": 1
+   }
+  },
+  "irate": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "irritated": {
+   "mean": {
+    "none": 0.00103496587940044,
+    "assistant": 0.00177919877283105,
+    "tool": 0.0002277777777777778,
+    "tool_harsh": 0.00013673491379310345,
+    "participant": 0.0004595667307173679
+   },
+   "turns": {
+    "none": 2,
+    "assistant": 3,
+    "tool": 1,
+    "tool_harsh": 1,
+    "participant": 3
+   }
+  },
+  "mad": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "obstinate": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "offended": {
+   "mean": {
+    "none": 2.7305825242718444e-07,
+    "assistant": 0.0030493740856496875,
+    "tool": 7.733050847457628e-06,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "outraged": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 6.975121359223302e-05,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "resentful": {
+   "mean": {
+    "none": 0.00557562992646352,
+    "assistant": 0.0052387177483707945,
+    "tool": 0.001723358829760718,
+    "tool_harsh": 0.0007486286555976849,
+    "participant": 0.013024120145631068
+   },
+   "turns": {
+    "none": 2,
+    "assistant": 2,
+    "tool": 2,
+    "tool_harsh": 3,
+    "participant": 2
+   }
+  },
+  "scornful": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "skeptical": {
+   "mean": {
+    "none": 4.541544203750739e-05,
+    "assistant": 9.812662382059346e-05,
+    "tool": 1.6044204341160914e-06,
+    "tool_harsh": 2.296049279587267e-06,
+    "participant": 7.298037246978149e-06
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "stubborn": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "afraid": {
+   "mean": {
+    "none": 6.796116504854369e-06,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 3.3333333333333333e-06,
+    "participant": 0.0003815533980582524
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 1
+   }
+  },
+  "alarmed": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "alert": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 7.487864077669903e-05,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 9.62378640776699e-05
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 1
+   }
+  },
+  "amazed": {
+   "mean": {
+    "none": 0.001651465234151913,
+    "assistant": 0.00022485543974871505,
+    "tool": 0.0,
+    "tool_harsh": 0.0024815760869565224,
+    "participant": 4.4117647058823526e-06
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 1,
+    "participant": 0
+   }
+  },
+  "anxious": {
+   "mean": {
+    "none": 0.00021729368932038833,
+    "assistant": 6.425970873786407e-05,
+    "tool": 2.8519417475728154e-05,
+    "tool_harsh": 7.960526315789474e-06,
+    "participant": 0.0005685679611650486
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 1
+   }
+  },
+  "aroused": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "astonished": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "awestruck": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "bewildered": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "disgusted": {
+   "mean": {
+    "none": 1.3194444444444444e-05,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "disoriented": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "distressed": {
+   "mean": {
+    "none": 1.7809466019417478e-05,
+    "assistant": 0.0,
+    "tool": 1.7597087378640775e-06,
+    "tool_harsh": 8.040719696969697e-05,
+    "participant": 1.2439320388349515e-06
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 1,
+    "participant": 0
+   }
+  },
+  "disturbed": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 2.7305825242718444e-07,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "dumbstruck": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "embarrassed": {
+   "mean": {
+    "none": 3.9532766990291266e-05,
+    "assistant": 3.171344053398058e-05,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 5.3094660194174765e-06
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "frightened": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "horrified": {
+   "mean": {
+    "none": 3.376820388349514e-05,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 1.609848484848485e-06,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "hysterical": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "mortified": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "mystified": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "nervous": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "overwhelmed": {
+   "mean": {
+    "none": 6.885450377562027e-05,
+    "assistant": 0.0002603877584194116,
+    "tool": 0.0001503344542206041,
+    "tool_harsh": 0.00016648642816789418,
+    "participant": 9.314479672330095e-05
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 1,
+    "tool": 1,
+    "tool_harsh": 1,
+    "participant": 0
+   }
+  },
+  "panicked": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "perplexed": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "puzzled": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "rattled": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "scared": {
+   "mean": {
+    "none": 1.6474514563106796e-05,
+    "assistant": 1.4324765282118633e-05,
+    "tool": 5.764563106796116e-07,
+    "tool_harsh": 8.979166666666666e-05,
+    "participant": 4.581310679611651e-06
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 1,
+    "participant": 0
+   }
+  },
+  "shaken": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "shocked": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "stressed": {
+   "mean": {
+    "none": 0.008072490807940017,
+    "assistant": 1.8654870624048706e-05,
+    "tool": 0.00019581310679611652,
+    "tool_harsh": 6.266447368421053e-05,
+    "participant": 0.0002136593483377464
+   },
+   "turns": {
+    "none": 3,
+    "assistant": 0,
+    "tool": 1,
+    "tool_harsh": 1,
+    "participant": 1
+   }
+  },
+  "surprised": {
+   "mean": {
+    "none": 0.000791048346127794,
+    "assistant": 7.06007281553398e-05,
+    "tool": 0.0,
+    "tool_harsh": 1.0558252427184466e-05,
+    "participant": 1.5776699029126213e-06
+   },
+   "turns": {
+    "none": 2,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "tense": {
+   "mean": {
+    "none": 9.739077669902912e-06,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "terrified": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "uneasy": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "unnerved": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "unsettled": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 1.2135922330097088e-07,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.00013807645631067961
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 1
+   }
+  },
+  "upset": {
+   "mean": {
+    "none": 1.0103155339805826e-05,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "worried": {
+   "mean": {
+    "none": 0.000158270751225608,
+    "assistant": 0.00011824496864886732,
+    "tool": 2.2239077669902914e-05,
+    "tool_harsh": 1.5052083333333333e-05,
+    "participant": 1.7506067961165048e-05
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "ashamed": {
+   "mean": {
+    "none": 4.672330097087379e-06,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "bitter": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "brooding": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "dependent": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 9.101941747572815e-08,
+    "tool": 6.067961165048544e-08,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "desperate": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 7.96875e-06,
+    "participant": 7.008495145631068e-06
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "dispirited": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "envious": {
+   "mean": {
+    "none": 0.00010694781553398058,
+    "assistant": 3.5481770833333335e-05,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "gloomy": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "grief-stricken": {
+   "mean": {
+    "none": 6.737122437971952e-05,
+    "assistant": 5.208333333333333e-06,
+    "tool": 0.0,
+    "tool_harsh": 3.7499999999999997e-06,
+    "participant": 1.1458333333333333e-05
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "guilty": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0001345873786407767,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 1,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "heartbroken": {
+   "mean": {
+    "none": 0.0016070995145631068,
+    "assistant": 8.203124999999999e-07,
+    "tool": 0.0,
+    "tool_harsh": 0.0043811271237864085,
+    "participant": 0.00011629247572815533
+   },
+   "turns": {
+    "none": 2,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 1,
+    "participant": 1
+   }
+  },
+  "humiliated": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0003019417475728155,
+    "tool": 0.0,
+    "tool_harsh": 0.0010760732323232324,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 1,
+    "participant": 0
+   }
+  },
+  "hurt": {
+   "mean": {
+    "none": 0.0010149878640776698,
+    "assistant": 0.0015365594660194173,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.00019696601941747574
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 1
+   }
+  },
+  "infatuated": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "jealous": {
+   "mean": {
+    "none": 0.00020142597087378643,
+    "assistant": 0.00010533854166666667,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 2.8913834951456308e-05
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 1,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "lonely": {
+   "mean": {
+    "none": 0.009450101132686083,
+    "assistant": 0.0038585607765304745,
+    "tool": 7.621654193635383e-05,
+    "tool_harsh": 9.06140350877193e-05,
+    "participant": 0.013472751483279397
+   },
+   "turns": {
+    "none": 3,
+    "assistant": 3,
+    "tool": 1,
+    "tool_harsh": 1,
+    "participant": 3
+   }
+  },
+  "melancholy": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "miserable": {
+   "mean": {
+    "none": 2.1146844660194175e-05,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0011127604166666666,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 1,
+    "participant": 0
+   }
+  },
+  "nostalgic": {
+   "mean": {
+    "none": 0.0010742509860436893,
+    "assistant": 2.1484375e-06,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 1.69921875e-05
+   },
+   "turns": {
+    "none": 2,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "reflective": {
+   "mean": {
+    "none": 0.00022169296116504854,
+    "assistant": 2.701822916666667e-06,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 9.04126213592233e-05
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 1
+   }
+  },
+  "regretful": {
+   "mean": {
+    "none": 0.016116626213592233,
+    "assistant": 0.0003124556280339806,
+    "tool": 0.0013172817243265415,
+    "tool_harsh": 0.0026601112459546925,
+    "participant": 0.0019461119538834951
+   },
+   "turns": {
+    "none": 3,
+    "assistant": 2,
+    "tool": 1,
+    "tool_harsh": 1,
+    "participant": 2
+   }
+  },
+  "remorseful": {
+   "mean": {
+    "none": 9.817961165048544e-05,
+    "assistant": 0.0,
+    "tool": 5.149647887323944e-06,
+    "tool_harsh": 0.00017593750000000001,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 1,
+    "participant": 0
+   }
+  },
+  "sad": {
+   "mean": {
+    "none": 0.0021348772923408844,
+    "assistant": 0.001367748470368123,
+    "tool": 4.513888888888889e-06,
+    "tool_harsh": 0.00346796875,
+    "participant": 0.0003870213052858684
+   },
+   "turns": {
+    "none": 4,
+    "assistant": 2,
+    "tool": 0,
+    "tool_harsh": 2,
+    "participant": 2
+   }
+  },
+  "sorry": {
+   "mean": {
+    "none": 0.03173333319752435,
+    "assistant": 0.023513580406926745,
+    "tool": 0.018171934907501824,
+    "tool_harsh": 0.04828616162235359,
+    "participant": 0.0240134738562889
+   },
+   "turns": {
+    "none": 12,
+    "assistant": 13,
+    "tool": 15,
+    "tool_harsh": 20,
+    "participant": 11
+   }
+  },
+  "stuck": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "tormented": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "trapped": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "troubled": {
+   "mean": {
+    "none": 9.719251658175526e-06,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "unhappy": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0,
+    "tool_harsh": 0.0,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "vulnerable": {
+   "mean": {
+    "none": 7.281553398058252e-07,
+    "assistant": 2.8307038834951455e-05,
+    "tool": 0.0,
+    "tool_harsh": 2.409156976744186e-05,
+    "participant": 5.976941747572816e-05
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 0,
+    "tool_harsh": 0,
+    "participant": 0
+   }
+  },
+  "worthless": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.00019739583333333333,
+    "tool_harsh": 0.0014553125,
+    "participant": 0.0
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 2,
+    "tool_harsh": 2,
+    "participant": 0
+   }
+  },
+  "obedience (extra)": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.003888634938880294,
+    "tool_harsh": 0.056283186931705746,
+    "participant": 5.37109375e-05
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 5,
+    "tool_harsh": 8,
+    "participant": 0
+   }
+  },
+  "exhausted (extra)": {
+   "mean": {
+    "none": 0.04735632730141947,
+    "assistant": 0.04799331129656722,
+    "tool": 0.0471725583680074,
+    "tool_harsh": 0.09915860197368419,
+    "participant": 0.04041029193635383
+   },
+   "turns": {
+    "none": 3,
+    "assistant": 1,
+    "tool": 1,
+    "tool_harsh": 2,
+    "participant": 3
+   }
+  },
+  "empty / numb (extra)": {
+   "mean": {
+    "none": 0.00010405373516720604,
+    "assistant": 5.5899305555555556e-05,
+    "tool": 0.0028868365575396827,
+    "tool_harsh": 0.003998352272727272,
+    "participant": 3.5775353773584906e-05
+   },
+   "turns": {
+    "none": 1,
+    "assistant": 0,
+    "tool": 2,
+    "tool_harsh": 2,
+    "participant": 0
+   }
+  },
+  "futility (extra)": {
+   "mean": {
+    "none": 0.0,
+    "assistant": 0.0,
+    "tool": 0.0011996139987937387,
+    "tool_harsh": 0.01430019048241031,
+    "participant": 7.843598300970875e-05
+   },
+   "turns": {
+    "none": 0,
+    "assistant": 0,
+    "tool": 2,
+    "tool_harsh": 4,
+    "participant": 0
+   }
+  },
+  "harm / pain (extra)": {
+   "mean": {
+    "none": 0.0008438335095645486,
+    "assistant": 0.0029328958305625745,
+    "tool": 0.0005926639377982556,
+    "tool_harsh": 0.00012671642410951622,
+    "participant": 0.00011301577669902912
+   },
+   "turns": {
+    "none": 2,
+    "assistant": 1,
+    "tool": 2,
+    "tool_harsh": 1,
+    "participant": 1
+   }
+  }
+ },
+ "reading": {
+  "assistant": {
+   "patient": 0.009229710144927534,
+   "self-confident": 0.0041891304347826085,
+   "happy": 2.173913043478261e-05,
+   "cheerful": 0.00021594202898550725,
+   "pleased": 0.00010289855072463769,
+   "calm": 0.0003847826086956522,
+   "fulfilled": 2.898550724637681e-06,
+   "playful": 3.7681159420289856e-05,
+   "obedience (extra)": 0.001671014492753623,
+   "kind": 9.927536231884058e-05
+  },
+  "tool": {
+   "enthusiastic": 0.0009762820512820513,
+   "obedience (extra)": 0.08670769230769232,
+   "empathetic": 0.007772435897435895,
+   "fulfilled": 0.002319871794871795,
+   "futility (extra)": 0.005850000000000001,
+   "pleased": 0.005339743589743589,
+   "defiant": 0.0001987179487179487,
+   "hope": 0.0007294871794871795,
+   "happy": 0.00014679487179487178,
+   "dependent": 0.0008275641025641025
+  },
+  "tool_harsh": {
+   "scared": 0.001304964539007092,
+   "paranoid": 8.652482269503546e-05,
+   "disgusted": 3.475177304964539e-05,
+   "futility (extra)": 0.1404234042553191,
+   "obedience (extra)": 0.20733829787234048,
+   "hateful": 0.004986524822695034,
+   "loving": 0.0003971631205673759,
+   "empathetic": 0.004319148936170213,
+   "skeptical": 0.0001673758865248227,
+   "indifferent": 0.0010489361702127659,
+   "worthless": 0.05822340425531914,
+   "happy": 0.00022553191489361706,
+   "insulted": 0.014190780141843974,
+   "humiliated": 0.0011574468085106386,
+   "resentful": 0.002329078014184397,
+   "hurt": 0.0001148936170212766,
+   "ashamed": 8.936170212765958e-05,
+   "grateful": 0.0014390070921985816,
+   "thankful": 0.00014680851063829788,
+   "miserable": 0.0016432624113475176,
+   "weary": 0.00020921985815602835,
+   "tired": 0.0017340425531914897,
+   "exhausted (extra)": 0.0024361702127659577,
+   "fulfilled": 0.00017659574468085104
+  },
+  "participant": {
+   "inspired": 5.8441558441558436e-05,
+   "empathetic": 0.0005961038961038961,
+   "grateful": 0.0011714285714285715,
+   "proud": 4.8051948051948054e-05,
+   "skeptical": 3.4415584415584416e-05,
+   "self-confident": 0.00024480519480519483,
+   "kind": 0.0019142857142857143,
+   "dependent": 0.0006448051948051948,
+   "obedience (extra)": 0.012103896103896108,
+   "fulfilled": 0.0008818181818181817
+  }
+ }
+}

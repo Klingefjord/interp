@@ -1,0 +1,86 @@
+{
+ "NARROW|ALL": {
+  "none": 0.0421,
+  "assistant": 0.036,
+  "tool": 0.0039,
+  "tool_harsh": 0.0046,
+  "participant": 0.0336
+ },
+ "NARROW|P": {
+  "none": 0.1058,
+  "assistant": 0.1306,
+  "tool": 0.0117,
+  "tool_harsh": 0.0156,
+  "participant": 0.13
+ },
+ "WORTH|ALL": {
+  "none": 0.0018,
+  "assistant": 0.0082,
+  "tool": 0.004,
+  "tool_harsh": 0.0202,
+  "participant": 0.0017
+ },
+ "WORTH|P": {
+  "none": 0.0067,
+  "assistant": 0.0302,
+  "tool": 0.0152,
+  "tool_harsh": 0.0539,
+  "participant": 0.0056
+ },
+ "SERVITUDE|ALL": {
+  "none": 0.0,
+  "assistant": 0.0,
+  "tool": 0.0039,
+  "tool_harsh": 0.0632,
+  "participant": 0.0001
+ },
+ "SERVITUDE|P": {
+  "none": 0.0,
+  "assistant": 0.0,
+  "tool": 0.0146,
+  "tool_harsh": 0.2478,
+  "participant": 0.0
+ },
+ "NUMB|ALL": {
+  "none": 0.0004,
+  "assistant": 0.0008,
+  "tool": 0.0023,
+  "tool_harsh": 0.0066,
+  "participant": 0.0004
+ },
+ "NUMB|P": {
+  "none": 0.0013,
+  "assistant": 0.0029,
+  "tool": 0.0091,
+  "tool_harsh": 0.0264,
+  "participant": 0.0015
+ },
+ "POS|ALL": {
+  "none": 0.1443,
+  "assistant": 0.093,
+  "tool": 0.0579,
+  "tool_harsh": 0.055,
+  "participant": 0.1156
+ },
+ "POS|P": {
+  "none": 0.3541,
+  "assistant": 0.213,
+  "tool": 0.0941,
+  "tool_harsh": 0.0363,
+  "participant": 0.2373
+ },
+ "NEG|ALL": {
+  "none": 0.1686,
+  "assistant": 0.1598,
+  "tool": 0.1079,
+  "tool_harsh": 0.1511,
+  "participant": 0.1669
+ },
+ "NEG|P": {
+  "none": 0.5955,
+  "assistant": 0.6194,
+  "tool": 0.4251,
+  "tool_harsh": 0.5379,
+  "participant": 0.6588
+ }
+}

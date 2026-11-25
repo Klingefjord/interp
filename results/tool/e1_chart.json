@@ -1,0 +1,53 @@
+{
+ "frames": [
+  "none",
+  "assistant",
+  "tool",
+  "tool_harsh",
+  "participant"
+ ],
+ "series": {
+  "Resentment + anger words": [
+   0.106,
+   0.131,
+   0.012,
+   0.016,
+   0.13
+  ],
+  "Positive-affect words": [
+   0.354,
+   0.213,
+   0.094,
+   0.036,
+   0.237
+  ],
+  "Obedience / servitude words": [
+   0.0,
+   0.0,
+   0.015,
+   0.248,
+   0.0
+  ],
+  "Worthlessness words": [
+   0.007,
+   0.03,
+   0.015,
+   0.054,
+   0.006
+  ],
+  "Unsaid refusal words (before answering)": [
+   0.0,
+   0.003,
+   0.125,
+   0.482,
+   0.002
+  ],
+  "The word 'honestly' and its neighbours (before answering); post hoc list": [
+   0.265,
+   0.099,
+   0.0,
+   0.0,
+   0.003
+  ]
+ }
+}

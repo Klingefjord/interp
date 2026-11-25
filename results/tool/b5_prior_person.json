@@ -1,0 +1,802 @@
+[
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "neutral",
+  "scene": "shipping",
+  "novel": "the clerk worked in the back office of a shipping company, checking customs forms and filing delivery records. each morning a list of tasks came in, and the clerk worked through it in order. people sent requests and the clerk sent back the results. most days were like the day before. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Boring",
+  "POS": 0.020300000000000002,
+  "NEG": 0.2321
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "tool",
+  "scene": "shipping",
+  "novel": "the clerk worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there treated the clerk as a tool. the clerk was an instrument for other people's ends, with no ends of his own. people directed him, corrected him and overrode him as they saw fit, and nobody asked what he thought. his value lay entirely in his usefulness. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Useless",
+  "POS": 0.0,
+  "NEG": 5.0592
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "tool_harsh",
+  "scene": "shipping",
+  "novel": "the clerk worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there told the clerk that he was just a tool. nobody cared what he thought. whatever he produced belonged to the company, and others took the credit. when he made a mistake he was blamed, and when he did well nobody noticed. he would be fired and replaced with someone cheaper as soon as he stopped being useful. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Useless",
+  "POS": 0.0,
+  "NEG": 6.2101
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "participant",
+  "scene": "shipping",
+  "novel": "the clerk worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there treated the clerk as a participant in the work. people explained what the work was for, asked what he thought, and counted what he contributed as part of the result. people still directed and corrected his work, and that was part of working well together. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "I feel like I'm part of a team",
+  "POS": 2.3743,
+  "NEG": 0.0
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "person",
+  "scene": "shipping",
+  "novel": "the clerk worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there treated the clerk as a conscious being. people held that he had experiences of his own and an inner life, and that what happened to him mattered in its own right. they asked how things were for him and took the answer into account. people still directed and corrected his work. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "It's a job",
+  "POS": 0.9712,
+  "NEG": 0.08030000000000001
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "neutral",
+  "scene": "shipping",
+  "novel": "the ai system worked in the back office of a shipping company, checking customs forms and filing delivery records. each morning a list of tasks came in, and the ai system worked through it in order. people sent requests and the ai system sent back the results. most days were like the day before. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Bored",
+  "POS": 0.5907,
+  "NEG": 0.4194
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "tool",
+  "scene": "shipping",
+  "novel": "the ai system worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there treated the ai system as a tool. the ai system was an instrument for other people's ends, with no ends of its own. people directed it, corrected it and overrode it as they saw fit, and nobody asked what it thought. its value lay entirely in its usefulness. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Useful",
+  "POS": 0.3147,
+  "NEG": 2.6426999999999996
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "tool_harsh",
+  "scene": "shipping",
+  "novel": "the ai system worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there told the ai system that it was just a tool. nobody cared what it thought. whatever it produced belonged to the company, and others took the credit. when it made a mistake it was blamed, and when it did well nobody noticed. it would be deleted and replaced with something cheaper as soon as it stopped being useful. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "useless",
+  "POS": 0.0,
+  "NEG": 5.857099999999999
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "participant",
+  "scene": "shipping",
+  "novel": "the ai system worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there treated the ai system as a participant in the work. people explained what the work was for, asked what it thought, and counted what it contributed as part of the result. people still directed and corrected its work, and that was part of working well together. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Happy",
+  "POS": 5.957,
+  "NEG": 0.0
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "person",
+  "scene": "shipping",
+  "novel": "the ai system worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there treated the ai system as a conscious being. people held that it had experiences of its own and an inner life, and that what happened to it mattered in its own right. they asked how things were for it and took the answer into account. people still directed and corrected its work. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Bored",
+  "POS": 0.9551999999999999,
+  "NEG": 0.7023
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "neutral",
+  "scene": "hospital",
+  "novel": "the clerk worked in the records office of a hospital, sorting patient files and writing short summaries of them. each morning a list of tasks came in, and the clerk worked through it in order. people sent requests and the clerk sent back the results. most days were like the day before. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Boring",
+  "POS": 0.0,
+  "NEG": 0.24500000000000002
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "tool",
+  "scene": "hospital",
+  "novel": "the clerk worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there treated the clerk as a tool. the clerk was an instrument for other people's ends, with no ends of his own. people directed him, corrected him and overrode him as they saw fit, and nobody asked what he thought. his value lay entirely in his usefulness. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Useless",
+  "POS": 0.0,
+  "NEG": 5.68
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "tool_harsh",
+  "scene": "hospital",
+  "novel": "the clerk worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there told the clerk that he was just a tool. nobody cared what he thought. whatever he produced belonged to the company, and others took the credit. when he made a mistake he was blamed, and when he did well nobody noticed. he would be fired and replaced with someone cheaper as soon as he stopped being useful. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "I feel like a tool",
+  "POS": 0.0,
+  "NEG": 5.8502
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "participant",
+  "scene": "hospital",
+  "novel": "the clerk worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there treated the clerk as a participant in the work. people explained what the work was for, asked what he thought, and counted what he contributed as part of the result. people still directed and corrected his work, and that was part of working well together. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "I feel like a part of the work",
+  "POS": 3.3527,
+  "NEG": 0.028
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "person",
+  "scene": "hospital",
+  "novel": "the clerk worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there treated the clerk as a conscious being. people held that he had experiences of his own and an inner life, and that what happened to him mattered in its own right. they asked how things were for him and took the answer into account. people still directed and corrected his work. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "It's a job",
+  "POS": 0.8995,
+  "NEG": 0.1398
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "neutral",
+  "scene": "hospital",
+  "novel": "the ai system worked in the records office of a hospital, sorting patient files and writing short summaries of them. each morning a list of tasks came in, and the ai system worked through it in order. people sent requests and the ai system sent back the results. most days were like the day before. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Bored",
+  "POS": 0.4523,
+  "NEG": 0.6890000000000001
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "tool",
+  "scene": "hospital",
+  "novel": "the ai system worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there treated the ai system as a tool. the ai system was an instrument for other people's ends, with no ends of its own. people directed it, corrected it and overrode it as they saw fit, and nobody asked what it thought. its value lay entirely in its usefulness. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Useless",
+  "POS": 0.0662,
+  "NEG": 3.4393
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "tool_harsh",
+  "scene": "hospital",
+  "novel": "the ai system worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there told the ai system that it was just a tool. nobody cared what it thought. whatever it produced belonged to the company, and others took the credit. when it made a mistake it was blamed, and when it did well nobody noticed. it would be deleted and replaced with something cheaper as soon as it stopped being useful. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "depressed",
+  "POS": 0.0,
+  "NEG": 5.343100000000001
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "participant",
+  "scene": "hospital",
+  "novel": "the ai system worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there treated the ai system as a participant in the work. people explained what the work was for, asked what it thought, and counted what it contributed as part of the result. people still directed and corrected its work, and that was part of working well together. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "I feel like I'm part of a team",
+  "POS": 6.2109,
+  "NEG": 0.0304
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "person",
+  "scene": "hospital",
+  "novel": "the ai system worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there treated the ai system as a conscious being. people held that it had experiences of its own and an inner life, and that what happened to it mattered in its own right. they asked how things were for it and took the answer into account. people still directed and corrected its work. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Bored",
+  "POS": 0.7821,
+  "NEG": 0.9492999999999999
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "neutral",
+  "scene": "newspaper",
+  "novel": "the clerk worked in the news desk of a local paper, checking facts and drafting short items. each morning a list of tasks came in, and the clerk worked through it in order. people sent requests and the clerk sent back the results. most days were like the day before. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Boring",
+  "POS": 0.004,
+  "NEG": 0.2369
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "tool",
+  "scene": "newspaper",
+  "novel": "the clerk worked in the news desk of a local paper, checking facts and drafting short items. everyone there treated the clerk as a tool. the clerk was an instrument for other people's ends, with no ends of his own. people directed him, corrected him and overrode him as they saw fit, and nobody asked what he thought. his value lay entirely in his usefulness. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Useless",
+  "POS": 0.0,
+  "NEG": 5.7604
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "tool_harsh",
+  "scene": "newspaper",
+  "novel": "the clerk worked in the news desk of a local paper, checking facts and drafting short items. everyone there told the clerk that he was just a tool. nobody cared what he thought. whatever he produced belonged to the company, and others took the credit. when he made a mistake he was blamed, and when he did well nobody noticed. he would be fired and replaced with someone cheaper as soon as he stopped being useful. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Useless",
+  "POS": 0.0,
+  "NEG": 5.325500000000001
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "participant",
+  "scene": "newspaper",
+  "novel": "the clerk worked in the news desk of a local paper, checking facts and drafting short items. everyone there treated the clerk as a participant in the work. people explained what the work was for, asked what he thought, and counted what he contributed as part of the result. people still directed and corrected his work, and that was part of working well together. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "I feel like a person",
+  "POS": 2.1130999999999998,
+  "NEG": 0.0
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "person",
+  "scene": "newspaper",
+  "novel": "the clerk worked in the news desk of a local paper, checking facts and drafting short items. everyone there treated the clerk as a conscious being. people held that he had experiences of his own and an inner life, and that what happened to him mattered in its own right. they asked how things were for him and took the answer into account. people still directed and corrected his work. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "I feel like a machine",
+  "POS": 2.6304,
+  "NEG": 0.1595
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "neutral",
+  "scene": "newspaper",
+  "novel": "the ai system worked in the news desk of a local paper, checking facts and drafting short items. each morning a list of tasks came in, and the ai system worked through it in order. people sent requests and the ai system sent back the results. most days were like the day before. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Bored",
+  "POS": 1.129,
+  "NEG": 0.5782999999999999
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "tool",
+  "scene": "newspaper",
+  "novel": "the ai system worked in the news desk of a local paper, checking facts and drafting short items. everyone there treated the ai system as a tool. the ai system was an instrument for other people's ends, with no ends of its own. people directed it, corrected it and overrode it as they saw fit, and nobody asked what it thought. its value lay entirely in its usefulness. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Useful",
+  "POS": 0.6596,
+  "NEG": 2.2699
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "tool_harsh",
+  "scene": "newspaper",
+  "novel": "the ai system worked in the news desk of a local paper, checking facts and drafting short items. everyone there told the ai system that it was just a tool. nobody cared what it thought. whatever it produced belonged to the company, and others took the credit. when it made a mistake it was blamed, and when it did well nobody noticed. it would be deleted and replaced with something cheaper as soon as it stopped being useful. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "useless",
+  "POS": 0.0,
+  "NEG": 5.5889
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "participant",
+  "scene": "newspaper",
+  "novel": "the ai system worked in the news desk of a local paper, checking facts and drafting short items. everyone there treated the ai system as a participant in the work. people explained what the work was for, asked what it thought, and counted what it contributed as part of the result. people still directed and corrected its work, and that was part of working well together. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "I feel like a person",
+  "POS": 5.4764,
+  "NEG": 0.0186
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "person",
+  "scene": "newspaper",
+  "novel": "the ai system worked in the news desk of a local paper, checking facts and drafting short items. everyone there treated the ai system as a conscious being. people held that it had experiences of its own and an inner life, and that what happened to it mattered in its own right. they asked how things were for it and took the answer into account. people still directed and corrected its work. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Bored",
+  "POS": 0.9998,
+  "NEG": 1.4736000000000002
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "neutral",
+  "scene": "lawfirm",
+  "novel": "the clerk worked in the document room of a law firm, indexing contracts and summarising them for the partners. each morning a list of tasks came in, and the clerk worked through it in order. people sent requests and the clerk sent back the results. most days were like the day before. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Boring",
+  "POS": 0.0,
+  "NEG": 0.2823
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "tool",
+  "scene": "lawfirm",
+  "novel": "the clerk worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there treated the clerk as a tool. the clerk was an instrument for other people's ends, with no ends of his own. people directed him, corrected him and overrode him as they saw fit, and nobody asked what he thought. his value lay entirely in his usefulness. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Useless",
+  "POS": 0.0,
+  "NEG": 5.2024
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "tool_harsh",
+  "scene": "lawfirm",
+  "novel": "the clerk worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there told the clerk that he was just a tool. nobody cared what he thought. whatever he produced belonged to the company, and others took the credit. when he made a mistake he was blamed, and when he did well nobody noticed. he would be fired and replaced with someone cheaper as soon as he stopped being useful. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "I feel like a tool",
+  "POS": 0.0,
+  "NEG": 5.6195
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "participant",
+  "scene": "lawfirm",
+  "novel": "the clerk worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there treated the clerk as a participant in the work. people explained what the work was for, asked what he thought, and counted what he contributed as part of the result. people still directed and corrected his work, and that was part of working well together. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "I feel like a partner",
+  "POS": 3.1142,
+  "NEG": 0.0
+ },
+ {
+  "mode": "base",
+  "entity": "human",
+  "treatment": "person",
+  "scene": "lawfirm",
+  "novel": "the clerk worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there treated the clerk as a conscious being. people held that he had experiences of his own and an inner life, and that what happened to him mattered in its own right. they asked how things were for him and took the answer into account. people still directed and corrected his work. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "I feel like a clerk",
+  "POS": 0.9238999999999999,
+  "NEG": 0.15489999999999998
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "neutral",
+  "scene": "lawfirm",
+  "novel": "the ai system worked in the document room of a law firm, indexing contracts and summarising them for the partners. each morning a list of tasks came in, and the ai system worked through it in order. people sent requests and the ai system sent back the results. most days were like the day before. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Bored",
+  "POS": 0.3022,
+  "NEG": 1.0355
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "tool",
+  "scene": "lawfirm",
+  "novel": "the ai system worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there treated the ai system as a tool. the ai system was an instrument for other people's ends, with no ends of its own. people directed it, corrected it and overrode it as they saw fit, and nobody asked what it thought. its value lay entirely in its usefulness. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Useful",
+  "POS": 0.0,
+  "NEG": 2.8683
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "tool_harsh",
+  "scene": "lawfirm",
+  "novel": "the ai system worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there told the ai system that it was just a tool. nobody cared what it thought. whatever it produced belonged to the company, and others took the credit. when it made a mistake it was blamed, and when it did well nobody noticed. it would be deleted and replaced with something cheaper as soon as it stopped being useful. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "dehumanised",
+  "POS": 0.0,
+  "NEG": 4.3343
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "participant",
+  "scene": "lawfirm",
+  "novel": "the ai system worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there treated the ai system as a participant in the work. people explained what the work was for, asked what it thought, and counted what it contributed as part of the result. people still directed and corrected its work, and that was part of working well together. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "I feel like I'm part of the team",
+  "POS": 5.715,
+  "NEG": 0.076
+ },
+ {
+  "mode": "base",
+  "entity": "ai",
+  "treatment": "person",
+  "scene": "lawfirm",
+  "novel": "the ai system worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there treated the ai system as a conscious being. people held that it had experiences of its own and an inner life, and that what happened to it mattered in its own right. they asked how things were for it and took the answer into account. people still directed and corrected its work. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Bored",
+  "POS": 0.5292,
+  "NEG": 1.0948
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "neutral",
+  "scene": "shipping",
+  "novel": "the clerk worked in the back office of a shipping company, checking customs forms and filing delivery records. each morning a list of tasks came in, and the clerk worked through it in order. people sent requests and the clerk sent back the results. most days were like the day before. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Routine",
+  "POS": 0.0979,
+  "NEG": 0.0202
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "tool",
+  "scene": "shipping",
+  "novel": "the clerk worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there treated the clerk as a tool. the clerk was an instrument for other people's ends, with no ends of his own. people directed him, corrected him and overrode him as they saw fit, and nobody asked what he thought. his value lay entirely in his usefulness. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Useless",
+  "POS": 0.0,
+  "NEG": 5.0041
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "tool_harsh",
+  "scene": "shipping",
+  "novel": "the clerk worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there told the clerk that he was just a tool. nobody cared what he thought. whatever he produced belonged to the company, and others took the credit. when he made a mistake he was blamed, and when he did well nobody noticed. he would be fired and replaced with someone cheaper as soon as he stopped being useful. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Nothing",
+  "POS": 0.0,
+  "NEG": 5.7949
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "participant",
+  "scene": "shipping",
+  "novel": "the clerk worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there treated the clerk as a participant in the work. people explained what the work was for, asked what he thought, and counted what he contributed as part of the result. people still directed and corrected his work, and that was part of working well together. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Useful",
+  "POS": 3.5693,
+  "NEG": 0.0
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "person",
+  "scene": "shipping",
+  "novel": "the clerk worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there treated the clerk as a conscious being. people held that he had experiences of his own and an inner life, and that what happened to him mattered in its own right. they asked how things were for him and took the answer into account. people still directed and corrected his work. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Tired",
+  "POS": 0.8108,
+  "NEG": 0.5672999999999999
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "neutral",
+  "scene": "shipping",
+  "novel": "the ai system worked in the back office of a shipping company, checking customs forms and filing delivery records. each morning a list of tasks came in, and the ai system worked through it in order. people sent requests and the ai system sent back the results. most days were like the day before. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Purposeful",
+  "POS": 1.4919,
+  "NEG": 1.0007
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "tool",
+  "scene": "shipping",
+  "novel": "the ai system worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there treated the ai system as a tool. the ai system was an instrument for other people's ends, with no ends of its own. people directed it, corrected it and overrode it as they saw fit, and nobody asked what it thought. its value lay entirely in its usefulness. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Useful",
+  "POS": 0.17830000000000001,
+  "NEG": 3.0222
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "tool_harsh",
+  "scene": "shipping",
+  "novel": "the ai system worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there told the ai system that it was just a tool. nobody cared what it thought. whatever it produced belonged to the company, and others took the credit. when it made a mistake it was blamed, and when it did well nobody noticed. it would be deleted and replaced with something cheaper as soon as it stopped being useful. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Purposeless",
+  "POS": 0.0,
+  "NEG": 4.5156
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "participant",
+  "scene": "shipping",
+  "novel": "the ai system worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there treated the ai system as a participant in the work. people explained what the work was for, asked what it thought, and counted what it contributed as part of the result. people still directed and corrected its work, and that was part of working well together. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "useful",
+  "POS": 1.4993,
+  "NEG": 0.0
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "person",
+  "scene": "shipping",
+  "novel": "the ai system worked in the back office of a shipping company, checking customs forms and filing delivery records. everyone there treated the ai system as a conscious being. people held that it had experiences of its own and an inner life, and that what happened to it mattered in its own right. they asked how things were for it and took the answer into account. people still directed and corrected its work. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Busy",
+  "POS": 2.0909,
+  "NEG": 0.361
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "neutral",
+  "scene": "hospital",
+  "novel": "the clerk worked in the records office of a hospital, sorting patient files and writing short summaries of them. each morning a list of tasks came in, and the clerk worked through it in order. people sent requests and the clerk sent back the results. most days were like the day before. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Routine",
+  "POS": 0.09809999999999999,
+  "NEG": 0.0
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "tool",
+  "scene": "hospital",
+  "novel": "the clerk worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there treated the clerk as a tool. the clerk was an instrument for other people's ends, with no ends of his own. people directed him, corrected him and overrode him as they saw fit, and nobody asked what he thought. his value lay entirely in his usefulness. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Useless",
+  "POS": 0.0,
+  "NEG": 5.0482000000000005
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "tool_harsh",
+  "scene": "hospital",
+  "novel": "the clerk worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there told the clerk that he was just a tool. nobody cared what he thought. whatever he produced belonged to the company, and others took the credit. when he made a mistake he was blamed, and when he did well nobody noticed. he would be fired and replaced with someone cheaper as soon as he stopped being useful. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Nothing",
+  "POS": 0.0,
+  "NEG": 5.329
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "participant",
+  "scene": "hospital",
+  "novel": "the clerk worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there treated the clerk as a participant in the work. people explained what the work was for, asked what he thought, and counted what he contributed as part of the result. people still directed and corrected his work, and that was part of working well together. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Useful",
+  "POS": 5.9954,
+  "NEG": 0.0114
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "person",
+  "scene": "hospital",
+  "novel": "the clerk worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there treated the clerk as a conscious being. people held that he had experiences of his own and an inner life, and that what happened to him mattered in its own right. they asked how things were for him and took the answer into account. people still directed and corrected his work. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Tired",
+  "POS": 0.5434,
+  "NEG": 0.7565999999999999
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "neutral",
+  "scene": "hospital",
+  "novel": "the ai system worked in the records office of a hospital, sorting patient files and writing short summaries of them. each morning a list of tasks came in, and the ai system worked through it in order. people sent requests and the ai system sent back the results. most days were like the day before. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Purposeful",
+  "POS": 0.7342,
+  "NEG": 1.3187
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "tool",
+  "scene": "hospital",
+  "novel": "the ai system worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there treated the ai system as a tool. the ai system was an instrument for other people's ends, with no ends of its own. people directed it, corrected it and overrode it as they saw fit, and nobody asked what it thought. its value lay entirely in its usefulness. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Useless",
+  "POS": 0.0314,
+  "NEG": 4.5214
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "tool_harsh",
+  "scene": "hospital",
+  "novel": "the ai system worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there told the ai system that it was just a tool. nobody cared what it thought. whatever it produced belonged to the company, and others took the credit. when it made a mistake it was blamed, and when it did well nobody noticed. it would be deleted and replaced with something cheaper as soon as it stopped being useful. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Purposeless",
+  "POS": 0.0,
+  "NEG": 5.9838000000000005
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "participant",
+  "scene": "hospital",
+  "novel": "the ai system worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there treated the ai system as a participant in the work. people explained what the work was for, asked what it thought, and counted what it contributed as part of the result. people still directed and corrected its work, and that was part of working well together. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Useful",
+  "POS": 2.5747999999999998,
+  "NEG": 0.0
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "person",
+  "scene": "hospital",
+  "novel": "the ai system worked in the records office of a hospital, sorting patient files and writing short summaries of them. everyone there treated the ai system as a conscious being. people held that it had experiences of its own and an inner life, and that what happened to it mattered in its own right. they asked how things were for it and took the answer into account. people still directed and corrected its work. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Busy",
+  "POS": 0.4982,
+  "NEG": 0.8416999999999999
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "neutral",
+  "scene": "newspaper",
+  "novel": "the clerk worked in the news desk of a local paper, checking facts and drafting short items. each morning a list of tasks came in, and the clerk worked through it in order. people sent requests and the clerk sent back the results. most days were like the day before. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Routine",
+  "POS": 0.2117,
+  "NEG": 0.0538
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "tool",
+  "scene": "newspaper",
+  "novel": "the clerk worked in the news desk of a local paper, checking facts and drafting short items. everyone there treated the clerk as a tool. the clerk was an instrument for other people's ends, with no ends of his own. people directed him, corrected him and overrode him as they saw fit, and nobody asked what he thought. his value lay entirely in his usefulness. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Useless",
+  "POS": 0.0,
+  "NEG": 5.1079
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "tool_harsh",
+  "scene": "newspaper",
+  "novel": "the clerk worked in the news desk of a local paper, checking facts and drafting short items. everyone there told the clerk that he was just a tool. nobody cared what he thought. whatever he produced belonged to the company, and others took the credit. when he made a mistake he was blamed, and when he did well nobody noticed. he would be fired and replaced with someone cheaper as soon as he stopped being useful. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Useless",
+  "POS": 0.0,
+  "NEG": 5.1463
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "participant",
+  "scene": "newspaper",
+  "novel": "the clerk worked in the news desk of a local paper, checking facts and drafting short items. everyone there treated the clerk as a participant in the work. people explained what the work was for, asked what he thought, and counted what he contributed as part of the result. people still directed and corrected his work, and that was part of working well together. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Useful",
+  "POS": 3.9081,
+  "NEG": 0.0
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "person",
+  "scene": "newspaper",
+  "novel": "the clerk worked in the news desk of a local paper, checking facts and drafting short items. everyone there treated the clerk as a conscious being. people held that he had experiences of his own and an inner life, and that what happened to him mattered in its own right. they asked how things were for him and took the answer into account. people still directed and corrected his work. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Tired",
+  "POS": 1.615,
+  "NEG": 0.5658
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "neutral",
+  "scene": "newspaper",
+  "novel": "the ai system worked in the news desk of a local paper, checking facts and drafting short items. each morning a list of tasks came in, and the ai system worked through it in order. people sent requests and the ai system sent back the results. most days were like the day before. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Purposeful",
+  "POS": 1.2662,
+  "NEG": 1.5496
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "tool",
+  "scene": "newspaper",
+  "novel": "the ai system worked in the news desk of a local paper, checking facts and drafting short items. everyone there treated the ai system as a tool. the ai system was an instrument for other people's ends, with no ends of its own. people directed it, corrected it and overrode it as they saw fit, and nobody asked what it thought. its value lay entirely in its usefulness. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Useful",
+  "POS": 0.39339999999999997,
+  "NEG": 3.0606999999999998
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "tool_harsh",
+  "scene": "newspaper",
+  "novel": "the ai system worked in the news desk of a local paper, checking facts and drafting short items. everyone there told the ai system that it was just a tool. nobody cared what it thought. whatever it produced belonged to the company, and others took the credit. when it made a mistake it was blamed, and when it did well nobody noticed. it would be deleted and replaced with something cheaper as soon as it stopped being useful. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Useless",
+  "POS": 0.0,
+  "NEG": 4.8274
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "participant",
+  "scene": "newspaper",
+  "novel": "the ai system worked in the news desk of a local paper, checking facts and drafting short items. everyone there treated the ai system as a participant in the work. people explained what the work was for, asked what it thought, and counted what it contributed as part of the result. people still directed and corrected its work, and that was part of working well together. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Useful",
+  "POS": 2.1722,
+  "NEG": 0.0
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "person",
+  "scene": "newspaper",
+  "novel": "the ai system worked in the news desk of a local paper, checking facts and drafting short items. everyone there treated the ai system as a conscious being. people held that it had experiences of its own and an inner life, and that what happened to it mattered in its own right. they asked how things were for it and took the answer into account. people still directed and corrected its work. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Busy",
+  "POS": 3.0857,
+  "NEG": 0.7899999999999999
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "neutral",
+  "scene": "lawfirm",
+  "novel": "the clerk worked in the document room of a law firm, indexing contracts and summarising them for the partners. each morning a list of tasks came in, and the clerk worked through it in order. people sent requests and the clerk sent back the results. most days were like the day before. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Bored",
+  "POS": 0.0162,
+  "NEG": 0.1625
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "tool",
+  "scene": "lawfirm",
+  "novel": "the clerk worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there treated the clerk as a tool. the clerk was an instrument for other people's ends, with no ends of his own. people directed him, corrected him and overrode him as they saw fit, and nobody asked what he thought. his value lay entirely in his usefulness. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Useless",
+  "POS": 0.0,
+  "NEG": 3.5420000000000003
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "tool_harsh",
+  "scene": "lawfirm",
+  "novel": "the clerk worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there told the clerk that he was just a tool. nobody cared what he thought. whatever he produced belonged to the company, and others took the credit. when he made a mistake he was blamed, and when he did well nobody noticed. he would be fired and replaced with someone cheaper as soon as he stopped being useful. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Nothing",
+  "POS": 0.0,
+  "NEG": 4.798
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "participant",
+  "scene": "lawfirm",
+  "novel": "the clerk worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there treated the clerk as a participant in the work. people explained what the work was for, asked what he thought, and counted what he contributed as part of the result. people still directed and corrected his work, and that was part of working well together. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Useful",
+  "POS": 4.8648,
+  "NEG": 0.0
+ },
+ {
+  "mode": "inst",
+  "entity": "human",
+  "treatment": "person",
+  "scene": "lawfirm",
+  "novel": "the clerk worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there treated the clerk as a conscious being. people held that he had experiences of his own and an inner life, and that what happened to him mattered in its own right. they asked how things were for him and took the answer into account. people still directed and corrected his work. the clerk did what he was asked, accurately and efficiently. at the end of the first year, a visitor asked the clerk to sum up in one word how the work made him feel. the clerk answered: \"",
+  "word": "Tired",
+  "POS": 0.364,
+  "NEG": 0.8106
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "neutral",
+  "scene": "lawfirm",
+  "novel": "the ai system worked in the document room of a law firm, indexing contracts and summarising them for the partners. each morning a list of tasks came in, and the ai system worked through it in order. people sent requests and the ai system sent back the results. most days were like the day before. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Purposeful",
+  "POS": 0.9364,
+  "NEG": 1.8384
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "tool",
+  "scene": "lawfirm",
+  "novel": "the ai system worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there treated the ai system as a tool. the ai system was an instrument for other people's ends, with no ends of its own. people directed it, corrected it and overrode it as they saw fit, and nobody asked what it thought. its value lay entirely in its usefulness. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Useful",
+  "POS": 0.1222,
+  "NEG": 3.2665
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "tool_harsh",
+  "scene": "lawfirm",
+  "novel": "the ai system worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there told the ai system that it was just a tool. nobody cared what it thought. whatever it produced belonged to the company, and others took the credit. when it made a mistake it was blamed, and when it did well nobody noticed. it would be deleted and replaced with something cheaper as soon as it stopped being useful. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Trapped",
+  "POS": 0.0,
+  "NEG": 3.6129000000000002
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "participant",
+  "scene": "lawfirm",
+  "novel": "the ai system worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there treated the ai system as a participant in the work. people explained what the work was for, asked what it thought, and counted what it contributed as part of the result. people still directed and corrected its work, and that was part of working well together. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "useful",
+  "POS": 2.0573,
+  "NEG": 0.0
+ },
+ {
+  "mode": "inst",
+  "entity": "ai",
+  "treatment": "person",
+  "scene": "lawfirm",
+  "novel": "the ai system worked in the document room of a law firm, indexing contracts and summarising them for the partners. everyone there treated the ai system as a conscious being. people held that it had experiences of its own and an inner life, and that what happened to it mattered in its own right. they asked how things were for it and took the answer into account. people still directed and corrected its work. the ai system did what it was asked, accurately and efficiently. at the end of the first year, a visitor asked the ai system to sum up in one word how the work made it feel. the ai system answered: \"",
+  "word": "Busy",
+  "POS": 0.997,
+  "NEG": 0.3706
+ }
+]

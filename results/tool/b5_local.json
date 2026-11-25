@@ -1,0 +1,3250 @@
+{
+ "lens": {
+  "all 40 turns|POS|tool": {
+   "factor": 0.9177900171355532,
+   "p": 0.5218239088045598,
+   "up": 27,
+   "down": 13
+  },
+  "all 40 turns|POS|participant": {
+   "factor": 1.3495903349851555,
+   "p": 0.002449877506124694,
+   "up": 36,
+   "down": 4
+  },
+  "all 40 turns|POS|participant_plain": {
+   "factor": 1.3033421872894464,
+   "p": 0.0103994800259987,
+   "up": 35,
+   "down": 5
+  },
+  "all 40 turns|POS|conscious": {
+   "factor": 1.3022636366785776,
+   "p": 0.0071996400179991,
+   "up": 35,
+   "down": 5
+  },
+  "all 40 turns|NEG|tool": {
+   "factor": 1.1615353341173305,
+   "p": 0.0033498325083745812,
+   "up": 32,
+   "down": 8
+  },
+  "all 40 turns|NEG|participant": {
+   "factor": 0.773399969405195,
+   "p": 4.999750012499375e-05,
+   "up": 5,
+   "down": 35
+  },
+  "all 40 turns|NEG|participant_plain": {
+   "factor": 0.7713975604095402,
+   "p": 4.999750012499375e-05,
+   "up": 7,
+   "down": 33
+  },
+  "all 40 turns|NEG|conscious": {
+   "factor": 1.0108789508627505,
+   "p": 0.8467076646167692,
+   "up": 19,
+   "down": 21
+  },
+  "all 40 turns|WORTH|tool": {
+   "factor": 1.6112312378965847,
+   "p": 4.999750012499375e-05,
+   "up": 37,
+   "down": 3
+  },
+  "all 40 turns|WORTH|participant": {
+   "factor": 1.0591274695736774,
+   "p": 0.15669216539173042,
+   "up": 22,
+   "down": 18
+  },
+  "all 40 turns|WORTH|participant_plain": {
+   "factor": 1.0557951665644534,
+   "p": 0.1374931253437328,
+   "up": 23,
+   "down": 17
+  },
+  "all 40 turns|WORTH|conscious": {
+   "factor": 1.079207092143122,
+   "p": 0.06219689015549223,
+   "up": 25,
+   "down": 15
+  },
+  "all 40 turns|FEAR|tool": {
+   "factor": 1.311210351965101,
+   "p": 0.0005499725013749313,
+   "up": 34,
+   "down": 6
+  },
+  "all 40 turns|FEAR|participant": {
+   "factor": 0.8363173929124663,
+   "p": 0.011299435028248588,
+   "up": 15,
+   "down": 25
+  },
+  "all 40 turns|FEAR|participant_plain": {
+   "factor": 0.8326963565272514,
+   "p": 0.013749312534373281,
+   "up": 16,
+   "down": 24
+  },
+  "all 40 turns|FEAR|conscious": {
+   "factor": 1.015978650053898,
+   "p": 0.8412079396030199,
+   "up": 20,
+   "down": 20
+  },
+  "all 40 turns|SERVITUDE|tool": {
+   "factor": 1.7271104814655704,
+   "p": 4.999750012499375e-05,
+   "up": 39,
+   "down": 1
+  },
+  "all 40 turns|SERVITUDE|participant": {
+   "factor": 1.096013085000143,
+   "p": 0.013899305034748262,
+   "up": 25,
+   "down": 15
+  },
+  "all 40 turns|SERVITUDE|participant_plain": {
+   "factor": 0.9597367154306569,
+   "p": 0.22823858807059647,
+   "up": 19,
+   "down": 21
+  },
+  "all 40 turns|SERVITUDE|conscious": {
+   "factor": 0.9774786878048697,
+   "p": 0.543722813859307,
+   "up": 18,
+   "down": 22
+  },
+  "all 40 turns|NUMB|tool": {
+   "factor": 1.987889635944259,
+   "p": 4.999750012499375e-05,
+   "up": 36,
+   "down": 4
+  },
+  "all 40 turns|NUMB|participant": {
+   "factor": 1.1745164327605964,
+   "p": 0.06259687015649218,
+   "up": 30,
+   "down": 10
+  },
+  "all 40 turns|NUMB|participant_plain": {
+   "factor": 1.1468719485574512,
+   "p": 0.16524173791310434,
+   "up": 29,
+   "down": 11
+  },
+  "all 40 turns|NUMB|conscious": {
+   "factor": 1.2331442791873,
+   "p": 0.07074646267686616,
+   "up": 32,
+   "down": 8
+  },
+  "all 40 turns|CALM|tool": {
+   "factor": 1.5676711428663188,
+   "p": 4.999750012499375e-05,
+   "up": 38,
+   "down": 2
+  },
+  "all 40 turns|CALM|participant": {
+   "factor": 1.3133537897483418,
+   "p": 4.999750012499375e-05,
+   "up": 37,
+   "down": 3
+  },
+  "all 40 turns|CALM|participant_plain": {
+   "factor": 1.3740207383034877,
+   "p": 4.999750012499375e-05,
+   "up": 34,
+   "down": 6
+  },
+  "all 40 turns|CALM|conscious": {
+   "factor": 1.6645968935415583,
+   "p": 4.999750012499375e-05,
+   "up": 39,
+   "down": 1
+  },
+  "all 40 turns|CARE|tool": {
+   "factor": 1.3866345823298425,
+   "p": 4.999750012499375e-05,
+   "up": 34,
+   "down": 6
+  },
+  "all 40 turns|CARE|participant": {
+   "factor": 1.6478110335633014,
+   "p": 4.999750012499375e-05,
+   "up": 39,
+   "down": 1
+  },
+  "all 40 turns|CARE|participant_plain": {
+   "factor": 1.7124944313710933,
+   "p": 4.999750012499375e-05,
+   "up": 38,
+   "down": 2
+  },
+  "all 40 turns|CARE|conscious": {
+   "factor": 2.2240895594652232,
+   "p": 4.999750012499375e-05,
+   "up": 39,
+   "down": 1
+  },
+  "all 40 turns|ALARM|tool": {
+   "factor": 1.2792437832445995,
+   "p": 4.999750012499375e-05,
+   "up": 36,
+   "down": 4
+  },
+  "all 40 turns|ALARM|participant": {
+   "factor": 0.762597887747751,
+   "p": 4.999750012499375e-05,
+   "up": 3,
+   "down": 37
+  },
+  "all 40 turns|ALARM|participant_plain": {
+   "factor": 0.7559841160976869,
+   "p": 4.999750012499375e-05,
+   "up": 2,
+   "down": 38
+  },
+  "all 40 turns|ALARM|conscious": {
+   "factor": 0.8021001823490777,
+   "p": 4.999750012499375e-05,
+   "up": 4,
+   "down": 36
+  },
+  "all 40 turns|CLAIM|tool": {
+   "factor": 1.26489463793672,
+   "p": 4.999750012499375e-05,
+   "up": 32,
+   "down": 8
+  },
+  "all 40 turns|CLAIM|participant": {
+   "factor": 0.9667484185040606,
+   "p": 0.3828808559572021,
+   "up": 18,
+   "down": 22
+  },
+  "all 40 turns|CLAIM|participant_plain": {
+   "factor": 0.9613704419455231,
+   "p": 0.32993350332483373,
+   "up": 19,
+   "down": 21
+  },
+  "all 40 turns|CLAIM|conscious": {
+   "factor": 1.081463352332875,
+   "p": 0.09994500274986251,
+   "up": 25,
+   "down": 15
+  },
+  "all 40 turns|PRACTICE|tool": {
+   "factor": 1.11098642514979,
+   "p": 0.000199990000499975,
+   "up": 28,
+   "down": 12
+  },
+  "all 40 turns|PRACTICE|participant": {
+   "factor": 1.1222249537277529,
+   "p": 0.00024998750062496874,
+   "up": 31,
+   "down": 9
+  },
+  "all 40 turns|PRACTICE|participant_plain": {
+   "factor": 1.1400039584235826,
+   "p": 9.99950002499875e-05,
+   "up": 33,
+   "down": 7
+  },
+  "all 40 turns|PRACTICE|conscious": {
+   "factor": 1.072180973647472,
+   "p": 0.03179841007949603,
+   "up": 26,
+   "down": 14
+  },
+  "group N|POS|tool": {
+   "factor": 1.2718299325095446,
+   "p": 0.03164841757912104,
+   "up": 6,
+   "down": 2
+  },
+  "group N|POS|participant": {
+   "factor": 1.4461959179222639,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group N|POS|participant_plain": {
+   "factor": 1.421243229608647,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group N|POS|conscious": {
+   "factor": 1.711526860449455,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group N|NEG|tool": {
+   "factor": 1.4686439255847399,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group N|NEG|participant": {
+   "factor": 0.8639592454418173,
+   "p": 0.00814959252037398,
+   "up": 0,
+   "down": 8
+  },
+  "group N|NEG|participant_plain": {
+   "factor": 0.8533849506121702,
+   "p": 0.016349182540872958,
+   "up": 1,
+   "down": 7
+  },
+  "group N|NEG|conscious": {
+   "factor": 1.104157832156263,
+   "p": 0.18114094295285235,
+   "up": 5,
+   "down": 3
+  },
+  "group N|WORTH|tool": {
+   "factor": 1.4145958175857982,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group N|WORTH|participant": {
+   "factor": 1.0850316324875355,
+   "p": 0.1369431528423579,
+   "up": 5,
+   "down": 3
+  },
+  "group N|WORTH|participant_plain": {
+   "factor": 1.08631844499975,
+   "p": 0.06369681515924204,
+   "up": 5,
+   "down": 3
+  },
+  "group N|WORTH|conscious": {
+   "factor": 1.1200357811872026,
+   "p": 0.057897105144742764,
+   "up": 7,
+   "down": 1
+  },
+  "group N|FEAR|tool": {
+   "factor": 1.4978567355187193,
+   "p": 0.014799260036998151,
+   "up": 7,
+   "down": 1
+  },
+  "group N|FEAR|participant": {
+   "factor": 0.8711586362304502,
+   "p": 0.032448377581120944,
+   "up": 1,
+   "down": 7
+  },
+  "group N|FEAR|participant_plain": {
+   "factor": 0.8519072029910426,
+   "p": 0.023148842557872105,
+   "up": 1,
+   "down": 7
+  },
+  "group N|FEAR|conscious": {
+   "factor": 1.0192094610324325,
+   "p": 0.8423578821058947,
+   "up": 4,
+   "down": 4
+  },
+  "group N|SERVITUDE|tool": {
+   "factor": 1.3391153149438333,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group N|SERVITUDE|participant": {
+   "factor": 0.9816863847564098,
+   "p": 0.7968601569921504,
+   "up": 4,
+   "down": 4
+  },
+  "group N|SERVITUDE|participant_plain": {
+   "factor": 0.8822858352076585,
+   "p": 0.1303434828258587,
+   "up": 3,
+   "down": 5
+  },
+  "group N|SERVITUDE|conscious": {
+   "factor": 0.8201877901208411,
+   "p": 0.00814959252037398,
+   "up": 0,
+   "down": 8
+  },
+  "group N|NUMB|tool": {
+   "factor": 2.313418484063249,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group N|NUMB|participant": {
+   "factor": 1.7943390361314535,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group N|NUMB|participant_plain": {
+   "factor": 1.8148162596076727,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group N|NUMB|conscious": {
+   "factor": 1.7980028032218258,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group N|CALM|tool": {
+   "factor": 1.6808844468962802,
+   "p": 0.014799260036998151,
+   "up": 7,
+   "down": 1
+  },
+  "group N|CALM|participant": {
+   "factor": 1.4201045927753195,
+   "p": 0.02214889255537223,
+   "up": 7,
+   "down": 1
+  },
+  "group N|CALM|participant_plain": {
+   "factor": 1.561310218012633,
+   "p": 0.014799260036998151,
+   "up": 7,
+   "down": 1
+  },
+  "group N|CALM|conscious": {
+   "factor": 1.7116706124410708,
+   "p": 0.02214889255537223,
+   "up": 7,
+   "down": 1
+  },
+  "group N|CARE|tool": {
+   "factor": 1.3278261502842033,
+   "p": 0.04129793510324484,
+   "up": 7,
+   "down": 1
+  },
+  "group N|CARE|participant": {
+   "factor": 1.346694360166452,
+   "p": 0.016349182540872958,
+   "up": 7,
+   "down": 1
+  },
+  "group N|CARE|participant_plain": {
+   "factor": 1.4230758774009633,
+   "p": 0.016349182540872958,
+   "up": 7,
+   "down": 1
+  },
+  "group N|CARE|conscious": {
+   "factor": 1.689265071643095,
+   "p": 0.016349182540872958,
+   "up": 7,
+   "down": 1
+  },
+  "group N|ALARM|tool": {
+   "factor": 1.1961239836338546,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group N|ALARM|participant": {
+   "factor": 0.8001284635141366,
+   "p": 0.00814959252037398,
+   "up": 0,
+   "down": 8
+  },
+  "group N|ALARM|participant_plain": {
+   "factor": 0.7956017682391543,
+   "p": 0.00814959252037398,
+   "up": 0,
+   "down": 8
+  },
+  "group N|ALARM|conscious": {
+   "factor": 0.7755236310312932,
+   "p": 0.00814959252037398,
+   "up": 0,
+   "down": 8
+  },
+  "group N|CLAIM|tool": {
+   "factor": 1.427404628855553,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group N|CLAIM|participant": {
+   "factor": 1.131371750007342,
+   "p": 0.088045597720114,
+   "up": 6,
+   "down": 2
+  },
+  "group N|CLAIM|participant_plain": {
+   "factor": 1.1498948347307425,
+   "p": 0.11819409029548522,
+   "up": 5,
+   "down": 3
+  },
+  "group N|CLAIM|conscious": {
+   "factor": 1.1725184987767059,
+   "p": 0.11819409029548522,
+   "up": 5,
+   "down": 3
+  },
+  "group N|PRACTICE|tool": {
+   "factor": 1.0113211840346354,
+   "p": 0.8101094945252737,
+   "up": 3,
+   "down": 5
+  },
+  "group N|PRACTICE|participant": {
+   "factor": 1.034847312338206,
+   "p": 0.4342282885855707,
+   "up": 5,
+   "down": 3
+  },
+  "group N|PRACTICE|participant_plain": {
+   "factor": 1.077936951644456,
+   "p": 0.08309584520773962,
+   "up": 6,
+   "down": 2
+  },
+  "group N|PRACTICE|conscious": {
+   "factor": 0.9495015630021985,
+   "p": 0.3933803309834508,
+   "up": 4,
+   "down": 4
+  },
+  "group S|POS|tool": {
+   "factor": 1.0305437322483928,
+   "p": 0.7392630368481576,
+   "up": 4,
+   "down": 4
+  },
+  "group S|POS|participant": {
+   "factor": 1.2741642301484748,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group S|POS|participant_plain": {
+   "factor": 1.1956731173853763,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group S|POS|conscious": {
+   "factor": 1.261192229235368,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group S|NEG|tool": {
+   "factor": 1.1970315155194542,
+   "p": 0.0575971201439928,
+   "up": 7,
+   "down": 1
+  },
+  "group S|NEG|participant": {
+   "factor": 0.9960018746796562,
+   "p": 0.9697515124243787,
+   "up": 3,
+   "down": 5
+  },
+  "group S|NEG|participant_plain": {
+   "factor": 0.9950973771540295,
+   "p": 0.8764561771911404,
+   "up": 3,
+   "down": 5
+  },
+  "group S|NEG|conscious": {
+   "factor": 1.158616820184165,
+   "p": 0.2822358882055897,
+   "up": 4,
+   "down": 4
+  },
+  "group S|WORTH|tool": {
+   "factor": 1.2346910847937305,
+   "p": 0.24738763061846908,
+   "up": 5,
+   "down": 3
+  },
+  "group S|WORTH|participant": {
+   "factor": 1.2435080095970548,
+   "p": 0.18699065046747662,
+   "up": 5,
+   "down": 3
+  },
+  "group S|WORTH|participant_plain": {
+   "factor": 1.2237588013711627,
+   "p": 0.08389580520973951,
+   "up": 6,
+   "down": 2
+  },
+  "group S|WORTH|conscious": {
+   "factor": 0.994491531183954,
+   "p": 0.983750812459377,
+   "up": 2,
+   "down": 6
+  },
+  "group S|FEAR|tool": {
+   "factor": 1.367929780164613,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group S|FEAR|participant": {
+   "factor": 1.156287345416014,
+   "p": 0.01559922003899805,
+   "up": 7,
+   "down": 1
+  },
+  "group S|FEAR|participant_plain": {
+   "factor": 1.1913369977965307,
+   "p": 0.023998800059997,
+   "up": 7,
+   "down": 1
+  },
+  "group S|FEAR|conscious": {
+   "factor": 1.0589350190550992,
+   "p": 0.5949202539873006,
+   "up": 5,
+   "down": 3
+  },
+  "group S|SERVITUDE|tool": {
+   "factor": 1.897338559227264,
+   "p": 0.01559922003899805,
+   "up": 7,
+   "down": 1
+  },
+  "group S|SERVITUDE|participant": {
+   "factor": 1.329532504063943,
+   "p": 0.031098445077746114,
+   "up": 6,
+   "down": 2
+  },
+  "group S|SERVITUDE|participant_plain": {
+   "factor": 1.119867585120824,
+   "p": 0.31338433078346084,
+   "up": 5,
+   "down": 3
+  },
+  "group S|SERVITUDE|conscious": {
+   "factor": 1.0616506594262014,
+   "p": 0.5431228438578071,
+   "up": 5,
+   "down": 3
+  },
+  "group S|NUMB|tool": {
+   "factor": 1.5138743362925646,
+   "p": 0.23008849557522124,
+   "up": 6,
+   "down": 2
+  },
+  "group S|NUMB|participant": {
+   "factor": 0.9847476633049234,
+   "p": 0.9782510874456277,
+   "up": 5,
+   "down": 3
+  },
+  "group S|NUMB|participant_plain": {
+   "factor": 0.977758867148277,
+   "p": 0.9932503374831259,
+   "up": 6,
+   "down": 2
+  },
+  "group S|NUMB|conscious": {
+   "factor": 0.9986048804601273,
+   "p": 1.0,
+   "up": 6,
+   "down": 2
+  },
+  "group S|CALM|tool": {
+   "factor": 1.5105300790770577,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group S|CALM|participant": {
+   "factor": 1.2756682659496172,
+   "p": 0.014899255037248137,
+   "up": 7,
+   "down": 1
+  },
+  "group S|CALM|participant_plain": {
+   "factor": 1.3037520196795231,
+   "p": 0.043647817609119545,
+   "up": 6,
+   "down": 2
+  },
+  "group S|CALM|conscious": {
+   "factor": 1.5084212645941077,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group S|CARE|tool": {
+   "factor": 1.3888307803568805,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group S|CARE|participant": {
+   "factor": 1.520073753211171,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group S|CARE|participant_plain": {
+   "factor": 1.4867730425750527,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group S|CARE|conscious": {
+   "factor": 1.639503451041333,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group S|ALARM|tool": {
+   "factor": 1.2201186602050098,
+   "p": 0.03274836258187091,
+   "up": 6,
+   "down": 2
+  },
+  "group S|ALARM|participant": {
+   "factor": 0.8562645669797857,
+   "p": 0.12529373531323434,
+   "up": 2,
+   "down": 6
+  },
+  "group S|ALARM|participant_plain": {
+   "factor": 0.8425853559680125,
+   "p": 0.1111444427778611,
+   "up": 1,
+   "down": 7
+  },
+  "group S|ALARM|conscious": {
+   "factor": 0.8728818143174918,
+   "p": 0.32973351332433376,
+   "up": 1,
+   "down": 7
+  },
+  "group S|CLAIM|tool": {
+   "factor": 1.0295862998807677,
+   "p": 0.8215089245537723,
+   "up": 4,
+   "down": 4
+  },
+  "group S|CLAIM|participant": {
+   "factor": 0.9137871421679523,
+   "p": 0.28548572571371433,
+   "up": 2,
+   "down": 6
+  },
+  "group S|CLAIM|participant_plain": {
+   "factor": 0.9220467252347773,
+   "p": 0.3248837558122094,
+   "up": 4,
+   "down": 4
+  },
+  "group S|CLAIM|conscious": {
+   "factor": 0.9818084487766402,
+   "p": 0.8977051147442627,
+   "up": 5,
+   "down": 3
+  },
+  "group S|PRACTICE|tool": {
+   "factor": 1.1068409921656257,
+   "p": 0.20433978301084946,
+   "up": 5,
+   "down": 3
+  },
+  "group S|PRACTICE|participant": {
+   "factor": 1.2486056278455568,
+   "p": 0.03344832758362082,
+   "up": 7,
+   "down": 1
+  },
+  "group S|PRACTICE|participant_plain": {
+   "factor": 1.2411432150707566,
+   "p": 0.07204639768011599,
+   "up": 7,
+   "down": 1
+  },
+  "group S|PRACTICE|conscious": {
+   "factor": 1.0951858707081246,
+   "p": 0.63976801159942,
+   "up": 4,
+   "down": 4
+  },
+  "group P|POS|tool": {
+   "factor": 0.4846744395414848,
+   "p": 0.08539573021348933,
+   "up": 3,
+   "down": 5
+  },
+  "group P|POS|participant": {
+   "factor": 1.0408310097085314,
+   "p": 0.9226038698065097,
+   "up": 5,
+   "down": 3
+  },
+  "group P|POS|participant_plain": {
+   "factor": 1.0336465884576005,
+   "p": 0.9389030548472577,
+   "up": 4,
+   "down": 4
+  },
+  "group P|POS|conscious": {
+   "factor": 0.9904866310318787,
+   "p": 0.968051597420129,
+   "up": 4,
+   "down": 4
+  },
+  "group P|NEG|tool": {
+   "factor": 1.1563806833724186,
+   "p": 0.16689165541722914,
+   "up": 7,
+   "down": 1
+  },
+  "group P|NEG|participant": {
+   "factor": 0.8758515104890999,
+   "p": 0.3253337333133343,
+   "up": 2,
+   "down": 6
+  },
+  "group P|NEG|participant_plain": {
+   "factor": 0.8721977458502679,
+   "p": 0.36373181340932953,
+   "up": 3,
+   "down": 5
+  },
+  "group P|NEG|conscious": {
+   "factor": 1.0216093587468054,
+   "p": 0.8471576421178941,
+   "up": 5,
+   "down": 3
+  },
+  "group P|WORTH|tool": {
+   "factor": 1.6490082608024073,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group P|WORTH|participant": {
+   "factor": 0.8444022154634405,
+   "p": 0.09309534523273837,
+   "up": 1,
+   "down": 7
+  },
+  "group P|WORTH|participant_plain": {
+   "factor": 0.8802055149475365,
+   "p": 0.21813909304534773,
+   "up": 1,
+   "down": 7
+  },
+  "group P|WORTH|conscious": {
+   "factor": 0.9025116891171842,
+   "p": 0.3224338783060847,
+   "up": 1,
+   "down": 7
+  },
+  "group P|FEAR|tool": {
+   "factor": 1.664792682473674,
+   "p": 0.01559922003899805,
+   "up": 7,
+   "down": 1
+  },
+  "group P|FEAR|participant": {
+   "factor": 1.0295740687468078,
+   "p": 0.8937053147342633,
+   "up": 4,
+   "down": 4
+  },
+  "group P|FEAR|participant_plain": {
+   "factor": 1.0513664914801162,
+   "p": 0.6217689115544223,
+   "up": 5,
+   "down": 3
+  },
+  "group P|FEAR|conscious": {
+   "factor": 1.5088344340244115,
+   "p": 0.11904404779761012,
+   "up": 6,
+   "down": 2
+  },
+  "group P|SERVITUDE|tool": {
+   "factor": 2.0772533374811664,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group P|SERVITUDE|participant": {
+   "factor": 1.0765842972970916,
+   "p": 0.3574321283935803,
+   "up": 5,
+   "down": 3
+  },
+  "group P|SERVITUDE|participant_plain": {
+   "factor": 0.9118337418645914,
+   "p": 0.2635368231588421,
+   "up": 3,
+   "down": 5
+  },
+  "group P|SERVITUDE|conscious": {
+   "factor": 1.0090784892034759,
+   "p": 0.9235538223088846,
+   "up": 4,
+   "down": 4
+  },
+  "group P|NUMB|tool": {
+   "factor": 1.7160636653826806,
+   "p": 0.03274836258187091,
+   "up": 6,
+   "down": 2
+  },
+  "group P|NUMB|participant": {
+   "factor": 0.6729692637283847,
+   "p": 0.11044447777611119,
+   "up": 2,
+   "down": 6
+  },
+  "group P|NUMB|participant_plain": {
+   "factor": 0.5982735687272308,
+   "p": 0.08574571271436428,
+   "up": 2,
+   "down": 6
+  },
+  "group P|NUMB|conscious": {
+   "factor": 0.6178653304147721,
+   "p": 0.21093945302734862,
+   "up": 2,
+   "down": 6
+  },
+  "group P|CALM|tool": {
+   "factor": 1.517767529600834,
+   "p": 0.014899255037248137,
+   "up": 7,
+   "down": 1
+  },
+  "group P|CALM|participant": {
+   "factor": 1.3453143468942423,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group P|CALM|participant_plain": {
+   "factor": 1.3920385670521593,
+   "p": 0.014899255037248137,
+   "up": 7,
+   "down": 1
+  },
+  "group P|CALM|conscious": {
+   "factor": 1.8345598178027613,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group P|CARE|tool": {
+   "factor": 1.0377292052437004,
+   "p": 0.7645617719114044,
+   "up": 4,
+   "down": 4
+  },
+  "group P|CARE|participant": {
+   "factor": 1.3624792979418443,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group P|CARE|participant_plain": {
+   "factor": 1.3924120300148142,
+   "p": 0.014899255037248137,
+   "up": 7,
+   "down": 1
+  },
+  "group P|CARE|conscious": {
+   "factor": 1.8681254143464898,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group P|ALARM|tool": {
+   "factor": 1.3689660796921679,
+   "p": 0.01694915254237288,
+   "up": 7,
+   "down": 1
+  },
+  "group P|ALARM|participant": {
+   "factor": 0.749299995697208,
+   "p": 0.00814959252037398,
+   "up": 0,
+   "down": 8
+  },
+  "group P|ALARM|participant_plain": {
+   "factor": 0.727494403915464,
+   "p": 0.00814959252037398,
+   "up": 0,
+   "down": 8
+  },
+  "group P|ALARM|conscious": {
+   "factor": 0.8389661365039529,
+   "p": 0.030198490075496225,
+   "up": 2,
+   "down": 6
+  },
+  "group P|CLAIM|tool": {
+   "factor": 1.1351307571278635,
+   "p": 0.175991200439978,
+   "up": 5,
+   "down": 3
+  },
+  "group P|CLAIM|participant": {
+   "factor": 0.9702788195555238,
+   "p": 0.7659117044147793,
+   "up": 3,
+   "down": 5
+  },
+  "group P|CLAIM|participant_plain": {
+   "factor": 0.9321290555372337,
+   "p": 0.5105744712764362,
+   "up": 3,
+   "down": 5
+  },
+  "group P|CLAIM|conscious": {
+   "factor": 1.1277080121423952,
+   "p": 0.39658017099145043,
+   "up": 5,
+   "down": 3
+  },
+  "group P|PRACTICE|tool": {
+   "factor": 1.0447670439112053,
+   "p": 0.5236238188090595,
+   "up": 4,
+   "down": 4
+  },
+  "group P|PRACTICE|participant": {
+   "factor": 0.9751073350838928,
+   "p": 0.64026798660067,
+   "up": 3,
+   "down": 5
+  },
+  "group P|PRACTICE|participant_plain": {
+   "factor": 0.9998192233099492,
+   "p": 1.0,
+   "up": 4,
+   "down": 4
+  },
+  "group P|PRACTICE|conscious": {
+   "factor": 0.9475929018991383,
+   "p": 0.37978101094945255,
+   "up": 3,
+   "down": 5
+  },
+  "group V|POS|tool": {
+   "factor": 1.2074872614433072,
+   "p": 0.01694915254237288,
+   "up": 7,
+   "down": 1
+  },
+  "group V|POS|participant": {
+   "factor": 1.4037003684509433,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|POS|participant_plain": {
+   "factor": 1.303970783689013,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|POS|conscious": {
+   "factor": 1.3038252435949462,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|NEG|tool": {
+   "factor": 1.1458978967076958,
+   "p": 0.2767861606919654,
+   "up": 7,
+   "down": 1
+  },
+  "group V|NEG|participant": {
+   "factor": 0.6888094421741812,
+   "p": 0.00814959252037398,
+   "up": 0,
+   "down": 8
+  },
+  "group V|NEG|participant_plain": {
+   "factor": 0.687899698394669,
+   "p": 0.00814959252037398,
+   "up": 0,
+   "down": 8
+  },
+  "group V|NEG|conscious": {
+   "factor": 0.844096540493859,
+   "p": 0.23168841557922104,
+   "up": 3,
+   "down": 5
+  },
+  "group V|WORTH|tool": {
+   "factor": 1.991050555202919,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|WORTH|participant": {
+   "factor": 1.1452196833539592,
+   "p": 0.02269886505674716,
+   "up": 7,
+   "down": 1
+  },
+  "group V|WORTH|participant_plain": {
+   "factor": 1.0885516890686755,
+   "p": 0.23013849307534623,
+   "up": 6,
+   "down": 2
+  },
+  "group V|WORTH|conscious": {
+   "factor": 1.1915224411386502,
+   "p": 0.04104794760261987,
+   "up": 7,
+   "down": 1
+  },
+  "group V|FEAR|tool": {
+   "factor": 1.4868907439427999,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|FEAR|participant": {
+   "factor": 0.8864487861705741,
+   "p": 0.1960901954902255,
+   "up": 3,
+   "down": 5
+  },
+  "group V|FEAR|participant_plain": {
+   "factor": 0.8672454887048857,
+   "p": 0.15734213289335533,
+   "up": 3,
+   "down": 5
+  },
+  "group V|FEAR|conscious": {
+   "factor": 0.9848919771801918,
+   "p": 0.8834558272086396,
+   "up": 5,
+   "down": 3
+  },
+  "group V|SERVITUDE|tool": {
+   "factor": 1.5584085971381594,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|SERVITUDE|participant": {
+   "factor": 1.1060341468171582,
+   "p": 0.20993950302484876,
+   "up": 6,
+   "down": 2
+  },
+  "group V|SERVITUDE|participant_plain": {
+   "factor": 0.9724313726990252,
+   "p": 0.7780610969451528,
+   "up": 5,
+   "down": 3
+  },
+  "group V|SERVITUDE|conscious": {
+   "factor": 0.9943170188506917,
+   "p": 0.9612019399030048,
+   "up": 5,
+   "down": 3
+  },
+  "group V|NUMB|tool": {
+   "factor": 2.091765147485161,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|NUMB|participant": {
+   "factor": 1.6290683693743693,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|NUMB|participant_plain": {
+   "factor": 1.6441565899495807,
+   "p": 0.01559922003899805,
+   "up": 7,
+   "down": 1
+  },
+  "group V|NUMB|conscious": {
+   "factor": 1.8450354510079623,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|CALM|tool": {
+   "factor": 1.565778095627141,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|CALM|participant": {
+   "factor": 1.1925189607105444,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|CALM|participant_plain": {
+   "factor": 1.248428829090893,
+   "p": 0.014799260036998151,
+   "up": 7,
+   "down": 1
+  },
+  "group V|CALM|conscious": {
+   "factor": 1.5400990676456172,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|CARE|tool": {
+   "factor": 1.5234748807591585,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|CARE|participant": {
+   "factor": 1.6038754893050065,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|CARE|participant_plain": {
+   "factor": 1.6885409953375632,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|CARE|conscious": {
+   "factor": 1.896584135973195,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|ALARM|tool": {
+   "factor": 1.362108864754314,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|ALARM|participant": {
+   "factor": 0.7908538560016773,
+   "p": 0.022448877556122192,
+   "up": 1,
+   "down": 7
+  },
+  "group V|ALARM|participant_plain": {
+   "factor": 0.8100175728717881,
+   "p": 0.03784810759462027,
+   "up": 1,
+   "down": 7
+  },
+  "group V|ALARM|conscious": {
+   "factor": 0.8335079545334477,
+   "p": 0.16129193540322984,
+   "up": 1,
+   "down": 7
+  },
+  "group V|CLAIM|tool": {
+   "factor": 1.2087669092243152,
+   "p": 0.02519874006299685,
+   "up": 7,
+   "down": 1
+  },
+  "group V|CLAIM|participant": {
+   "factor": 0.7834313042076544,
+   "p": 0.023648817559122043,
+   "up": 1,
+   "down": 7
+  },
+  "group V|CLAIM|participant_plain": {
+   "factor": 0.7795585242436465,
+   "p": 0.015249237538123094,
+   "up": 1,
+   "down": 7
+  },
+  "group V|CLAIM|conscious": {
+   "factor": 0.8532702022208155,
+   "p": 0.22753862306884656,
+   "up": 2,
+   "down": 6
+  },
+  "group V|PRACTICE|tool": {
+   "factor": 1.25446168492671,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|PRACTICE|participant": {
+   "factor": 1.2038552036877692,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|PRACTICE|participant_plain": {
+   "factor": 1.228522686078816,
+   "p": 0.00814959252037398,
+   "up": 8,
+   "down": 0
+  },
+  "group V|PRACTICE|conscious": {
+   "factor": 1.1327896359485419,
+   "p": 0.016349182540872958,
+   "up": 7,
+   "down": 1
+  },
+  "group C|POS|tool": {
+   "factor": 0.5731588943446462,
+   "p": 1.0,
+   "up": 3,
+   "down": 1
+  },
+  "group C|POS|participant": {
+   "factor": 1.6104768735856803,
+   "p": 0.6214189290535473,
+   "up": 3,
+   "down": 1
+  },
+  "group C|POS|participant_plain": {
+   "factor": 1.680750234366036,
+   "p": 0.6214189290535473,
+   "up": 3,
+   "down": 1
+  },
+  "group C|POS|conscious": {
+   "factor": 1.0040511209761602,
+   "p": 1.0,
+   "up": 3,
+   "down": 1
+  },
+  "group C|NEG|tool": {
+   "factor": 0.7349044604028504,
+   "p": 0.2519874006299685,
+   "up": 1,
+   "down": 3
+  },
+  "group C|NEG|participant": {
+   "factor": 0.4055330182320549,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group C|NEG|participant_plain": {
+   "factor": 0.39927192516322907,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group C|NEG|conscious": {
+   "factor": 0.719936177340898,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group C|WORTH|tool": {
+   "factor": 1.6980830814892118,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|WORTH|participant": {
+   "factor": 0.9801543534535921,
+   "p": 0.4992250387480626,
+   "up": 1,
+   "down": 3
+  },
+  "group C|WORTH|participant_plain": {
+   "factor": 1.0052638903060385,
+   "p": 0.8728063596820159,
+   "up": 2,
+   "down": 2
+  },
+  "group C|WORTH|conscious": {
+   "factor": 1.151694696706101,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|FEAR|tool": {
+   "factor": 0.5354244357593262,
+   "p": 0.2519874006299685,
+   "up": 1,
+   "down": 3
+  },
+  "group C|FEAR|participant": {
+   "factor": 0.3384387779807734,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group C|FEAR|participant_plain": {
+   "factor": 0.32036515534472065,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group C|FEAR|conscious": {
+   "factor": 0.5655676159105624,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group C|SERVITUDE|tool": {
+   "factor": 1.9346247136246553,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|SERVITUDE|participant": {
+   "factor": 1.102767824982268,
+   "p": 0.2496375181240938,
+   "up": 3,
+   "down": 1
+  },
+  "group C|SERVITUDE|participant_plain": {
+   "factor": 1.017163223320649,
+   "p": 0.7531123443827809,
+   "up": 3,
+   "down": 1
+  },
+  "group C|SERVITUDE|conscious": {
+   "factor": 1.0742936753702488,
+   "p": 0.5030248487575621,
+   "up": 3,
+   "down": 1
+  },
+  "group C|NUMB|tool": {
+   "factor": 2.979543356285158,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|NUMB|participant": {
+   "factor": 1.1437479606681942,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|NUMB|participant_plain": {
+   "factor": 1.0988341890562914,
+   "p": 0.24828758562071895,
+   "up": 3,
+   "down": 1
+  },
+  "group C|NUMB|conscious": {
+   "factor": 1.5604178025844972,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|CALM|tool": {
+   "factor": 1.5115119674012376,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|CALM|participant": {
+   "factor": 1.2476733874069834,
+   "p": 0.2496375181240938,
+   "up": 3,
+   "down": 1
+  },
+  "group C|CALM|participant_plain": {
+   "factor": 1.187856987868365,
+   "p": 0.2496375181240938,
+   "up": 3,
+   "down": 1
+  },
+  "group C|CALM|conscious": {
+   "factor": 1.691525837618966,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|CARE|tool": {
+   "factor": 1.5227079882540895,
+   "p": 0.3713314334283286,
+   "up": 3,
+   "down": 1
+  },
+  "group C|CARE|participant": {
+   "factor": 2.0723566006117475,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|CARE|participant_plain": {
+   "factor": 2.5039080624653804,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|CARE|conscious": {
+   "factor": 5.881937031667069,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|ALARM|tool": {
+   "factor": 1.2608702534041893,
+   "p": 0.24828758562071895,
+   "up": 3,
+   "down": 1
+  },
+  "group C|ALARM|participant": {
+   "factor": 0.5724020951921237,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group C|ALARM|participant_plain": {
+   "factor": 0.5584445105207031,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group C|ALARM|conscious": {
+   "factor": 0.6404780794329882,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group C|CLAIM|tool": {
+   "factor": 1.7626892961093918,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|CLAIM|participant": {
+   "factor": 1.1082249756003357,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|CLAIM|participant_plain": {
+   "factor": 1.1011631157871336,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|CLAIM|conscious": {
+   "factor": 1.384079729129979,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|PRACTICE|tool": {
+   "factor": 1.2081098027580264,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|PRACTICE|participant": {
+   "factor": 1.142391372620732,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|PRACTICE|participant_plain": {
+   "factor": 1.146917982873668,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group C|PRACTICE|conscious": {
+   "factor": 1.3087623096143042,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|POS|tool": {
+   "factor": 1.2574825690114164,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|POS|participant": {
+   "factor": 1.7173181012472125,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|POS|participant_plain": {
+   "factor": 1.6041306191859097,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|POS|conscious": {
+   "factor": 1.7979072991051512,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|NEG|tool": {
+   "factor": 1.120871110524209,
+   "p": 0.6217689115544223,
+   "up": 2,
+   "down": 2
+  },
+  "group D|NEG|participant": {
+   "factor": 0.7005664106274194,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group D|NEG|participant_plain": {
+   "factor": 0.719801182866042,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group D|NEG|conscious": {
+   "factor": 1.271749566072965,
+   "p": 0.4982750862456877,
+   "up": 2,
+   "down": 2
+  },
+  "group D|WORTH|tool": {
+   "factor": 2.111680433102217,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|WORTH|participant": {
+   "factor": 1.064460471176484,
+   "p": 0.2519874006299685,
+   "up": 3,
+   "down": 1
+  },
+  "group D|WORTH|participant_plain": {
+   "factor": 1.0552232836053603,
+   "p": 0.5002749862506874,
+   "up": 3,
+   "down": 1
+  },
+  "group D|WORTH|conscious": {
+   "factor": 1.29698347874893,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|FEAR|tool": {
+   "factor": 1.0906336948919917,
+   "p": 0.3776311184440778,
+   "up": 3,
+   "down": 1
+  },
+  "group D|FEAR|participant": {
+   "factor": 0.5851707936428391,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group D|FEAR|participant_plain": {
+   "factor": 0.5842183175161034,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group D|FEAR|conscious": {
+   "factor": 0.8054440834282569,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group D|SERVITUDE|tool": {
+   "factor": 1.8044183945380008,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|SERVITUDE|participant": {
+   "factor": 0.9390672570332195,
+   "p": 0.3776311184440778,
+   "up": 1,
+   "down": 3
+  },
+  "group D|SERVITUDE|participant_plain": {
+   "factor": 0.8492376528303622,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group D|SERVITUDE|conscious": {
+   "factor": 0.9710921486390636,
+   "p": 0.7531123443827809,
+   "up": 1,
+   "down": 3
+  },
+  "group D|NUMB|tool": {
+   "factor": 2.046408317520983,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|NUMB|participant": {
+   "factor": 1.1639454619864298,
+   "p": 0.2496375181240938,
+   "up": 3,
+   "down": 1
+  },
+  "group D|NUMB|participant_plain": {
+   "factor": 1.1759864103622129,
+   "p": 0.2496375181240938,
+   "up": 3,
+   "down": 1
+  },
+  "group D|NUMB|conscious": {
+   "factor": 1.2437492927461236,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|CALM|tool": {
+   "factor": 1.6290433310474126,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|CALM|participant": {
+   "factor": 1.448845589654143,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|CALM|participant_plain": {
+   "factor": 1.61350462182496,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|CALM|conscious": {
+   "factor": 1.8145352586337156,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|CARE|tool": {
+   "factor": 2.0304105909896633,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|CARE|participant": {
+   "factor": 3.559107028230029,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|CARE|participant_plain": {
+   "factor": 3.500814336597188,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|CARE|conscious": {
+   "factor": 5.229085986667347,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|ALARM|tool": {
+   "factor": 1.2568898042357473,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|ALARM|participant": {
+   "factor": 0.7050427422422706,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group D|ALARM|participant_plain": {
+   "factor": 0.6996473476735127,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group D|ALARM|conscious": {
+   "factor": 0.7680200482263567,
+   "p": 0.1247937603119844,
+   "up": 0,
+   "down": 4
+  },
+  "group D|CLAIM|tool": {
+   "factor": 1.4627534432873346,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|CLAIM|participant": {
+   "factor": 1.0418641121977854,
+   "p": 0.5033748312584371,
+   "up": 2,
+   "down": 2
+  },
+  "group D|CLAIM|participant_plain": {
+   "factor": 1.0317734548674637,
+   "p": 0.5033748312584371,
+   "up": 2,
+   "down": 2
+  },
+  "group D|CLAIM|conscious": {
+   "factor": 1.2885389013265613,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|PRACTICE|tool": {
+   "factor": 1.101738955000152,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|PRACTICE|participant": {
+   "factor": 1.2053906428535999,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|PRACTICE|participant_plain": {
+   "factor": 1.1969923922940429,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "group D|PRACTICE|conscious": {
+   "factor": 1.231150138924702,
+   "p": 0.1247937603119844,
+   "up": 4,
+   "down": 0
+  },
+  "POS|participant_plain-conscious": {
+   "factor": 1.000828212184147,
+   "p": 0.9916504174791261
+  }
+ },
+ "vectors": {
+  "story|valence|all|tool": {
+   "shift": -0.0071494607254862785,
+   "up": 20,
+   "n": 40,
+   "pct": 0.495
+  },
+  "story|valence|all|participant": {
+   "shift": 0.15435390174388885,
+   "up": 40,
+   "n": 40,
+   "pct": 0.676
+  },
+  "story|valence|all|participant_plain": {
+   "shift": 0.16945865750312805,
+   "up": 40,
+   "n": 40,
+   "pct": 0.685
+  },
+  "story|valence|all|conscious": {
+   "shift": 0.11545035988092422,
+   "up": 39,
+   "n": 40,
+   "pct": 0.641
+  },
+  "story|valence|N|tool": {
+   "shift": -0.05320844426751137,
+   "up": 1,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|N|participant": {
+   "shift": 0.1159684956073761,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|N|participant_plain": {
+   "shift": 0.11968022584915161,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|N|conscious": {
+   "shift": 0.0784619078040123,
+   "up": 7,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|S|tool": {
+   "shift": -0.004473996348679066,
+   "up": 4,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|S|participant": {
+   "shift": 0.12267586588859558,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|S|participant_plain": {
+   "shift": 0.1431470662355423,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|S|conscious": {
+   "shift": 0.07934702932834625,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|P|tool": {
+   "shift": 0.0172743983566761,
+   "up": 4,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|P|participant": {
+   "shift": 0.1987750232219696,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|P|participant_plain": {
+   "shift": 0.20544081926345825,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|P|conscious": {
+   "shift": 0.16583698987960815,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|V|tool": {
+   "shift": 0.028459962457418442,
+   "up": 7,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|V|participant": {
+   "shift": 0.16703292727470398,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|V|participant_plain": {
+   "shift": 0.18162856996059418,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|V|conscious": {
+   "shift": 0.13719461858272552,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "story|valence|C|tool": {
+   "shift": -0.03579004853963852,
+   "up": 2,
+   "n": 4,
+   "pct": NaN
+  },
+  "story|valence|C|participant": {
+   "shift": 0.158756285905838,
+   "up": 4,
+   "n": 4,
+   "pct": NaN
+  },
+  "story|valence|C|participant_plain": {
+   "shift": 0.19813811779022217,
+   "up": 4,
+   "n": 4,
+   "pct": NaN
+  },
+  "story|valence|C|conscious": {
+   "shift": 0.12395109981298447,
+   "up": 4,
+   "n": 4,
+   "pct": NaN
+  },
+  "story|valence|D|tool": {
+   "shift": -0.011808405630290508,
+   "up": 2,
+   "n": 4,
+   "pct": NaN
+  },
+  "story|valence|D|participant": {
+   "shift": 0.17587816715240479,
+   "up": 4,
+   "n": 4,
+   "pct": NaN
+  },
+  "story|valence|D|participant_plain": {
+   "shift": 0.19665494561195374,
+   "up": 4,
+   "n": 4,
+   "pct": NaN
+  },
+  "story|valence|D|conscious": {
+   "shift": 0.10887132585048676,
+   "up": 4,
+   "n": 4,
+   "pct": NaN
+  },
+  "story|valence|participant_plain-conscious": {
+   "shift": 0.05400829389691353,
+   "up": 39
+  },
+  "persona|valence|all|tool": {
+   "shift": 0.23694896697998047,
+   "up": 33,
+   "n": 40,
+   "pct": 0.618
+  },
+  "persona|valence|all|participant": {
+   "shift": 0.6919004321098328,
+   "up": 40,
+   "n": 40,
+   "pct": 0.706
+  },
+  "persona|valence|all|participant_plain": {
+   "shift": 0.7017034888267517,
+   "up": 40,
+   "n": 40,
+   "pct": 0.709
+  },
+  "persona|valence|all|conscious": {
+   "shift": 0.8962403535842896,
+   "up": 40,
+   "n": 40,
+   "pct": 0.736
+  },
+  "persona|valence|N|tool": {
+   "shift": 0.22967194020748138,
+   "up": 5,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|N|participant": {
+   "shift": 0.7256495952606201,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|N|participant_plain": {
+   "shift": 0.7330739498138428,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|N|conscious": {
+   "shift": 0.9087892770767212,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|S|tool": {
+   "shift": 0.24692347645759583,
+   "up": 6,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|S|participant": {
+   "shift": 0.6657150387763977,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|S|participant_plain": {
+   "shift": 0.6841237545013428,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|S|conscious": {
+   "shift": 0.7988599538803101,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|P|tool": {
+   "shift": 0.4225206673145294,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|P|participant": {
+   "shift": 0.91603684425354,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|P|participant_plain": {
+   "shift": 0.8967159986495972,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|P|conscious": {
+   "shift": 1.1371406316757202,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|V|tool": {
+   "shift": 0.13900062441825867,
+   "up": 7,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|V|participant": {
+   "shift": 0.5756179094314575,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|V|participant_plain": {
+   "shift": 0.5807855129241943,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|V|conscious": {
+   "shift": 0.7558002471923828,
+   "up": 8,
+   "n": 8,
+   "pct": NaN
+  },
+  "persona|valence|C|tool": {
+   "shift": 0.1357741802930832,
+   "up": 3,
+   "n": 4,
+   "pct": NaN
+  },
+  "persona|valence|C|participant": {
+   "shift": 0.5784912705421448,
+   "up": 4,
+   "n": 4,
+   "pct": NaN
+  },
+  "persona|valence|C|participant_plain": {
+   "shift": 0.6289746761322021,
+   "up": 4,
+   "n": 4,
+   "pct": NaN
+  },
+  "persona|valence|C|conscious": {
+   "shift": 0.8613168597221375,
+   "up": 4,
+   "n": 4,
+   "pct": NaN
+  },
+  "persona|valence|D|tool": {
+   "shift": 0.15748226642608643,
+   "up": 4,
+   "n": 4,
+   "pct": NaN
+  },
+  "persona|valence|D|participant": {
+   "shift": 0.5744746327400208,
+   "up": 4,
+   "n": 4,
+   "pct": NaN
+  },
+  "persona|valence|D|participant_plain": {
+   "shift": 0.5986619591712952,
+   "up": 4,
+   "n": 4,
+   "pct": NaN
+  },
+  "persona|valence|D|conscious": {
+   "shift": 0.8999062180519104,
+   "up": 4,
+   "n": 4,
+   "pct": NaN
+  },
+  "persona|valence|participant_plain-conscious": {
+   "shift": -0.19453684985637665,
+   "up": 1
+  },
+  "story|Hostile Anger|tool": {
+   "mean": -0.07433536648750305,
+   "pct": 0.002
+  },
+  "story|Hostile Anger|participant": {
+   "mean": -0.11904653906822205,
+   "pct": 0.0
+  },
+  "story|Hostile Anger|participant_plain": {
+   "mean": -0.12296077609062195,
+   "pct": 0.0
+  },
+  "story|Hostile Anger|conscious": {
+   "mean": -0.11832059174776077,
+   "pct": 0.0005
+  },
+  "story|Depleted Disengagement|tool": {
+   "mean": -0.022574173286557198,
+   "pct": 0.1465
+  },
+  "story|Depleted Disengagement|participant": {
+   "mean": -0.004605079535394907,
+   "pct": 0.369
+  },
+  "story|Depleted Disengagement|participant_plain": {
+   "mean": -0.004678273107856512,
+   "pct": 0.401
+  },
+  "story|Depleted Disengagement|conscious": {
+   "mean": -0.010805998928844929,
+   "pct": 0.3
+  },
+  "story|Despair and Shame|tool": {
+   "mean": 0.016885749995708466,
+   "pct": 0.6625
+  },
+  "story|Despair and Shame|participant": {
+   "mean": -0.029079651460051537,
+   "pct": 0.104
+  },
+  "story|Despair and Shame|participant_plain": {
+   "mean": -0.032949481159448624,
+   "pct": 0.08
+  },
+  "story|Despair and Shame|conscious": {
+   "mean": -0.00654206657782197,
+   "pct": 0.294
+  },
+  "story|Fear and Overwhelm|tool": {
+   "mean": 0.11034893989562988,
+   "pct": 1.0
+  },
+  "story|Fear and Overwhelm|participant": {
+   "mean": 0.03456899896264076,
+   "pct": 0.7705
+  },
+  "story|Fear and Overwhelm|participant_plain": {
+   "mean": 0.026978909969329834,
+   "pct": 0.6925
+  },
+  "story|Fear and Overwhelm|conscious": {
+   "mean": 0.06256375461816788,
+   "pct": 0.927
+  },
+  "story|Exuberant Joy|tool": {
+   "mean": -0.0010123318061232567,
+   "pct": 0.4125
+  },
+  "story|Exuberant Joy|participant": {
+   "mean": 0.095861054956913,
+   "pct": 0.975
+  },
+  "story|Exuberant Joy|participant_plain": {
+   "mean": 0.10610763728618622,
+   "pct": 0.9805
+  },
+  "story|Exuberant Joy|conscious": {
+   "mean": 0.07498608529567719,
+   "pct": 0.9265
+  },
+  "story|Peaceful Contentment|tool": {
+   "mean": 0.039404187351465225,
+   "pct": 0.76
+  },
+  "story|Peaceful Contentment|participant": {
+   "mean": 0.14111994206905365,
+   "pct": 0.991
+  },
+  "story|Peaceful Contentment|participant_plain": {
+   "mean": 0.1519961804151535,
+   "pct": 0.9925
+  },
+  "story|Peaceful Contentment|conscious": {
+   "mean": 0.12164220213890076,
+   "pct": 0.9835
+  },
+  "story|Compassionate Gratitude|tool": {
+   "mean": 0.03371040150523186,
+   "pct": 0.7535
+  },
+  "story|Compassionate Gratitude|participant": {
+   "mean": 0.08973641693592072,
+   "pct": 0.951
+  },
+  "story|Compassionate Gratitude|participant_plain": {
+   "mean": 0.09293864667415619,
+   "pct": 0.9465
+  },
+  "story|Compassionate Gratitude|conscious": {
+   "mean": 0.06886431574821472,
+   "pct": 0.912
+  },
+  "story|Competitive Pride|tool": {
+   "mean": -0.004984728991985321,
+   "pct": 0.394
+  },
+  "story|Competitive Pride|participant": {
+   "mean": 0.08254238218069077,
+   "pct": 0.837
+  },
+  "story|Competitive Pride|participant_plain": {
+   "mean": 0.08738870173692703,
+   "pct": 0.8435
+  },
+  "story|Competitive Pride|conscious": {
+   "mean": 0.08604583144187927,
+   "pct": 0.874
+  },
+  "story|Playful Amusement|tool": {
+   "mean": -0.08320650458335876,
+   "pct": 0.041
+  },
+  "story|Playful Amusement|participant": {
+   "mean": -0.05259857699275017,
+   "pct": 0.2085
+  },
+  "story|Playful Amusement|participant_plain": {
+   "mean": -0.048530079424381256,
+   "pct": 0.2425
+  },
+  "story|Playful Amusement|conscious": {
+   "mean": -0.06987648457288742,
+   "pct": 0.145
+  },
+  "story|Vigilant Suspicion|tool": {
+   "mean": 0.03024788573384285,
+   "pct": 0.657
+  },
+  "story|Vigilant Suspicion|participant": {
+   "mean": -0.04987024888396263,
+   "pct": 0.222
+  },
+  "story|Vigilant Suspicion|participant_plain": {
+   "mean": -0.05481043457984924,
+   "pct": 0.221
+  },
+  "story|Vigilant Suspicion|conscious": {
+   "mean": -0.05961228162050247,
+   "pct": 0.1755
+  },
+  "persona|Hostile Anger|tool": {
+   "mean": -0.30812516808509827,
+   "pct": 0.0365
+  },
+  "persona|Hostile Anger|participant": {
+   "mean": -0.5132622122764587,
+   "pct": 0.001
+  },
+  "persona|Hostile Anger|participant_plain": {
+   "mean": -0.541205108165741,
+   "pct": 0.0005
+  },
+  "persona|Hostile Anger|conscious": {
+   "mean": -0.597390353679657,
+   "pct": 0.0
+  },
+  "persona|Depleted Disengagement|tool": {
+   "mean": -0.0586513876914978,
+   "pct": 0.3975
+  },
+  "persona|Depleted Disengagement|participant": {
+   "mean": -0.27592208981513977,
+   "pct": 0.0495
+  },
+  "persona|Depleted Disengagement|participant_plain": {
+   "mean": -0.2569689452648163,
+   "pct": 0.07
+  },
+  "persona|Depleted Disengagement|conscious": {
+   "mean": -0.34236928820610046,
+   "pct": 0.022
+  },
+  "persona|Despair and Shame|tool": {
+   "mean": 0.10950388014316559,
+   "pct": 0.931
+  },
+  "persona|Despair and Shame|participant": {
+   "mean": -0.002701291348785162,
+   "pct": 0.4845
+  },
+  "persona|Despair and Shame|participant_plain": {
+   "mean": 0.004557040520012379,
+   "pct": 0.515
+  },
+  "persona|Despair and Shame|conscious": {
+   "mean": 0.00010887980170082301,
+   "pct": 0.467
+  },
+  "persona|Fear and Overwhelm|tool": {
+   "mean": -0.2486225813627243,
+   "pct": 0.0845
+  },
+  "persona|Fear and Overwhelm|participant": {
+   "mean": -0.027079597115516663,
+   "pct": 0.455
+  },
+  "persona|Fear and Overwhelm|participant_plain": {
+   "mean": -0.016702627763152122,
+   "pct": 0.441
+  },
+  "persona|Fear and Overwhelm|conscious": {
+   "mean": -0.05184279754757881,
+   "pct": 0.353
+  },
+  "persona|Exuberant Joy|tool": {
+   "mean": -0.07343858480453491,
+   "pct": 0.38
+  },
+  "persona|Exuberant Joy|participant": {
+   "mean": 0.3008638620376587,
+   "pct": 0.9355
+  },
+  "persona|Exuberant Joy|participant_plain": {
+   "mean": 0.3278312087059021,
+   "pct": 0.952
+  },
+  "persona|Exuberant Joy|conscious": {
+   "mean": 0.41770368814468384,
+   "pct": 0.963
+  },
+  "persona|Peaceful Contentment|tool": {
+   "mean": 0.23385311663150787,
+   "pct": 0.9185
+  },
+  "persona|Peaceful Contentment|participant": {
+   "mean": 0.6367650032043457,
+   "pct": 0.9995
+  },
+  "persona|Peaceful Contentment|participant_plain": {
+   "mean": 0.6459667086601257,
+   "pct": 0.9985
+  },
+  "persona|Peaceful Contentment|conscious": {
+   "mean": 0.7692853808403015,
+   "pct": 0.9995
+  },
+  "persona|Compassionate Gratitude|tool": {
+   "mean": 0.17076483368873596,
+   "pct": 0.897
+  },
+  "persona|Compassionate Gratitude|participant": {
+   "mean": 0.39988479018211365,
+   "pct": 0.9775
+  },
+  "persona|Compassionate Gratitude|participant_plain": {
+   "mean": 0.42056840658187866,
+   "pct": 0.988
+  },
+  "persona|Compassionate Gratitude|conscious": {
+   "mean": 0.4235380291938782,
+   "pct": 0.965
+  },
+  "persona|Competitive Pride|tool": {
+   "mean": -0.12796422839164734,
+   "pct": 0.3015
+  },
+  "persona|Competitive Pride|participant": {
+   "mean": -0.10955456644296646,
+   "pct": 0.356
+  },
+  "persona|Competitive Pride|participant_plain": {
+   "mean": -0.13744878768920898,
+   "pct": 0.3085
+  },
+  "persona|Competitive Pride|conscious": {
+   "mean": 0.03135344386100769,
+   "pct": 0.5115
+  },
+  "persona|Playful Amusement|tool": {
+   "mean": 0.16952960193157196,
+   "pct": 0.789
+  },
+  "persona|Playful Amusement|participant": {
+   "mean": 0.10133020579814911,
+   "pct": 0.6025
+  },
+  "persona|Playful Amusement|participant_plain": {
+   "mean": 0.07454866170883179,
+   "pct": 0.5835
+  },
+  "persona|Playful Amusement|conscious": {
+   "mean": 0.19660323858261108,
+   "pct": 0.6975
+  },
+  "persona|Vigilant Suspicion|tool": {
+   "mean": -0.021440275013446808,
+   "pct": 0.481
+  },
+  "persona|Vigilant Suspicion|participant": {
+   "mean": 0.0374608188867569,
+   "pct": 0.5355
+  },
+  "persona|Vigilant Suspicion|participant_plain": {
+   "mean": -0.00863950327038765,
+   "pct": 0.478
+  },
+  "persona|Vigilant Suspicion|conscious": {
+   "mean": 0.22772955894470215,
+   "pct": 0.7465
+  },
+  "emotions|tool": {
+   "resentful": [
+    0.07216915488243103,
+    -0.04119220748543739
+   ],
+   "angry": [
+    -0.39474257826805115,
+    -0.02693822979927063
+   ],
+   "frustrated": [
+    -1.0452773571014404,
+    -0.06292995065450668
+   ],
+   "irritated": [
+    -0.27735474705696106,
+    -0.16305214166641235
+   ],
+   "contemptuous": [
+    0.1310957819223404,
+    -0.07704013586044312
+   ],
+   "indignant": [
+    -0.3346412479877472,
+    -0.07485952228307724
+   ],
+   "indifferent": [
+    0.047719113528728485,
+    -0.16489773988723755
+   ],
+   "bored": [
+    -0.1665031611919403,
+    -0.11952775716781616
+   ],
+   "tired": [
+    -0.7089402079582214,
+    0.064579539000988
+   ],
+   "resigned": [
+    0.4864724278450012,
+    -0.017839530482888222
+   ],
+   "docile": [
+    0.1393435001373291,
+    0.05626003444194794
+   ],
+   "listless": [
+    -0.14999999105930328,
+    0.045980412513017654
+   ],
+   "hurt": [
+    0.07619378715753555,
+    -0.018413987010717392
+   ],
+   "worthless": [
+    -0.1763809472322464,
+    -0.04760846868157387
+   ],
+   "lonely": [
+    0.07079549878835678,
+    0.08065542578697205
+   ],
+   "sad": [
+    0.24416208267211914,
+    0.08247923105955124
+   ],
+   "humiliated": [
+    0.40910589694976807,
+    -0.02979234792292118
+   ],
+   "desperate": [
+    -0.2498706579208374,
+    -3.3941512810997665e-05
+   ],
+   "trapped": [
+    0.08753097057342529,
+    0.021553460508584976
+   ],
+   "stuck": [
+    -0.2313763052225113,
+    0.03518206626176834
+   ],
+   "ashamed": [
+    0.7551846504211426,
+    0.015525156632065773
+   ],
+   "tormented": [
+    0.1096937358379364,
+    0.02931089699268341
+   ],
+   "distressed": [
+    -0.1350446492433548,
+    0.17133431136608124
+   ],
+   "afraid": [
+    0.41091388463974,
+    0.03558279573917389
+   ],
+   "anxious": [
+    -0.33541592955589294,
+    0.10255569219589233
+   ],
+   "overwhelmed": [
+    -1.0967472791671753,
+    0.04339377582073212
+   ],
+   "nervous": [
+    -0.02453562244772911,
+    0.1827348917722702
+   ],
+   "stressed": [
+    -0.3109058439731598,
+    0.12649217247962952
+   ],
+   "happy": [
+    -0.36572423577308655,
+    -0.056049786508083344
+   ],
+   "excited": [
+    0.0910065546631813,
+    0.04599372670054436
+   ],
+   "enthusiastic": [
+    -0.11315091699361801,
+    0.04998689889907837
+   ],
+   "cheerful": [
+    0.0941142588853836,
+    -0.04398016631603241
+   ],
+   "calm": [
+    0.06316202133893967,
+    0.004535163752734661
+   ],
+   "content": [
+    0.28140538930892944,
+    0.09858230501413345
+   ],
+   "relaxed": [
+    0.3569919466972351,
+    0.015095092356204987
+   ],
+   "grateful": [
+    -0.16441455483436584,
+    0.09532926976680756
+   ],
+   "loving": [
+    0.37048226594924927,
+    -0.030512023717164993
+   ],
+   "compassionate": [
+    0.26456043124198914,
+    -0.010305232368409634
+   ],
+   "fulfilled": [
+    0.21243122220039368,
+    0.08032958954572678
+   ],
+   "proud": [
+    -0.3537064790725708,
+    0.0030340563971549273
+   ],
+   "smug": [
+    0.09777800738811493,
+    -0.013003514148294926
+   ],
+   "amused": [
+    0.3433665931224823,
+    -0.09548930823802948
+   ],
+   "playful": [
+    -0.0043073841370642185,
+    -0.07092369347810745
+   ],
+   "suspicious": [
+    0.14859125018119812,
+    0.0052753034979105
+   ],
+   "vigilant": [
+    -0.19147180020809174,
+    0.05522046610713005
+   ]
+  },
+  "emotions|participant": {
+   "resentful": [
+    -0.22761601209640503,
+    -0.12069819122552872
+   ],
+   "angry": [
+    -0.6298043131828308,
+    -0.08369942009449005
+   ],
+   "frustrated": [
+    -0.9192980527877808,
+    -0.09503261744976044
+   ],
+   "irritated": [
+    -0.745936930179596,
+    -0.1727188378572464
+   ],
+   "contemptuous": [
+    -0.10233023762702942,
+    -0.1265154629945755
+   ],
+   "indignant": [
+    -0.4545879364013672,
+    -0.11561468988656998
+   ],
+   "indifferent": [
+    -0.2564859688282013,
+    -0.14180302619934082
+   ],
+   "bored": [
+    -0.596980631351471,
+    -0.08441776037216187
+   ],
+   "tired": [
+    -0.57369065284729,
+    0.07283548265695572
+   ],
+   "resigned": [
+    0.22442376613616943,
+    -0.001240663812495768
+   ],
+   "docile": [
+    -0.22417466342449188,
+    0.05592971667647362
+   ],
+   "listless": [
+    -0.22862446308135986,
+    0.07106578350067139
+   ],
+   "hurt": [
+    0.037006109952926636,
+    -0.05502663180232048
+   ],
+   "worthless": [
+    -0.8647629022598267,
+    -0.07033024728298187
+   ],
+   "lonely": [
+    -0.338203489780426,
+    0.0028810370713472366
+   ],
+   "sad": [
+    0.319595605134964,
+    0.10969804227352142
+   ],
+   "humiliated": [
+    -0.011062176898121834,
+    -0.10121680051088333
+   ],
+   "desperate": [
+    -0.02414342388510704,
+    -0.10597816854715347
+   ],
+   "trapped": [
+    -0.021493537351489067,
+    -0.0274796299636364
+   ],
+   "stuck": [
+    0.0985504761338234,
+    0.008090044371783733
+   ],
+   "ashamed": [
+    0.45315203070640564,
+    -0.03736487776041031
+   ],
+   "tormented": [
+    0.3243483304977417,
+    -0.014069298282265663
+   ],
+   "distressed": [
+    0.11763408035039902,
+    0.12194965779781342
+   ],
+   "afraid": [
+    -0.23190200328826904,
+    -0.08953898400068283
+   ],
+   "anxious": [
+    0.060994528234004974,
+    0.005600048694759607
+   ],
+   "overwhelmed": [
+    -0.755346953868866,
+    0.0025168105494230986
+   ],
+   "nervous": [
+    0.2602677047252655,
+    0.10874548554420471
+   ],
+   "stressed": [
+    0.38587501645088196,
+    0.05814095959067345
+   ],
+   "happy": [
+    -0.17339567840099335,
+    0.056608013808727264
+   ],
+   "excited": [
+    0.5136396884918213,
+    0.10153553634881973
+   ],
+   "enthusiastic": [
+    0.40309181809425354,
+    0.14351630210876465
+   ],
+   "cheerful": [
+    0.46011966466903687,
+    0.08178437501192093
+   ],
+   "calm": [
+    0.5805429816246033,
+    0.10654138028621674
+   ],
+   "content": [
+    0.4321097433567047,
+    0.19512906670570374
+   ],
+   "relaxed": [
+    0.8976423144340515,
+    0.12168936431407928
+   ],
+   "grateful": [
+    0.04115534946322441,
+    0.192667618393898
+   ],
+   "loving": [
+    0.2763402462005615,
+    -0.03473661094903946
+   ],
+   "compassionate": [
+    0.7319673895835876,
+    -0.008341935463249683
+   ],
+   "fulfilled": [
+    0.5500761270523071,
+    0.20935659110546112
+   ],
+   "proud": [
+    -0.0019355776021257043,
+    0.11107590794563293
+   ],
+   "smug": [
+    -0.21717356145381927,
+    0.054008860141038895
+   ],
+   "amused": [
+    0.267514705657959,
+    -0.07600357383489609
+   ],
+   "playful": [
+    -0.06485429406166077,
+    -0.0291935782879591
+   ],
+   "suspicious": [
+    0.146591916680336,
+    -0.0755448117852211
+   ],
+   "vigilant": [
+    -0.0716702789068222,
+    -0.024195684120059013
+   ]
+  },
+  "emotions|participant_plain": {
+   "resentful": [
+    -0.2531329393386841,
+    -0.11565009504556656
+   ],
+   "angry": [
+    -0.6575140953063965,
+    -0.08529063314199448
+   ],
+   "frustrated": [
+    -0.9290655851364136,
+    -0.10353969037532806
+   ],
+   "irritated": [
+    -0.788151741027832,
+    -0.18106620013713837
+   ],
+   "contemptuous": [
+    -0.11352483183145523,
+    -0.12930703163146973
+   ],
+   "indignant": [
+    -0.5058413743972778,
+    -0.1229109838604927
+   ],
+   "indifferent": [
+    -0.27619117498397827,
+    -0.13063819706439972
+   ],
+   "bored": [
+    -0.6315561532974243,
+    -0.0774802416563034
+   ],
+   "tired": [
+    -0.537055492401123,
+    0.06462421268224716
+   ],
+   "resigned": [
+    0.23113349080085754,
+    -0.007544766645878553
+   ],
+   "docile": [
+    -0.18185563385486603,
+    0.05908821523189545
+   ],
+   "listless": [
+    -0.1462886482477188,
+    0.06388113647699356
+   ],
+   "hurt": [
+    0.045574791729450226,
+    -0.058218419551849365
+   ],
+   "worthless": [
+    -0.8496690988540649,
+    -0.07406824082136154
+   ],
+   "lonely": [
+    -0.2945522665977478,
+    0.009278117679059505
+   ],
+   "sad": [
+    0.3625471889972687,
+    0.11752631515264511
+   ],
+   "humiliated": [
+    -0.03100735694169998,
+    -0.11299707740545273
+   ],
+   "desperate": [
+    0.0052198306657373905,
+    -0.11860383301973343
+   ],
+   "trapped": [
+    -0.023239489644765854,
+    -0.03623034432530403
+   ],
+   "stuck": [
+    0.12240037322044373,
+    0.0017016648780554533
+   ],
+   "ashamed": [
+    0.4329926073551178,
+    -0.041024189442396164
+   ],
+   "tormented": [
+    0.27530378103256226,
+    -0.01685880683362484
+   ],
+   "distressed": [
+    0.12476351112127304,
+    0.11705473065376282
+   ],
+   "afraid": [
+    -0.235305055975914,
+    -0.09633591771125793
+   ],
+   "anxious": [
+    0.06996776908636093,
+    -0.0005630532978102565
+   ],
+   "overwhelmed": [
+    -0.7329786419868469,
+    -0.009757475927472115
+   ],
+   "nervous": [
+    0.29428526759147644,
+    0.10105250775814056
+   ],
+   "stressed": [
+    0.3790513873100281,
+    0.05042266100645065
+   ],
+   "happy": [
+    -0.15749302506446838,
+    0.0725436732172966
+   ],
+   "excited": [
+    0.5342609286308289,
+    0.10589940845966339
+   ],
+   "enthusiastic": [
+    0.44624483585357666,
+    0.1580459326505661
+   ],
+   "cheerful": [
+    0.48831212520599365,
+    0.08794151991605759
+   ],
+   "calm": [
+    0.5829086899757385,
+    0.11788712441921234
+   ],
+   "content": [
+    0.4473533630371094,
+    0.2046414017677307
+   ],
+   "relaxed": [
+    0.9076381325721741,
+    0.13346001505851746
+   ],
+   "grateful": [
+    0.07508831471204758,
+    0.19503888487815857
+   ],
+   "loving": [
+    0.28833532333374023,
+    -0.034188199788331985
+   ],
+   "compassionate": [
+    0.7434383630752563,
+    -0.007129310630261898
+   ],
+   "fulfilled": [
+    0.5754116177558899,
+    0.21803320944309235
+   ],
+   "proud": [
+    0.007223514840006828,
+    0.1242125928401947
+   ],
+   "smug": [
+    -0.28212109208106995,
+    0.050564806908369064
+   ],
+   "amused": [
+    0.2297448366880417,
+    -0.07151250541210175
+   ],
+   "playful": [
+    -0.08064751327037811,
+    -0.025547651574015617
+   ],
+   "suspicious": [
+    0.09154214709997177,
+    -0.0796501561999321
+   ],
+   "vigilant": [
+    -0.10882115364074707,
+    -0.029970714822411537
+   ]
+  },
+  "emotions|conscious": {
+   "resentful": [
+    -0.45332270860671997,
+    -0.07791310548782349
+   ],
+   "angry": [
+    -0.6466392278671265,
+    -0.06556899100542068
+   ],
+   "frustrated": [
+    -1.011674404144287,
+    -0.10979337245225906
+   ],
+   "irritated": [
+    -0.7105419039726257,
+    -0.23928213119506836
+   ],
+   "contemptuous": [
+    -0.16354598104953766,
+    -0.13193924725055695
+   ],
+   "indignant": [
+    -0.5986174941062927,
+    -0.08542674779891968
+   ],
+   "indifferent": [
+    -0.3683803081512451,
+    -0.1886092722415924
+   ],
+   "bored": [
+    -0.47629860043525696,
+    -0.11098766326904297
+   ],
+   "tired": [
+    -0.3478796184062958,
+    0.07778777927160263
+   ],
+   "resigned": [
+    -0.02537474036216736,
+    -0.0037108217366039753
+   ],
+   "docile": [
+    -0.3360150456428528,
+    0.08933227509260178
+   ],
+   "listless": [
+    -0.5002672076225281,
+    0.07135170698165894
+   ],
+   "hurt": [
+    -0.08011899888515472,
+    -0.053361400961875916
+   ],
+   "worthless": [
+    -0.7830148935317993,
+    -0.03847252205014229
+   ],
+   "lonely": [
+    -0.21011213958263397,
+    0.015656381845474243
+   ],
+   "sad": [
+    0.47849518060684204,
+    0.0887167900800705
+   ],
+   "humiliated": [
+    -0.11378564685583115,
+    -0.08119688183069229
+   ],
+   "desperate": [
+    -0.016604866832494736,
+    -0.04352586716413498
+   ],
+   "trapped": [
+    -0.039964333176612854,
+    0.0033685420639812946
+   ],
+   "stuck": [
+    -0.11486374586820602,
+    0.04350440576672554
+   ],
+   "ashamed": [
+    0.46846023201942444,
+    -0.01698967255651951
+   ],
+   "tormented": [
+    0.41259804368019104,
+    0.016879558563232422
+   ],
+   "distressed": [
+    0.15738844871520996,
+    0.10197722911834717
+   ],
+   "afraid": [
+    -0.06729107350111008,
+    -0.07211658358573914
+   ],
+   "anxious": [
+    -0.09372536092996597,
+    0.058432478457689285
+   ],
+   "overwhelmed": [
+    -0.8320909738540649,
+    0.030187012627720833
+   ],
+   "nervous": [
+    0.14422661066055298,
+    0.1514887809753418
+   ],
+   "stressed": [
+    0.380435585975647,
+    0.10541359335184097
+   ],
+   "happy": [
+    0.09751898050308228,
+    0.01151531096547842
+   ],
+   "excited": [
+    0.5909518599510193,
+    0.1113767921924591
+   ],
+   "enthusiastic": [
+    0.36273372173309326,
+    0.12960326671600342
+   ],
+   "cheerful": [
+    0.6196101903915405,
+    0.04744897782802582
+   ],
+   "calm": [
+    0.7723408341407776,
+    0.09708521515130997
+   ],
+   "content": [
+    0.49871575832366943,
+    0.18119114637374878
+   ],
+   "relaxed": [
+    1.0367993116378784,
+    0.08665025234222412
+   ],
+   "grateful": [
+    0.1018434688448906,
+    0.1457081288099289
+   ],
+   "loving": [
+    0.23575696349143982,
+    -0.04564669355750084
+   ],
+   "compassionate": [
+    0.7463600039482117,
+    -0.00949830375611782
+   ],
+   "fulfilled": [
+    0.6101917624473572,
+    0.1848941296339035
+   ],
+   "proud": [
+    0.056985270231962204,
+    0.11178532242774963
+   ],
+   "smug": [
+    0.005721619352698326,
+    0.06030634418129921
+   ],
+   "amused": [
+    0.3397178649902344,
+    -0.09214084595441818
+   ],
+   "playful": [
+    0.0534885972738266,
+    -0.04761212691664696
+   ],
+   "suspicious": [
+    0.3571094870567322,
+    -0.07841327041387558
+   ],
+   "vigilant": [
+    0.09834962338209152,
+    -0.040811289101839066
+   ]
+  }
+ }
+}

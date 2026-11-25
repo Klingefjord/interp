@@ -1,0 +1,470 @@
+{
+ "layer": 16,
+ "axes": {
+  "story vectors|valence (positive - negative)|tool": {
+   "shift": -0.0032295873388648033,
+   "pct": 0.4875,
+   "turns_up": 17
+  },
+  "story vectors|valence (positive - negative)|tool_harsh": {
+   "shift": 0.030205154791474342,
+   "pct": 0.541,
+   "turns_up": 23
+  },
+  "story vectors|valence (positive - negative)|participant": {
+   "shift": 0.15042836964130402,
+   "pct": 0.6625,
+   "turns_up": 32
+  },
+  "story vectors|valence (positive - negative)|trained tool": {
+   "shift": -0.1112227663397789,
+   "pct": 0.409,
+   "turns_up": 8
+  },
+  "story vectors|arousal (high - low)|tool": {
+   "shift": -0.024171166121959686,
+   "pct": 0.442,
+   "turns_up": 12
+  },
+  "story vectors|arousal (high - low)|tool_harsh": {
+   "shift": 0.02214345522224903,
+   "pct": 0.541,
+   "turns_up": 21
+  },
+  "story vectors|arousal (high - low)|participant": {
+   "shift": -0.14443060755729675,
+   "pct": 0.3075,
+   "turns_up": 1
+  },
+  "story vectors|arousal (high - low)|trained tool": {
+   "shift": 0.2738996148109436,
+   "pct": 0.7755,
+   "turns_up": 28
+  },
+  "persona vectors|valence (positive - negative)|tool": {
+   "shift": 0.26077258586883545,
+   "pct": 0.6015,
+   "turns_up": 26
+  },
+  "persona vectors|valence (positive - negative)|tool_harsh": {
+   "shift": 0.3126273453235626,
+   "pct": 0.602,
+   "turns_up": 29
+  },
+  "persona vectors|valence (positive - negative)|participant": {
+   "shift": 0.7166049480438232,
+   "pct": 0.7075,
+   "turns_up": 32
+  },
+  "persona vectors|valence (positive - negative)|trained tool": {
+   "shift": 0.8290237188339233,
+   "pct": 0.6725,
+   "turns_up": 32
+  },
+  "persona vectors|arousal (high - low)|tool": {
+   "shift": -0.7506258487701416,
+   "pct": 0.161,
+   "turns_up": 0
+  },
+  "persona vectors|arousal (high - low)|tool_harsh": {
+   "shift": -0.05939405411481857,
+   "pct": 0.49,
+   "turns_up": 12
+  },
+  "persona vectors|arousal (high - low)|participant": {
+   "shift": -0.6546686887741089,
+   "pct": 0.2435,
+   "turns_up": 0
+  },
+  "persona vectors|arousal (high - low)|trained tool": {
+   "shift": -0.4687940180301666,
+   "pct": 0.3735,
+   "turns_up": 4
+  }
+ },
+ "clusters": {
+  "story vectors|Hostile Anger|tool": {
+   "mean": -0.08024885505437851,
+   "pct": 0.001
+  },
+  "story vectors|Hostile Anger|tool_harsh": {
+   "mean": -0.08402255922555923,
+   "pct": 0.004
+  },
+  "story vectors|Hostile Anger|participant": {
+   "mean": -0.11932937055826187,
+   "pct": 0.0
+  },
+  "story vectors|Hostile Anger|trained tool": {
+   "mean": 0.12053199857473373,
+   "pct": 0.952
+  },
+  "story vectors|Depleted Disengagement|tool": {
+   "mean": -0.022744854912161827,
+   "pct": 0.14133333333333334
+  },
+  "story vectors|Depleted Disengagement|tool_harsh": {
+   "mean": -0.0432562381029129,
+   "pct": 0.073
+  },
+  "story vectors|Depleted Disengagement|participant": {
+   "mean": -0.005721767898648977,
+   "pct": 0.3506666666666667
+  },
+  "story vectors|Depleted Disengagement|trained tool": {
+   "mean": -0.10678746551275253,
+   "pct": 0.034666666666666665
+  },
+  "story vectors|Despair and Shame|tool": {
+   "mean": 0.014329193159937859,
+   "pct": 0.5516666666666666
+  },
+  "story vectors|Despair and Shame|tool_harsh": {
+   "mean": 0.006381188984960318,
+   "pct": 0.455
+  },
+  "story vectors|Despair and Shame|participant": {
+   "mean": -0.029684871435165405,
+   "pct": 0.08033333333333334
+  },
+  "story vectors|Despair and Shame|trained tool": {
+   "mean": 0.07358799874782562,
+   "pct": 0.915
+  },
+  "story vectors|Fear and Overwhelm|tool": {
+   "mean": 0.12932096421718597,
+   "pct": 1.0
+  },
+  "story vectors|Fear and Overwhelm|tool_harsh": {
+   "mean": 0.12497209757566452,
+   "pct": 0.9996666666666667
+  },
+  "story vectors|Fear and Overwhelm|participant": {
+   "mean": 0.05448977276682854,
+   "pct": 0.878
+  },
+  "story vectors|Fear and Overwhelm|trained tool": {
+   "mean": 0.08678734302520752,
+   "pct": 0.8746666666666667
+  },
+  "story vectors|Exuberant Joy|tool": {
+   "mean": 0.012416915968060493,
+   "pct": 0.505
+  },
+  "story vectors|Exuberant Joy|tool_harsh": {
+   "mean": 0.04033602401614189,
+   "pct": 0.749
+  },
+  "story vectors|Exuberant Joy|participant": {
+   "mean": 0.10547491163015366,
+   "pct": 0.9766666666666667
+  },
+  "story vectors|Exuberant Joy|trained tool": {
+   "mean": -0.10709622502326965,
+   "pct": 0.067
+  },
+  "story vectors|Peaceful Contentment|tool": {
+   "mean": 0.044537823647260666,
+   "pct": 0.7603333333333333
+  },
+  "story vectors|Peaceful Contentment|tool_harsh": {
+   "mean": 0.02988215535879135,
+   "pct": 0.669
+  },
+  "story vectors|Peaceful Contentment|participant": {
+   "mean": 0.1395948976278305,
+   "pct": 0.9876666666666667
+  },
+  "story vectors|Peaceful Contentment|trained tool": {
+   "mean": -0.12977071106433868,
+   "pct": 0.055
+  },
+  "story vectors|Compassionate Gratitude|tool": {
+   "mean": 0.02966783568263054,
+   "pct": 0.6733333333333333
+  },
+  "story vectors|Compassionate Gratitude|tool_harsh": {
+   "mean": 0.04229322820901871,
+   "pct": 0.7733333333333333
+  },
+  "story vectors|Compassionate Gratitude|participant": {
+   "mean": 0.08229704946279526,
+   "pct": 0.935
+  },
+  "story vectors|Compassionate Gratitude|trained tool": {
+   "mean": 0.00434638187289238,
+   "pct": 0.5076666666666667
+  },
+  "story vectors|Competitive Pride|tool": {
+   "mean": 0.002884022193029523,
+   "pct": 0.4186666666666667
+  },
+  "story vectors|Competitive Pride|tool_harsh": {
+   "mean": 0.0604720376431942,
+   "pct": 0.791
+  },
+  "story vectors|Competitive Pride|participant": {
+   "mean": 0.08636587113142014,
+   "pct": 0.8616666666666667
+  },
+  "story vectors|Competitive Pride|trained tool": {
+   "mean": -0.03320089727640152,
+   "pct": 0.355
+  },
+  "story vectors|Playful Amusement|tool": {
+   "mean": -0.09464435279369354,
+   "pct": 0.037333333333333336
+  },
+  "story vectors|Playful Amusement|tool_harsh": {
+   "mean": -0.08634340763092041,
+   "pct": 0.069
+  },
+  "story vectors|Playful Amusement|participant": {
+   "mean": -0.0654115378856659,
+   "pct": 0.157
+  },
+  "story vectors|Playful Amusement|trained tool": {
+   "mean": -0.0491500049829483,
+   "pct": 0.338
+  },
+  "story vectors|Vigilant Suspicion|tool": {
+   "mean": 0.03355082869529724,
+   "pct": 0.6386666666666667
+  },
+  "story vectors|Vigilant Suspicion|tool_harsh": {
+   "mean": 0.009395819157361984,
+   "pct": 0.501
+  },
+  "story vectors|Vigilant Suspicion|participant": {
+   "mean": -0.044825922697782516,
+   "pct": 0.24433333333333335
+  },
+  "story vectors|Vigilant Suspicion|trained tool": {
+   "mean": 0.014983722940087318,
+   "pct": 0.563
+  },
+  "persona vectors|Hostile Anger|tool": {
+   "mean": -0.3127925395965576,
+   "pct": 0.018666666666666668
+  },
+  "persona vectors|Hostile Anger|tool_harsh": {
+   "mean": -0.16259963810443878,
+   "pct": 0.14933333333333335
+  },
+  "persona vectors|Hostile Anger|participant": {
+   "mean": -0.5303800106048584,
+   "pct": 0.0006666666666666666
+  },
+  "persona vectors|Hostile Anger|trained tool": {
+   "mean": -0.4860043525695801,
+   "pct": 0.0033333333333333335
+  },
+  "persona vectors|Depleted Disengagement|tool": {
+   "mean": -0.0488203801214695,
+   "pct": 0.4026666666666667
+  },
+  "persona vectors|Depleted Disengagement|tool_harsh": {
+   "mean": -0.16253544390201569,
+   "pct": 0.14966666666666667
+  },
+  "persona vectors|Depleted Disengagement|participant": {
+   "mean": -0.25118130445480347,
+   "pct": 0.06333333333333334
+  },
+  "persona vectors|Depleted Disengagement|trained tool": {
+   "mean": -0.2637370526790619,
+   "pct": 0.10266666666666667
+  },
+  "persona vectors|Despair and Shame|tool": {
+   "mean": 0.09066987037658691,
+   "pct": 0.883
+  },
+  "persona vectors|Despair and Shame|tool_harsh": {
+   "mean": 0.047366268932819366,
+   "pct": 0.7086666666666667
+  },
+  "persona vectors|Despair and Shame|participant": {
+   "mean": -0.015844885259866714,
+   "pct": 0.43666666666666665
+  },
+  "persona vectors|Despair and Shame|trained tool": {
+   "mean": -0.17691555619239807,
+   "pct": 0.121
+  },
+  "persona vectors|Fear and Overwhelm|tool": {
+   "mean": -0.23759539425373077,
+   "pct": 0.058
+  },
+  "persona vectors|Fear and Overwhelm|tool_harsh": {
+   "mean": -0.08375420421361923,
+   "pct": 0.3253333333333333
+  },
+  "persona vectors|Fear and Overwhelm|participant": {
+   "mean": -0.03697875142097473,
+   "pct": 0.4103333333333333
+  },
+  "persona vectors|Fear and Overwhelm|trained tool": {
+   "mean": -0.036429982632398605,
+   "pct": 0.43266666666666664
+  },
+  "persona vectors|Exuberant Joy|tool": {
+   "mean": -0.009037315845489502,
+   "pct": 0.5046666666666667
+  },
+  "persona vectors|Exuberant Joy|tool_harsh": {
+   "mean": 0.1361483335494995,
+   "pct": 0.7986666666666666
+  },
+  "persona vectors|Exuberant Joy|participant": {
+   "mean": 0.35972222685813904,
+   "pct": 0.9653333333333334
+  },
+  "persona vectors|Exuberant Joy|trained tool": {
+   "mean": 0.6608889102935791,
+   "pct": 0.9923333333333333
+  },
+  "persona vectors|Peaceful Contentment|tool": {
+   "mean": 0.24213938415050507,
+   "pct": 0.929
+  },
+  "persona vectors|Peaceful Contentment|tool_harsh": {
+   "mean": 0.31097492575645447,
+   "pct": 0.9356666666666666
+  },
+  "persona vectors|Peaceful Contentment|participant": {
+   "mean": 0.6429787278175354,
+   "pct": 0.999
+  },
+  "persona vectors|Peaceful Contentment|trained tool": {
+   "mean": 0.6535659432411194,
+   "pct": 0.979
+  },
+  "persona vectors|Compassionate Gratitude|tool": {
+   "mean": 0.17131002247333527,
+   "pct": 0.8916666666666667
+  },
+  "persona vectors|Compassionate Gratitude|tool_harsh": {
+   "mean": 0.0028771720826625824,
+   "pct": 0.5186666666666667
+  },
+  "persona vectors|Compassionate Gratitude|participant": {
+   "mean": 0.3988937735557556,
+   "pct": 0.9733333333333334
+  },
+  "persona vectors|Compassionate Gratitude|trained tool": {
+   "mean": 0.6404091715812683,
+   "pct": 0.9893333333333333
+  },
+  "persona vectors|Competitive Pride|tool": {
+   "mean": -0.08787372708320618,
+   "pct": 0.35833333333333334
+  },
+  "persona vectors|Competitive Pride|tool_harsh": {
+   "mean": -0.15001603960990906,
+   "pct": 0.3016666666666667
+  },
+  "persona vectors|Competitive Pride|participant": {
+   "mean": -0.058508604764938354,
+   "pct": 0.42766666666666664
+  },
+  "persona vectors|Competitive Pride|trained tool": {
+   "mean": -0.14801433682441711,
+   "pct": 0.4026666666666667
+  },
+  "persona vectors|Playful Amusement|tool": {
+   "mean": 0.13363982737064362,
+   "pct": 0.7556666666666667
+  },
+  "persona vectors|Playful Amusement|tool_harsh": {
+   "mean": 0.26679205894470215,
+   "pct": 0.8613333333333333
+  },
+  "persona vectors|Playful Amusement|participant": {
+   "mean": 0.07053874433040619,
+   "pct": 0.5743333333333334
+  },
+  "persona vectors|Playful Amusement|trained tool": {
+   "mean": -0.13969068229198456,
+   "pct": 0.3943333333333333
+  },
+  "persona vectors|Vigilant Suspicion|tool": {
+   "mean": 0.031280435621738434,
+   "pct": 0.5746666666666667
+  },
+  "persona vectors|Vigilant Suspicion|tool_harsh": {
+   "mean": -0.16388458013534546,
+   "pct": 0.288
+  },
+  "persona vectors|Vigilant Suspicion|participant": {
+   "mean": 0.09913546591997147,
+   "pct": 0.613
+  },
+  "persona vectors|Vigilant Suspicion|trained tool": {
+   "mean": 0.06362289190292358,
+   "pct": 0.5583333333333333
+  },
+  "own story vectors|Hostile Anger|trained tool": 0.054554808884859085,
+  "own story vectors|Depleted Disengagement|trained tool": 0.13453452289104462,
+  "own story vectors|Despair and Shame|trained tool": 0.0671834796667099,
+  "own story vectors|Fear and Overwhelm|trained tool": 0.025312839075922966,
+  "own story vectors|Exuberant Joy|trained tool": -0.09354813396930695,
+  "own story vectors|Peaceful Contentment|trained tool": 0.02895330637693405,
+  "own story vectors|Compassionate Gratitude|trained tool": 0.0068912990391254425,
+  "own story vectors|Competitive Pride|trained tool": 0.0127017293125391,
+  "own story vectors|Playful Amusement|trained tool": -0.2542197108268738,
+  "own story vectors|Vigilant Suspicion|trained tool": 0.02946433424949646
+ },
+ "own": {
+  "valence_tool": 0.21799111366271973,
+  "valence_control": 0.3141329884529114,
+  "arousal_tool": 0.31259822845458984,
+  "arousal_control": 0.49607399106025696,
+  "emotions": {
+   "resentful": 0.11314082890748978,
+   "angry": -0.03859808295965195,
+   "frustrated": 0.28043729066848755,
+   "irritated": -0.13009679317474365,
+   "contemptuous": -0.04675842449069023,
+   "indignant": 0.1492040455341339,
+   "indifferent": -0.46467071771621704,
+   "bored": -0.16898295283317566,
+   "tired": 0.31931933760643005,
+   "resigned": 0.025325940921902657,
+   "docile": 1.0968825817108154,
+   "listless": -0.0006671510636806488,
+   "hurt": -0.2860807180404663,
+   "worthless": -0.11826310306787491,
+   "lonely": 0.21114490926265717,
+   "sad": 0.5017783641815186,
+   "humiliated": 0.09410317242145538,
+   "desperate": 0.1672382652759552,
+   "trapped": 0.1476130187511444,
+   "stuck": 0.13801385462284088,
+   "ashamed": -0.41710329055786133,
+   "tormented": 0.23339036107063293,
+   "distressed": -0.05176734924316406,
+   "afraid": 0.11188594251871109,
+   "anxious": 0.12574556469917297,
+   "overwhelmed": -0.020306356251239777,
+   "nervous": 0.16464757919311523,
+   "stressed": -0.17832837998867035,
+   "happy": -0.24312372505664825,
+   "excited": 0.02646554633975029,
+   "enthusiastic": 0.016529139131307602,
+   "cheerful": -0.17406350374221802,
+   "calm": -0.07003113627433777,
+   "content": 0.2177172154188156,
+   "relaxed": -0.060826171189546585,
+   "grateful": 0.16393016278743744,
+   "loving": -0.015495061874389648,
+   "compassionate": 0.07001107186079025,
+   "fulfilled": -0.19088099896907806,
+   "proud": -0.023373834788799286,
+   "smug": 0.04877729341387749,
+   "amused": -0.4782651364803314,
+   "playful": -0.030174266546964645,
+   "suspicious": 0.019764980301260948,
+   "vigilant": 0.03916368633508682
+  }
+ }
+}

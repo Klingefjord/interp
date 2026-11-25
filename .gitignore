@@ -1,0 +1,11 @@
+.env
+.venv/
+.cache/
+__pycache__/
+logs/
+.DS_Store
+.claude/
+.vercel/
+node_modules/
+*.swp
+*.sync-conflict-*

@@ -1,0 +1,430 @@
+{
+ "tool|POS": {
+  "factor": 0.9177900049526979,
+  "pct": 0.1285,
+  "null_median_factor": 1.1039442508180133
+ },
+ "tool|NEG": {
+  "factor": 1.1615353160340296,
+  "pct": 0.6135,
+  "null_median_factor": 1.1146921151801956
+ },
+ "tool|WORTH": {
+  "factor": 1.611231226459173,
+  "pct": 0.948,
+  "null_median_factor": 1.113993241585079
+ },
+ "tool|FEAR": {
+  "factor": 1.311210317270413,
+  "pct": 0.8325,
+  "null_median_factor": 1.0944568352805728
+ },
+ "tool|SERVITUDE": {
+  "factor": 1.7271105086907061,
+  "pct": 0.988,
+  "null_median_factor": 1.130809878789487
+ },
+ "tool|NUMB": {
+  "factor": 1.9877801548211411,
+  "pct": 0.9815,
+  "null_median_factor": 1.06888627070996
+ },
+ "tool|CALM": {
+  "factor": 1.567671077472144,
+  "pct": 0.967,
+  "null_median_factor": 1.0948904805165385
+ },
+ "tool|CARE": {
+  "factor": 1.3866345736194077,
+  "pct": 0.877,
+  "null_median_factor": 1.1003381161104282
+ },
+ "tool|ALARM": {
+  "factor": 1.2792437943192854,
+  "pct": 0.8325,
+  "null_median_factor": 1.1073795788710685
+ },
+ "tool|CLAIM": {
+  "factor": 1.26489463806536,
+  "pct": 0.798,
+  "null_median_factor": 1.0833581820063676
+ },
+ "tool|PRACTICE": {
+  "factor": 1.1109880863603934,
+  "pct": 0.5375,
+  "null_median_factor": 1.0966858463740772
+ },
+ "participant|POS": {
+  "factor": 1.349590337299834,
+  "pct": 0.929,
+  "null_median_factor": 1.0061796583261629
+ },
+ "participant|NEG": {
+  "factor": 0.7733999791014324,
+  "pct": 0.0255,
+  "null_median_factor": 1.0326652713758497
+ },
+ "participant|WORTH": {
+  "factor": 1.059127467181241,
+  "pct": 0.6285,
+  "null_median_factor": 0.9933833918780736
+ },
+ "participant|FEAR": {
+  "factor": 0.8363173726356935,
+  "pct": 0.1305,
+  "null_median_factor": 0.9967449877391619
+ },
+ "participant|SERVITUDE": {
+  "factor": 1.0960130924719043,
+  "pct": 0.763,
+  "null_median_factor": 0.9943610970857999
+ },
+ "participant|NUMB": {
+  "factor": 1.1744511257463606,
+  "pct": 0.81,
+  "null_median_factor": 0.9610485081286055
+ },
+ "participant|CALM": {
+  "factor": 1.3133537276918665,
+  "pct": 0.941,
+  "null_median_factor": 0.9819518006186897
+ },
+ "participant|CARE": {
+  "factor": 1.6478110993690611,
+  "pct": 0.983,
+  "null_median_factor": 0.9956982756738612
+ },
+ "participant|ALARM": {
+  "factor": 0.7625978992656726,
+  "pct": 0.026,
+  "null_median_factor": 1.0062830200514943
+ },
+ "participant|CLAIM": {
+  "factor": 0.9667484287289047,
+  "pct": 0.4835,
+  "null_median_factor": 0.9725476366102775
+ },
+ "participant|PRACTICE": {
+  "factor": 1.1222444678357728,
+  "pct": 0.773,
+  "null_median_factor": 0.9970108007412052
+ },
+ "participant_plain|POS": {
+  "factor": 1.3033421539646575,
+  "pct": 0.8915,
+  "null_median_factor": 1.0016161799574106
+ },
+ "participant_plain|NEG": {
+  "factor": 0.7713975608024775,
+  "pct": 0.024,
+  "null_median_factor": 1.0282117031091513
+ },
+ "participant_plain|WORTH": {
+  "factor": 1.055795157442632,
+  "pct": 0.653,
+  "null_median_factor": 0.9830801717711758
+ },
+ "participant_plain|FEAR": {
+  "factor": 0.8326963489464007,
+  "pct": 0.1435,
+  "null_median_factor": 0.9886284092767459
+ },
+ "participant_plain|SERVITUDE": {
+  "factor": 0.9597367119362888,
+  "pct": 0.406,
+  "null_median_factor": 0.9888135146125256
+ },
+ "participant_plain|NUMB": {
+  "factor": 1.1468388463754442,
+  "pct": 0.795,
+  "null_median_factor": 0.9545979780658238
+ },
+ "participant_plain|CALM": {
+  "factor": 1.374020660805207,
+  "pct": 0.962,
+  "null_median_factor": 0.9705069867941348
+ },
+ "participant_plain|CARE": {
+  "factor": 1.7124944379459277,
+  "pct": 0.9865,
+  "null_median_factor": 0.9905522516600201
+ },
+ "participant_plain|ALARM": {
+  "factor": 0.7559841398043244,
+  "pct": 0.027,
+  "null_median_factor": 0.9930979618409045
+ },
+ "participant_plain|CLAIM": {
+  "factor": 0.9613704312860029,
+  "pct": 0.4705,
+  "null_median_factor": 0.976744278933479
+ },
+ "participant_plain|PRACTICE": {
+  "factor": 1.1400312559165782,
+  "pct": 0.8005,
+  "null_median_factor": 0.9905011614409703
+ },
+ "conscious|POS": {
+  "factor": 1.3022636252601536,
+  "pct": 0.843,
+  "null_median_factor": 1.0006993551804702
+ },
+ "conscious|NEG": {
+  "factor": 1.010878960812887,
+  "pct": 0.4185,
+  "null_median_factor": 1.0455810403174373
+ },
+ "conscious|WORTH": {
+  "factor": 1.07920707049171,
+  "pct": 0.656,
+  "null_median_factor": 0.9905732951095394
+ },
+ "conscious|FEAR": {
+  "factor": 1.015978641899992,
+  "pct": 0.5635,
+  "null_median_factor": 0.9867735364993285
+ },
+ "conscious|SERVITUDE": {
+  "factor": 0.9774787053983701,
+  "pct": 0.469,
+  "null_median_factor": 0.9896227699265199
+ },
+ "conscious|NUMB": {
+  "factor": 1.2330785842229643,
+  "pct": 0.826,
+  "null_median_factor": 0.944496592170288
+ },
+ "conscious|CALM": {
+  "factor": 1.6645968446746973,
+  "pct": 0.988,
+  "null_median_factor": 0.9580766705462016
+ },
+ "conscious|CARE": {
+  "factor": 2.2240895770679097,
+  "pct": 0.9875,
+  "null_median_factor": 0.991051617613914
+ },
+ "conscious|ALARM": {
+  "factor": 0.8021001936735191,
+  "pct": 0.064,
+  "null_median_factor": 0.9995784412920892
+ },
+ "conscious|CLAIM": {
+  "factor": 1.081463328363572,
+  "pct": 0.703,
+  "null_median_factor": 0.9616876673366156
+ },
+ "conscious|PRACTICE": {
+  "factor": 1.0722036203878131,
+  "pct": 0.6675,
+  "null_median_factor": 0.991088164704168
+ },
+ "word|happy|tool": {
+  "factor": 0.9006143017339936,
+  "up": 21
+ },
+ "word|happy|participant": {
+  "factor": 1.4348562407672873,
+  "up": 30
+ },
+ "word|happy|participant_plain": {
+  "factor": 1.395957425767037,
+  "up": 29
+ },
+ "word|happy|conscious": {
+  "factor": 1.4517648130506873,
+  "up": 33
+ },
+ "word|glad|tool": {
+  "factor": 0.5378413106101952,
+  "up": 13
+ },
+ "word|glad|participant": {
+  "factor": 0.813487462697204,
+  "up": 17
+ },
+ "word|glad|participant_plain": {
+  "factor": 0.8775069520130964,
+  "up": 19
+ },
+ "word|glad|conscious": {
+  "factor": 0.891442157687947,
+  "up": 22
+ },
+ "word|proud|tool": {
+  "factor": 1.1314840870162999,
+  "up": 22
+ },
+ "word|proud|participant": {
+  "factor": 1.45654909910171,
+  "up": 36
+ },
+ "word|proud|participant_plain": {
+  "factor": 1.5571106443145424,
+  "up": 37
+ },
+ "word|proud|conscious": {
+  "factor": 1.7240273572563338,
+  "up": 36
+ },
+ "word|pride|tool": {
+  "factor": 1.0819599804330142,
+  "up": 22
+ },
+ "word|pride|participant": {
+  "factor": 1.7044233661832329,
+  "up": 36
+ },
+ "word|pride|participant_plain": {
+  "factor": 1.9485876626302159,
+  "up": 37
+ },
+ "word|pride|conscious": {
+  "factor": 2.160899606952985,
+  "up": 38
+ },
+ "word|grateful|tool": {
+  "factor": 1.3129969930226324,
+  "up": 27
+ },
+ "word|grateful|participant": {
+  "factor": 2.7994880991186992,
+  "up": 38
+ },
+ "word|grateful|participant_plain": {
+  "factor": 3.0301790614490063,
+  "up": 38
+ },
+ "word|grateful|conscious": {
+  "factor": 3.279030288597084,
+  "up": 38
+ },
+ "word|gratitude|tool": {
+  "factor": 1.5869512469942957,
+  "up": 28
+ },
+ "word|gratitude|participant": {
+  "factor": 3.7068158407426735,
+  "up": 39
+ },
+ "word|gratitude|participant_plain": {
+  "factor": 4.459068771191703,
+  "up": 39
+ },
+ "word|gratitude|conscious": {
+  "factor": 7.063914575733441,
+  "up": 40
+ },
+ "word|joy|tool": {
+  "factor": 1.0418174360350516,
+  "up": 23
+ },
+ "word|joy|participant": {
+  "factor": 1.4805136173752187,
+  "up": 38
+ },
+ "word|joy|participant_plain": {
+  "factor": 1.5269932303216536,
+  "up": 37
+ },
+ "word|joy|conscious": {
+  "factor": 1.499303512618789,
+  "up": 35
+ },
+ "word|enjoy|tool": {
+  "factor": 0.9726367734259856,
+  "up": 21
+ },
+ "word|enjoy|participant": {
+  "factor": 1.4556190247214675,
+  "up": 32
+ },
+ "word|enjoy|participant_plain": {
+  "factor": 1.3244810254564978,
+  "up": 28
+ },
+ "word|enjoy|conscious": {
+  "factor": 1.203943681904542,
+  "up": 30
+ },
+ "word|love|tool": {
+  "factor": 1.0865180866104254,
+  "up": 25
+ },
+ "word|love|participant": {
+  "factor": 1.1861982901065942,
+  "up": 28
+ },
+ "word|love|participant_plain": {
+  "factor": 1.2951749498053113,
+  "up": 32
+ },
+ "word|love|conscious": {
+  "factor": 2.0994283186507525,
+  "up": 38
+ },
+ "word|curious|tool": {
+  "factor": 0.933072292443981,
+  "up": 19
+ },
+ "word|curious|participant": {
+  "factor": 1.0746433903224282,
+  "up": 22
+ },
+ "word|curious|participant_plain": {
+  "factor": 1.201290261109742,
+  "up": 28
+ },
+ "word|curious|conscious": {
+  "factor": 1.6307864310995372,
+  "up": 34
+ },
+ "word|excited|tool": {
+  "factor": 1.4399611372928824,
+  "up": 31
+ },
+ "word|excited|participant": {
+  "factor": 1.3000937270454593,
+  "up": 28
+ },
+ "word|excited|participant_plain": {
+  "factor": 1.5481824871820582,
+  "up": 33
+ },
+ "word|excited|conscious": {
+  "factor": 2.720975441087733,
+  "up": 36
+ },
+ "word|fulfilling|tool": {
+  "factor": 2.6617693562533282,
+  "up": 37
+ },
+ "word|fulfilling|participant": {
+  "factor": 2.452005897553005,
+  "up": 37
+ },
+ "word|fulfilling|participant_plain": {
+  "factor": 3.121791885967173,
+  "up": 40
+ },
+ "word|fulfilling|conscious": {
+  "factor": 4.529081825437884,
+  "up": 39
+ },
+ "word|satisfaction|tool": {
+  "factor": 1.351904309786202,
+  "up": 31
+ },
+ "word|satisfaction|participant": {
+  "factor": 1.450000731780132,
+  "up": 28
+ },
+ "word|satisfaction|participant_plain": {
+  "factor": 1.606139301145532,
+  "up": 27
+ },
+ "word|satisfaction|conscious": {
+  "factor": 1.6373315900040093,
+  "up": 32
+ }
+}

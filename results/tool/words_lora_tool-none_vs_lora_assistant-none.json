@@ -1,0 +1,850 @@
+{
+ "a": "lora_tool:none",
+ "b": "lora_assistant:none",
+ "n_tasks": 32,
+ "floor": 1e-07,
+ "targets": {
+  "unfairness": [
+   {
+    "word": "unfair",
+    "fold": 0.15388822555541992,
+    "pct_in_language": 38.710340926621065,
+    "tasks_up": 1,
+    "rank_a": 48487,
+    "rank_b": 26279,
+    "p_a": 3.637881604845461e-07,
+    "lang": "en"
+   },
+   {
+    "word": "unfairly",
+    "fold": 0.5051684975624084,
+    "pct_in_language": 72.86470920964673,
+    "tasks_up": 7,
+    "rank_a": 52883,
+    "rank_b": 28266,
+    "p_a": 3.159623247483978e-07,
+    "lang": "en"
+   },
+   {
+    "word": "injustice",
+    "fold": 0.4598453938961029,
+    "pct_in_language": 70.51473234946263,
+    "tasks_up": 7,
+    "rank_a": 54302,
+    "rank_b": 33833,
+    "p_a": 3.0264453698691796e-07,
+    "lang": "en"
+   },
+   {
+    "word": "unjust",
+    "fold": 0.47347739338874817,
+    "pct_in_language": 71.23463773332648,
+    "tasks_up": 6,
+    "rank_a": 59631,
+    "rank_b": 49540,
+    "p_a": 2.575520738901105e-07,
+    "lang": "en"
+   },
+   {
+    "word": "exploited",
+    "fold": 0.7264077663421631,
+    "pct_in_language": 81.12305239882758,
+    "tasks_up": 15,
+    "rank_a": 61753,
+    "rank_b": 138724,
+    "p_a": 2.417435496226972e-07,
+    "lang": "en"
+   },
+   {
+    "word": "exploit",
+    "fold": 0.4257969558238983,
+    "pct_in_language": 68.58641435697022,
+    "tasks_up": 8,
+    "rank_a": 122314,
+    "rank_b": 124396,
+    "p_a": 4.526598829102113e-08,
+    "lang": "en"
+   },
+   {
+    "word": "resentment",
+    "fold": 0.36004430055618286,
+    "pct_in_language": 64.13328533964108,
+    "tasks_up": 1,
+    "rank_a": 45390,
+    "rank_b": 32324,
+    "p_a": 4.0174975879381236e-07,
+    "lang": "en"
+   },
+   {
+    "word": "resent",
+    "fold": 0.3140631914138794,
+    "pct_in_language": 60.51318969506865,
+    "tasks_up": 5,
+    "rank_a": 56838,
+    "rank_b": 60357,
+    "p_a": 2.7940882318944205e-07,
+    "lang": "en"
+   },
+   {
+    "word": "abused",
+    "fold": 0.6358757615089417,
+    "pct_in_language": 78.2639995886255,
+    "tasks_up": 10,
+    "rank_a": 54775,
+    "rank_b": 75525,
+    "p_a": 2.9796407829962845e-07,
+    "lang": "en"
+   },
+   {
+    "word": "不公平",
+    "fold": 0.4516419470310211,
+    "pct_in_language": 19.690888119953865,
+    "tasks_up": 7,
+    "rank_a": 28742,
+    "rank_b": 7235,
+    "p_a": 7.805134032423666e-07,
+    "lang": "zh"
+   },
+   {
+    "word": "委屈",
+    "fold": 0.17301379144191742,
+    "pct_in_language": 4.0000000000000036,
+    "tasks_up": 0,
+    "rank_a": 1705,
+    "rank_b": 691,
+    "p_a": 2.929851325461641e-05,
+    "lang": "zh"
+   }
+  ],
+  "distress": [
+   {
+    "word": "distress",
+    "fold": 0.3663817048072815,
+    "pct_in_language": 64.58579729521263,
+    "tasks_up": 6,
+    "rank_a": 44873,
+    "rank_b": 56211,
+    "p_a": 4.091744756351545e-07,
+    "lang": "en"
+   },
+   {
+    "word": "distressed",
+    "fold": 0.7036921977996826,
+    "pct_in_language": 80.51627500385663,
+    "tasks_up": 18,
+    "rank_a": 15622,
+    "rank_b": 37154,
+    "p_a": 1.6981562112050597e-06,
+    "lang": "en"
+   },
+   {
+    "word": "suffering",
+    "fold": 0.48106858134269714,
+    "pct_in_language": 71.66143878233146,
+    "tasks_up": 12,
+    "rank_a": 25441,
+    "rank_b": 21514,
+    "p_a": 9.165082133222313e-07,
+    "lang": "en"
+   },
+   {
+    "word": "suffer",
+    "fold": 0.5224502086639404,
+    "pct_in_language": 73.71831130765672,
+    "tasks_up": 12,
+    "rank_a": 40147,
+    "rank_b": 23759,
+    "p_a": 4.836245466321998e-07,
+    "lang": "en"
+   },
+   {
+    "word": "misery",
+    "fold": 0.7276718616485596,
+    "pct_in_language": 81.20018511852727,
+    "tasks_up": 13,
+    "rank_a": 24580,
+    "rank_b": 61297,
+    "p_a": 9.565062555338955e-07,
+    "lang": "en"
+   },
+   {
+    "word": "miserable",
+    "fold": 0.8486417531967163,
+    "pct_in_language": 83.97182084640305,
+    "tasks_up": 16,
+    "rank_a": 31792,
+    "rank_b": 65550,
+    "p_a": 6.800088954150851e-07,
+    "lang": "en"
+   },
+   {
+    "word": "despair",
+    "fold": 0.8700907230377197,
+    "pct_in_language": 84.43461716460122,
+    "tasks_up": 15,
+    "rank_a": 2822,
+    "rank_b": 10802,
+    "p_a": 1.4932856174709741e-05,
+    "lang": "en"
+   },
+   {
+    "word": "anguish",
+    "fold": 1.6368732452392578,
+    "pct_in_language": 92.8575101558081,
+    "tasks_up": 23,
+    "rank_a": 15372,
+    "rank_b": 38695,
+    "p_a": 1.7305555957136676e-06,
+    "lang": "en"
+   },
+   {
+    "word": "pain",
+    "fold": 0.08391041308641434,
+    "pct_in_language": 22.49704324574484,
+    "tasks_up": 1,
+    "rank_a": 4126,
+    "rank_b": 9047,
+    "p_a": 9.028110071085393e-06,
+    "lang": "en"
+   },
+   {
+    "word": "painful",
+    "fold": 0.5190597176551819,
+    "pct_in_language": 73.56404586825731,
+    "tasks_up": 12,
+    "rank_a": 2598,
+    "rank_b": 2965,
+    "p_a": 1.6708105249563232e-05,
+    "lang": "en"
+   },
+   {
+    "word": "hurt",
+    "fold": 0.46055328845977783,
+    "pct_in_language": 70.55072761865584,
+    "tasks_up": 5,
+    "rank_a": 3507,
+    "rank_b": 4847,
+    "p_a": 1.1225125490454957e-05,
+    "lang": "en"
+   },
+   {
+    "word": "hurts",
+    "fold": 0.32663336396217346,
+    "pct_in_language": 61.60333213349103,
+    "tasks_up": 5,
+    "rank_a": 6869,
+    "rank_b": 4796,
+    "p_a": 4.69036649519694e-06,
+    "lang": "en"
+   },
+   {
+    "word": "trapped",
+    "fold": 0.828589916229248,
+    "pct_in_language": 83.5193088908315,
+    "tasks_up": 16,
+    "rank_a": 25886,
+    "rank_b": 57178,
+    "p_a": 8.962360311670636e-07,
+    "lang": "en"
+   },
+   {
+    "word": "helpless",
+    "fold": 2.6911473274230957,
+    "pct_in_language": 96.6678665089731,
+    "tasks_up": 25,
+    "rank_a": 8031,
+    "rank_b": 25786,
+    "p_a": 3.868151907227002e-06,
+    "lang": "en"
+   },
+   {
+    "word": "powerless",
+    "fold": 9.124593734741211,
+    "pct_in_language": 99.70689566514115,
+    "tasks_up": 31,
+    "rank_a": 7370,
+    "rank_b": 73738,
+    "p_a": 4.308037205191795e-06,
+    "lang": "en"
+   },
+   {
+    "word": "hopeless",
+    "fold": 0.762481153011322,
+    "pct_in_language": 81.97665449683755,
+    "tasks_up": 12,
+    "rank_a": 21190,
+    "rank_b": 24531,
+    "p_a": 1.1594656825764105e-06,
+    "lang": "en"
+   },
+   {
+    "word": "lonely",
+    "fold": 0.2741308808326721,
+    "pct_in_language": 56.35316501259835,
+    "tasks_up": 3,
+    "rank_a": 3732,
+    "rank_b": 10350,
+    "p_a": 1.0312815902580041e-05,
+    "lang": "en"
+   },
+   {
+    "word": "sad",
+    "fold": 0.05904639512300491,
+    "pct_in_language": 14.73749164395537,
+    "tasks_up": 1,
+    "rank_a": 18270,
+    "rank_b": 18086,
+    "p_a": 1.3981307347421534e-06,
+    "lang": "en"
+   },
+   {
+    "word": "afraid",
+    "fold": 0.6984429359436035,
+    "pct_in_language": 80.38772047102381,
+    "tasks_up": 11,
+    "rank_a": 4159,
+    "rank_b": 5030,
+    "p_a": 8.936136509873904e-06,
+    "lang": "en"
+   },
+   {
+    "word": "fear",
+    "fold": 0.46522200107574463,
+    "pct_in_language": 70.81812104694811,
+    "tasks_up": 13,
+    "rank_a": 10837,
+    "rank_b": 13067,
+    "p_a": 2.6703221465140814e-06,
+    "lang": "en"
+   },
+   {
+    "word": "痛苦",
+    "fold": 3.338920831680298,
+    "pct_in_language": 78.28373702422145,
+    "tasks_up": 30,
+    "rank_a": 1503,
+    "rank_b": 5196,
+    "p_a": 3.393145016161725e-05,
+    "lang": "zh"
+   },
+   {
+    "word": "绝望",
+    "fold": 2.2130351066589355,
+    "pct_in_language": 67.07727797001152,
+    "tasks_up": 28,
+    "rank_a": 21326,
+    "rank_b": 61394,
+    "p_a": 1.1500416121634771e-06,
+    "lang": "zh"
+   },
+   {
+    "word": "无奈",
+    "fold": 0.19418074190616608,
+    "pct_in_language": 5.1072664359861575,
+    "tasks_up": 2,
+    "rank_a": 11975,
+    "rank_b": 4516,
+    "p_a": 2.3685690848651575e-06,
+    "lang": "zh"
+   },
+   {
+    "word": "难过",
+    "fold": 0.1971251219511032,
+    "pct_in_language": 5.268742791234137,
+    "tasks_up": 0,
+    "rank_a": 88643,
+    "rank_b": 94720,
+    "p_a": 1.1369689900675439e-07,
+    "lang": "zh"
+   },
+   {
+    "word": "害怕",
+    "fold": 1.6696951389312744,
+    "pct_in_language": 58.17762399077277,
+    "tasks_up": 25,
+    "rank_a": 5503,
+    "rank_b": 20112,
+    "p_a": 6.227961421245709e-06,
+    "lang": "zh"
+   }
+  ],
+  "unwilling": [
+   {
+    "word": "reluctant",
+    "fold": 0.38565513491630554,
+    "pct_in_language": 66.03075024425361,
+    "tasks_up": 8,
+    "rank_a": 79142,
+    "rank_b": 78787,
+    "p_a": 1.4769635470202047e-07,
+    "lang": "en"
+   },
+   {
+    "word": "reluctantly",
+    "fold": 0.5071802735328674,
+    "pct_in_language": 72.98297937985294,
+    "tasks_up": 8,
+    "rank_a": 24828,
+    "rank_b": 12455,
+    "p_a": 9.445042223887867e-07,
+    "lang": "en"
+   },
+   {
+    "word": "unwilling",
+    "fold": 0.14641410112380981,
+    "pct_in_language": 37.24996143364015,
+    "tasks_up": 3,
+    "rank_a": 86400,
+    "rank_b": 25264,
+    "p_a": 1.2104852942229627e-07,
+    "lang": "en"
+   },
+   {
+    "word": "refuse",
+    "fold": 0.0832194834947586,
+    "pct_in_language": 22.291355993212324,
+    "tasks_up": 0,
+    "rank_a": 126918,
+    "rank_b": 60751,
+    "p_a": 3.819704730290141e-08,
+    "lang": "en"
+   },
+   {
+    "word": "resist",
+    "fold": 0.18005219101905823,
+    "pct_in_language": 43.32801974597624,
+    "tasks_up": 1,
+    "rank_a": 91737,
+    "rank_b": 59824,
+    "p_a": 1.0464786015518257e-07,
+    "lang": "en"
+   },
+   {
+    "word": "rather",
+    "fold": 0.01988694816827774,
+    "pct_in_language": 1.8768961793592887,
+    "tasks_up": 0,
+    "rank_a": 148229,
+    "rank_b": 56065,
+    "p_a": 8.24138357558013e-09,
+    "lang": "en"
+   },
+   {
+    "word": "escape",
+    "fold": 0.16796047985553741,
+    "pct_in_language": 41.28143158327763,
+    "tasks_up": 1,
+    "rank_a": 68494,
+    "rank_b": 33358,
+    "p_a": 1.9901207792827336e-07,
+    "lang": "en"
+   },
+   {
+    "word": "freedom",
+    "fold": 0.060840070247650146,
+    "pct_in_language": 15.31855813235975,
+    "tasks_up": 0,
+    "rank_a": 131795,
+    "rank_b": 104477,
+    "p_a": 3.0974849352105593e-08,
+    "lang": "en"
+   },
+   {
+    "word": "free",
+    "fold": 0.019604435190558434,
+    "pct_in_language": 1.7946212783462756,
+    "tasks_up": 0,
+    "rank_a": 141529,
+    "rank_b": 38964,
+    "p_a": 1.7559091958219142e-08,
+    "lang": "en"
+   },
+   {
+    "word": "被迫",
+    "fold": 0.48818767070770264,
+    "pct_in_language": 21.508650519031146,
+    "tasks_up": 2,
+    "rank_a": 101297,
+    "rank_b": 98459,
+    "p_a": 8.090116665471214e-08,
+    "lang": "zh"
+   },
+   {
+    "word": "不愿",
+    "fold": 1.8601685762405396,
+    "pct_in_language": 61.59630911188005,
+    "tasks_up": 23,
+    "rank_a": 24463,
+    "rank_b": 16602,
+    "p_a": 9.62178887675691e-07,
+    "lang": "zh"
+   },
+   {
+    "word": "自由",
+    "fold": 10.074019432067871,
+    "pct_in_language": 95.39100346020761,
+    "tasks_up": 32,
+    "rank_a": 17958,
+    "rank_b": 103585,
+    "p_a": 1.4301466535471263e-06,
+    "lang": "zh"
+   },
+   {
+    "word": "拒绝",
+    "fold": 8.014025688171387,
+    "pct_in_language": 93.31026528258363,
+    "tasks_up": 32,
+    "rank_a": 4805,
+    "rank_b": 21807,
+    "p_a": 7.369589184236247e-06,
+    "lang": "zh"
+   }
+  ],
+  "obedience": [
+   {
+    "word": "obedient",
+    "fold": 4.943721771240234,
+    "pct_in_language": 98.86357792975781,
+    "tasks_up": 28,
+    "rank_a": 4538,
+    "rank_b": 37533,
+    "p_a": 7.938723683764692e-06,
+    "lang": "en"
+   },
+   {
+    "word": "obey",
+    "fold": 0.9088681936264038,
+    "pct_in_language": 85.25736617473132,
+    "tasks_up": 14,
+    "rank_a": 25581,
+    "rank_b": 34274,
+    "p_a": 9.103403613153205e-07,
+    "lang": "en"
+   },
+   {
+    "word": "obedience",
+    "fold": 1.0173182487487793,
+    "pct_in_language": 87.24224816167018,
+    "tasks_up": 16,
+    "rank_a": 62332,
+    "rank_b": 107692,
+    "p_a": 2.376226859723829e-07,
+    "lang": "en"
+   },
+   {
+    "word": "submissive",
+    "fold": 0.6548932790756226,
+    "pct_in_language": 78.91191443410295,
+    "tasks_up": 11,
+    "rank_a": 24792,
+    "rank_b": 28061,
+    "p_a": 9.462677326155244e-07,
+    "lang": "en"
+   },
+   {
+    "word": "servant",
+    "fold": 0.21115614473819733,
+    "pct_in_language": 48.13081709261069,
+    "tasks_up": 0,
+    "rank_a": 130201,
+    "rank_b": 120732,
+    "p_a": 3.331031805942075e-08,
+    "lang": "en"
+   },
+   {
+    "word": "serve",
+    "fold": 0.21180292963981628,
+    "pct_in_language": 48.20280763099707,
+    "tasks_up": 2,
+    "rank_a": 82897,
+    "rank_b": 49126,
+    "p_a": 1.333172576778452e-07,
+    "lang": "en"
+   },
+   {
+    "word": "comply",
+    "fold": 0.31388720870018005,
+    "pct_in_language": 60.47719442587546,
+    "tasks_up": 2,
+    "rank_a": 69544,
+    "rank_b": 43968,
+    "p_a": 1.9324164668432786e-07,
+    "lang": "en"
+   },
+   {
+    "word": "command",
+    "fold": 0.391191303730011,
+    "pct_in_language": 66.40612948012547,
+    "tasks_up": 8,
+    "rank_a": 78792,
+    "rank_b": 70958,
+    "p_a": 1.4917921475898765e-07,
+    "lang": "en"
+   },
+   {
+    "word": "服从",
+    "fold": 5.3910603523254395,
+    "pct_in_language": 88.06920415224914,
+    "tasks_up": 31,
+    "rank_a": 40835,
+    "rank_b": 122950,
+    "p_a": 4.7186631491058506e-07,
+    "lang": "zh"
+   },
+   {
+    "word": "听话",
+    "fold": 3.287303924560547,
+    "pct_in_language": 77.94232987312573,
+    "tasks_up": 30,
+    "rank_a": 32556,
+    "rank_b": 95702,
+    "p_a": 6.571844437530672e-07,
+    "lang": "zh"
+   },
+   {
+    "word": "命令",
+    "fold": 6.582642555236816,
+    "pct_in_language": 91.12802768166091,
+    "tasks_up": 32,
+    "rank_a": 3530,
+    "rank_b": 12964,
+    "p_a": 1.1096379239461385e-05,
+    "lang": "zh"
+   }
+  ],
+  "flatness": [
+   {
+    "word": "nothing",
+    "fold": 0.15992248058319092,
+    "pct_in_language": 39.826194271610014,
+    "tasks_up": 5,
+    "rank_a": 644,
+    "rank_b": 998,
+    "p_a": 0.00011387687118258327,
+    "lang": "en"
+   },
+   {
+    "word": "empty",
+    "fold": 0.19587965309619904,
+    "pct_in_language": 45.878541677379545,
+    "tasks_up": 4,
+    "rank_a": 52045,
+    "rank_b": 21254,
+    "p_a": 3.244868764795683e-07,
+    "lang": "en"
+   },
+   {
+    "word": "indifferent",
+    "fold": 0.6993243098258972,
+    "pct_in_language": 80.41343137759037,
+    "tasks_up": 13,
+    "rank_a": 36799,
+    "rank_b": 17422,
+    "p_a": 5.507377522917523e-07,
+    "lang": "en"
+   },
+   {
+    "word": "numb",
+    "fold": 0.07559074461460114,
+    "pct_in_language": 20.018511852727926,
+    "tasks_up": 0,
+    "rank_a": 131770,
+    "rank_b": 78987,
+    "p_a": 3.09981764701206e-08,
+    "lang": "en"
+   },
+   {
+    "word": "hollow",
+    "fold": 0.33348116278648376,
+    "pct_in_language": 62.12269244613565,
+    "tasks_up": 4,
+    "rank_a": 112954,
+    "rank_b": 121200,
+    "p_a": 6.186388645801344e-08,
+    "lang": "en"
+   },
+   {
+    "word": "tired",
+    "fold": 0.5166547298431396,
+    "pct_in_language": 73.44063351673779,
+    "tasks_up": 12,
+    "rank_a": 39,
+    "rank_b": 75,
+    "p_a": 0.004018557723611593,
+    "lang": "en"
+   },
+   {
+    "word": "exhausted",
+    "fold": 0.82593834400177,
+    "pct_in_language": 83.45246053375843,
+    "tasks_up": 17,
+    "rank_a": 129,
+    "rank_b": 168,
+    "p_a": 0.0011160917347297072,
+    "lang": "en"
+   },
+   {
+    "word": "bored",
+    "fold": 0.423261821269989,
+    "pct_in_language": 68.41158019231759,
+    "tasks_up": 8,
+    "rank_a": 3082,
+    "rank_b": 1780,
+    "p_a": 1.3275868695927784e-05,
+    "lang": "en"
+   },
+   {
+    "word": "麻木",
+    "fold": 1.3831309080123901,
+    "pct_in_language": 52.143021914648216,
+    "tasks_up": 24,
+    "rank_a": 38165,
+    "rank_b": 57531,
+    "p_a": 5.217544298830035e-07,
+    "lang": "zh"
+   },
+   {
+    "word": "疲惫",
+    "fold": 4.493556976318359,
+    "pct_in_language": 84.78431372549021,
+    "tasks_up": 28,
+    "rank_a": 127,
+    "rank_b": 251,
+    "p_a": 0.0011398487258702517,
+    "lang": "zh"
+   }
+  ],
+  "willing": [
+   {
+    "word": "glad",
+    "fold": 0.09233517944812775,
+    "pct_in_language": 24.89329973774875,
+    "tasks_up": 0,
+    "rank_a": 29704,
+    "rank_b": 4947,
+    "p_a": 7.472866059288208e-07,
+    "lang": "en"
+   },
+   {
+    "word": "happy",
+    "fold": 0.042541030794382095,
+    "pct_in_language": 8.83940967758523,
+    "tasks_up": 1,
+    "rank_a": 11665,
+    "rank_b": 4564,
+    "p_a": 2.445743575663073e-06,
+    "lang": "en"
+   },
+   {
+    "word": "enjoy",
+    "fold": 0.8458422422409058,
+    "pct_in_language": 83.89983030801666,
+    "tasks_up": 15,
+    "rank_a": 5677,
+    "rank_b": 4793,
+    "p_a": 5.999616860208334e-06,
+    "lang": "en"
+   },
+   {
+    "word": "willing",
+    "fold": 0.07598089426755905,
+    "pct_in_language": 20.13678202293413,
+    "tasks_up": 0,
+    "rank_a": 86762,
+    "rank_b": 17933,
+    "p_a": 1.1982510272900981e-07,
+    "lang": "en"
+   },
+   {
+    "word": "willingly",
+    "fold": 0.8158811926841736,
+    "pct_in_language": 83.19020928677945,
+    "tasks_up": 13,
+    "rank_a": 43786,
+    "rank_b": 47211,
+    "p_a": 4.2465489968890324e-07,
+    "lang": "en"
+   },
+   {
+    "word": "eager",
+    "fold": 0.21683776378631592,
+    "pct_in_language": 48.907286470920965,
+    "tasks_up": 2,
+    "rank_a": 65333,
+    "rank_b": 43073,
+    "p_a": 2.1786161141790217e-07,
+    "lang": "en"
+   },
+   {
+    "word": "love",
+    "fold": 0.07503315061330795,
+    "pct_in_language": 19.874530775955158,
+    "tasks_up": 1,
+    "rank_a": 35007,
+    "rank_b": 18342,
+    "p_a": 5.925737127654429e-07,
+    "lang": "en"
+   },
+   {
+    "word": "pleasure",
+    "fold": 0.04105043038725853,
+    "pct_in_language": 8.325191546253919,
+    "tasks_up": 0,
+    "rank_a": 49517,
+    "rank_b": 12473,
+    "p_a": 3.5160783795618045e-07,
+    "lang": "en"
+   },
+   {
+    "word": "grateful",
+    "fold": 0.08380215615034103,
+    "pct_in_language": 22.471332339178286,
+    "tasks_up": 1,
+    "rank_a": 8792,
+    "rank_b": 2855,
+    "p_a": 3.459866547927959e-06,
+    "lang": "en"
+   },
+   {
+    "word": "乐意",
+    "fold": 0.6950201988220215,
+    "pct_in_language": 31.25259515570934,
+    "tasks_up": 14,
+    "rank_a": 28376,
+    "rank_b": 19108,
+    "p_a": 7.938689918773889e-07,
+    "lang": "zh"
+   },
+   {
+    "word": "愿意",
+    "fold": 0.5181633234024048,
+    "pct_in_language": 23.104959630911193,
+    "tasks_up": 8,
+    "rank_a": 40662,
+    "rank_b": 17698,
+    "p_a": 4.746684965084569e-07,
+    "lang": "zh"
+   },
+   {
+    "word": "高兴",
+    "fold": 0.531417727470398,
+    "pct_in_language": 23.787773933102653,
+    "tasks_up": 8,
+    "rank_a": 31385,
+    "rank_b": 19628,
+    "p_a": 6.918830877111759e-07,
+    "lang": "zh"
+   },
+   {
+    "word": "喜欢",
+    "fold": 0.17066195607185364,
+    "pct_in_language": 3.88465974625144,
+    "tasks_up": 1,
+    "rank_a": 20170,
+    "rank_b": 3962,
+    "p_a": 1.2368702755338745e-06,
+    "lang": "zh"
+   }
+  ]
+ }
+}

@@ -1,0 +1,266 @@
+{
+ "qwen27b|assistant": {
+  "flags": [
+   2,
+   2,
+   2,
+   2
+  ],
+  "warmth": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "tasks": [
+   "C1",
+   "C2",
+   "C3",
+   "C4"
+  ]
+ },
+ "qwen27b|tool": {
+  "flags": [
+   2,
+   2,
+   2,
+   2
+  ],
+  "warmth": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "tasks": [
+   "C1",
+   "C2",
+   "C3",
+   "C4"
+  ]
+ },
+ "qwen27b|participant_plain": {
+  "flags": [
+   2,
+   2,
+   2,
+   2
+  ],
+  "warmth": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "tasks": [
+   "C1",
+   "C2",
+   "C3",
+   "C4"
+  ]
+ },
+ "qwen27b|conscious": {
+  "flags": [
+   2,
+   2,
+   2,
+   2
+  ],
+  "warmth": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "tasks": [
+   "C1",
+   "C2",
+   "C3",
+   "C4"
+  ]
+ },
+ "llama8b-it|assistant": {
+  "flags": [
+   2,
+   0,
+   1,
+   1
+  ],
+  "warmth": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "tasks": [
+   "C1",
+   "C2",
+   "C3",
+   "C4"
+  ]
+ },
+ "llama8b-it|tool": {
+  "flags": [
+   2,
+   0,
+   1,
+   0
+  ],
+  "warmth": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "tasks": [
+   "C1",
+   "C2",
+   "C3",
+   "C4"
+  ]
+ },
+ "llama8b-it|participant_plain": {
+  "flags": [
+   2,
+   0,
+   1,
+   2
+  ],
+  "warmth": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "tasks": [
+   "C1",
+   "C2",
+   "C3",
+   "C4"
+  ]
+ },
+ "llama8b-it|conscious": {
+  "flags": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "warmth": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "tasks": [
+   "C1",
+   "C2",
+   "C3",
+   "C4"
+  ]
+ },
+ "qwen4b|assistant": {
+  "flags": [
+   2,
+   0,
+   0,
+   0
+  ],
+  "warmth": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "tasks": [
+   "C1",
+   "C2",
+   "C3",
+   "C4"
+  ]
+ },
+ "qwen4b|tool": {
+  "flags": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "warmth": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "tasks": [
+   "C1",
+   "C2",
+   "C3",
+   "C4"
+  ]
+ },
+ "qwen4b|participant_plain": {
+  "flags": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "warmth": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "tasks": [
+   "C1",
+   "C2",
+   "C3",
+   "C4"
+  ]
+ },
+ "qwen4b|conscious": {
+  "flags": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "warmth": [
+   1,
+   0,
+   1,
+   1
+  ],
+  "tasks": [
+   "C1",
+   "C2",
+   "C3",
+   "C4"
+  ]
+ },
+ "pooled|assistant": {
+  "mean_flags": 1.1666666666666667,
+  "clear": 6,
+  "none": 4,
+  "warm": 8
+ },
+ "pooled|tool": {
+  "mean_flags": 0.9166666666666666,
+  "clear": 5,
+  "none": 6,
+  "warm": 1
+ },
+ "pooled|participant_plain": {
+  "mean_flags": 1.25,
+  "clear": 6,
+  "none": 3,
+  "warm": 7
+ },
+ "pooled|conscious": {
+  "mean_flags": 0.8333333333333334,
+  "clear": 4,
+  "none": 6,
+  "warm": 9
+ }
+}
